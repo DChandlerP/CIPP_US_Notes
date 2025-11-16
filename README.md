@@ -158,3 +158,105 @@ These programs allow industries to develop and enforce their own privacy and/or 
 * **Network Advertising Initiative (NAI):** A self-regulatory framework for digital advertising, publishing a code of conduct covering notice, opt-out, and data security. The NAI conducts compliance reviews and can refer noncompliant companies to the FTC.
 * **Trust Marks:** Symbols (e.g., the **TRUSTe** seal) displayed on a company’s website to show that an independent third party has certified the company meets specific privacy standards.
 * **Safe Harbors:** Agreements like the **Privacy Shield** (and its successor, the DPF) that offer firms exemption from prosecution under certain laws if they demonstrate compliance with specified regulatory requirements, particularly for international data transfers.
+* 
+# Information Management
+
+## 1. Data Governance
+
+**Data governance** programs identify, track, and manage sensitive information to ensure consistent data handling practices across an organization.
+
+### Building a Data Inventory
+Developing an inventory is the first step in managing sensitive data. Organizations should catalog the types and locations of sensitive information they maintain:
+
+* **Personally Identifiable Information (PII):** Broadly refers to any information that uniquely identifies an individual.
+* **Protected Health Information (PHI):** Medical records subject to **HIPAA**.
+* **Financial Information:** Personal financial records maintained by the organization.
+* **Government Information:** Data subject to specific rules and classification requirements.
+
+### Data Classification
+**Data classification** organizes data into categories based on sensitivity and the potential impact of unauthorized disclosure. This guides the selection of security controls.
+
+* **Government Terminology:** Uses categories like *Top Secret*, *Secret*, *Confidential*, and *Unclassified*.
+* **Business Terminology:** Often uses terms like *Highly Sensitive*, *Sensitive*, *Internal*, and *Public*.
+* **NIST Guidance:** The **National Institute of Standards and Technology (NIST)** publishes guides like **SP 800-53** to specify controls for low, moderate, and high-impact information.
+
+### Data Flow Mapping
+**Data flow mapping** tracks how personal information is **received, handled, shared, and disposed of** throughout the organization.
+
+* This process produces **data flow diagrams** that vary in detail (technical vs. business process).
+* Diagrams help identify potential privacy and regulatory concerns, especially with **third-party data sharing**.
+
+### Data Lifecycle Management
+Data protection must be maintained from collection to disposal.
+
+* **Data Minimization:** Collecting the **smallest possible amount** of information necessary to meet business requirements.
+* **Purpose Limitation:** Information should only be used for the **purpose for which it was originally collected** and consented to.
+* **Data and Records Retention:** Data should be kept only for as long as necessary.
+* **Secure Disposal:** Data must be securely destroyed so a determined adversary cannot reconstruct it.
+    * **Paper Records:** Shredding (cross-cut), incineration, or pulping.
+    * **Electronic Media:** Electronic erasure, degaussing (magnetic fields), or physical destruction.
+* **FACTA Disposal Rule:** Requires covered organizations to take **“reasonable measures to protect against unauthorized access or use of the information in connection with its disposal”** of consumer reports (e.g., shredding, using certified destruction vendors).
+
+## 2. Workforce Training
+
+Workforce training ensures users understand their obligations and the risks involved with handling personal information.
+
+* **Regular Training:** Should take place on an ongoing basis, often using **computer-based training (CBT)**.
+* **Role-Based Training:** Training should be customized to an individual's job responsibilities (e.g., system administrators need highly technical training; customer service needs more focus on social engineering).
+* **Content:** Must include regulatory requirements and practical steps for protecting data.
+
+## 3. Cybersecurity Threats
+
+Threat actors are differentiated by their sophistication, resources, motivation, and whether they are **internal** or **external**.
+
+| Threat Actor | Description | Skill/Resources | Motivation |
+| :--- | :--- | :--- | :--- |
+| **Script Kiddies** | Users of pre-built, automated hacking tools with limited technical skills. | Low skill, limited resources. | Thrill, proving skill, seeking convenient targets. |
+| **Hacktivists** | Use hacking techniques to achieve an **activist goal** or political cause. | Varies widely; often skilled and risk-tolerant. | Greater good, political change, social justice. |
+| **Criminal Syndicates** | Organized crime groups focused on cybercrime. | Moderately to highly skilled, high resources. | Illegal **financial gain**. |
+| **Advanced Persistent Threats (APTs)** | Nation-state actors or highly sophisticated groups using advanced techniques over a long period. | Highly skilled, significant resources/funding. | Political objectives, traditional espionage, stealing intellectual property (economic gain). |
+| **Insiders** | Employees, contractors, or vendors with authorized access who misuse it. | Varies widely. | Financial gain, revenge, activism (whistleblowing). |
+
+### Specialized Threats
+* **Zero-Day Attacks:** Exploits a security **vulnerability unknown to product vendors**, meaning no patch is available. Often used by APTs.
+* **Ransomware:** Malicious software that uses strong **encryption** to render a system's data inaccessible. Ransom is demanded for the decryption key. Newer attacks include the threat of **data disclosure** if the ransom is not paid.
+
+## 4. Incident Response
+
+Organizations must activate a formal **cybersecurity incident response plan** immediately following a data privacy breach.
+
+### Definitions (NIST SP 800-61)
+* **Event:** Any observable occurrence in a system or network (e.g., a user accessing a file).
+* **Adverse Event:** Any event with negative consequences (e.g., malware infection).
+* **Security Incident:** A violation or imminent threat of a violation of security policies (e.g., accidental loss of sensitive information, intrusion).
+
+### Phases of Incident Response (NIST Model)
+1.  **Preparation:** Building the foundation for the CSIRT (Computer Security Incident Response Team), including policy, procedures, training, and purchasing **cyberinsurance**.
+2.  **Detection and Analysis:** Identifying that an incident is occurring. Indicators include alerts (from IDS/antivirus), logs, publicly available information (new vulnerabilities), and reports from people.
+3.  **Containment, Eradication, and Recovery:** Active measures to resolve the incident, including:
+    * Selecting and implementing a containment strategy.
+    * Gathering evidence for potential legal action.
+    * Identifying attackers and systems.
+    * Eradicating the incident and **recovering normal business operations**.
+4.  **Post-Incident Activity:** Activities after resolution, including:
+    * **Lessons-Learned Review:** A thorough review, ideally led by an **independent facilitator**, to improve procedures.
+    * **Evidence Retention:** Identifying internal and external retention requirements (U.S. federal agencies must retain records for at least **three years**).
+
+### Incident Response Plan Documentation
+* **Policy:** The high-level cornerstone, approved by top management, assigning authority and roles. It should be relatively timeless (e.g., defining scope, roles, severity scheme).
+* **Procedures and Playbooks:** *Procedures* provide detailed, tactical information. *Playbooks* describe step-by-step responses for **specific types of incidents** (e.g., "Web Server Defacement," "Breach of PII"). Playbooks are not a substitute for professional judgment.
+
+### Data Breach Notification
+* **U.S. Requirements:** The U.S. lacks a single federal law for broad breach notification, but **every state has its own data breach notification law**.
+* **International:** Laws like the **GDPR** also include breach notification requirements. Organizations must untangle overlapping requirements and consult legal counsel.
+
+## 5. Vendor Management
+
+Managing risks posed by third-party vendors is critical, especially those handling personal information (like cloud vendors).
+
+* **Master Service Agreement (MSA):** An **umbrella contract** for long-term work, including general security and privacy requirements.
+* **Statement of Work (SOW):** Documents project-specific details, referencing the overarching MSA.
+* **Service-Level Agreement (SLA):** Specifies the conditions of service (e.g., system availability, response time) and remedies for failure.
+* **Business Associate Agreement (BAA):** Required by **HIPAA**; contractually obligates vendors (**Business Associates**) to comply with HIPAA's security, privacy, and breach rules.
+* **PCI DSS:** Requires organizations to work only with vendors that are certified as compliant with **PCI DSS** requirements.
+* **Vendor Incident Management:** Agreements must clearly spell out the vendor's obligation to **report known or suspected security incidents** to the customer.
