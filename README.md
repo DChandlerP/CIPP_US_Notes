@@ -260,3 +260,64 @@ Managing risks posed by third-party vendors is critical, especially those handli
 * **Business Associate Agreement (BAA):** Required by **HIPAA**; contractually obligates vendors (**Business Associates**) to comply with HIPAA's security, privacy, and breach rules.
 * **PCI DSS:** Requires organizations to work only with vendors that are certified as compliant with **PCI DSS** requirements.
 * **Vendor Incident Management:** Agreements must clearly spell out the vendor's obligation to **report known or suspected security incidents** to the customer.
+
+## FTC Privacy Protection
+The **Federal Trade Commission (FTC)** is the lead agency for broad consumer protection in the private sector, enforcing the **FTC Act** (Section 5) against **unfair and deceptive trade practices**.
+
+* **FTC’s Role:** Regulates private sector privacy through enforcement actions based on published privacy policies versus actual business conduct, conducts studies, and advises lawmakers. The US lacks a single comprehensive federal privacy law.
+* **Children’s Online Privacy Protection Act (COPPA):** Provides special protection for children under 13.
+    * **Scope:** Applies to online services (websites, apps, etc.) that are intended for, or knowingly collect data from, children under 13.
+    * **Requirements:** Requires online operators to post a complete **Privacy Policy**, provide **Parental Notification**, obtain verifiable **Parental Consent** before collection, grant parents the right to review/delete data, and implement **Information Security** programs.
+* **Future of Enforcement:** Addresses challenges from new technologies like **Big Data**, **Artificial Intelligence (AI)**, **Machine Learning (ML)**, and the **Internet of Things (IoT)**, which enable new business models like data brokers and cross-border data flows.
+
+***
+
+## Medical Privacy
+Federal laws provide special protections for personal medical information.
+
+* **Health Insurance Portability and Accountability Act (HIPAA):** Sets standards for the privacy and security of **Protected Health Information (PHI)** and **electronic PHI (ePHI)**.
+    * **Scope:** Applies to **Covered Entities** (health plans, clearinghouses, providers) and their **Business Associates** (third parties with access to PHI, bound by **Business Associate Agreements** or BAAs).
+    * **Privacy Rule:** Governs the **use and disclosure** of PHI, requiring the **minimum necessary** amount of PHI be shared. Grants **Individual Rights** to patients (e.g., to access, correct, and request restrictions on their data).
+    * **Security Rule:** Applies only to ePHI, requiring covered entities to conduct a regular **risk analysis** and implement safeguards for confidentiality, integrity, and availability.
+* **Health Information Technology for Economic and Clinical Health (HITECH) Act (2009):** Promoted Electronic Health Records (EHRs) and strengthened HIPAA.
+    * **Key Change:** Extended HIPAA's direct liability to **Business Associates** and introduced the **Breach Notification Rule** (requiring notice to victims and HHS within **60 days** for significant breaches).
+* **21st Century Cures Act (2016):** Encourages standardized EHRs, penalizes **information blocking** (preventing appropriate sharing of ePHI), and facilitates sharing of mental health/substance abuse information with family/caregivers.
+* **Confidentiality of Substance Use Disorder Patient Records Rule (42 CFR Part 2):** Provides heightened confidentiality for substance use disorder treatment records, generally requiring patient consent for disclosure.
+
+***
+
+## Financial Privacy
+Regulations govern the financial sector, including credit, banking, and insurance.
+
+* **Fair Credit Reporting Act (FCRA) (1970):** Regulates **Consumer Reporting Agencies (CRAs)**.
+    * **Purpose:** Ensures the accuracy, fairness, and privacy of **consumer reports** used in decisions about credit, insurance, or employment.
+    * **Rights:** Gives consumers the right to **access their report/score**, be informed of unfavorable decisions, and **dispute inaccurate information**. Sharing is limited to **permissible purposes**.
+* **Fair and Accurate Credit Transactions Act (FACTA) (2003):** Updated FCRA to combat identity theft.
+    * **Provisions:** Guaranteed the right to **free annual credit reports** and allowed consumers to place **fraud alerts** on their reports.
+* **Gramm–Leach–Bliley Act (GLBA) (1999):** Regulates **financial institutions**.
+    * **Privacy Rule:** Requires providing a **Privacy Notice** to **customers** (ongoing relationship) initially and annually. Allows for sharing of customer information, but the notice must inform customers of the institution's policies.
+    * **Safeguards Rule:** Requires a written **information security program** to protect customer information against anticipated threats.
+* **Red Flags Rule:** Mandates that financial institutions and creditors develop a written plan to proactively monitor consumer data for signs (**red flags**) of identity theft.
+* **Consumer Financial Protection Bureau (CFPB):** Created by the Dodd–Frank Act (2008). Enforces against **Unfair, Deceptive, or Abusive Acts and Practices (UDAAPs)** in the financial sector.
+
+***
+
+## Educational Privacy
+The education sector is regulated to protect student academic records.
+
+* **Family Educational Rights and Privacy Act (FERPA) (1974):** Protects the privacy of **student educational records**.
+    * **Scope:** Applies to almost all educational institutions receiving **federal funding** from the U.S. Department of Education.
+    * **Requirements:** Prohibits schools from sharing educational records without the consent of the student (over 18 or in higher education) or parent/guardian (for minors), except for specific exceptions (e.g., to "school officials" with a **legitimate educational interest**). Grants the right to inspect and seek correction of records.
+
+***
+
+## Telecommunications and Marketing Privacy
+Laws in this sector regulate how businesses can use personal data for marketing.
+
+* **Telephone Consumer Protection Act (TCPA) (1991) & Telemarketing Sales Rule (TSR):** Regulate unsolicited telemarketing calls and text messages.
+    * **Key Provision:** Established the **National Do-Not-Call (DNC) Registry**. Telemarketers must update their DNC list every 31 days and cannot call numbers on it, with exceptions for things like political calls, charities, and the **Established Business Relationship (EBR)** exemption.
+* **Controlling the Assault of Non-solicited Pornography and Marketing (CAN-SPAM) Act (2003):** Regulates all **commercial electronic messages** (including email and social media messages).
+    * **Requirements:** Senders must be honest (accurate header, physical address), clearly identify the message as an advertisement, and provide a simple, free **opt-out** mechanism, honoring requests within 10 business days.
+* **Video Privacy Protection Act (VPPA) (1988):** Protects a consumer’s video rental/purchase history. Disclosure requires written consent (including electronic consent). Its privacy protections are now being applied to **streaming media services**.
+* **Driver’s Privacy Protection Act (DPPA) (1994):** Prevents states from indiscriminately releasing personal information from **DMV driver’s licensing databases** (e.g., name, address, photo), allowing sharing only for specific permissible purposes.
+* **Customer Proprietary Network Information (CPNI):** Rules under the **Telecommunications Act** governing metadata about subscriber phone calls. Carriers must implement safeguards and obtain consent before sharing CPNI outside of limited, allowed uses.
