@@ -321,3 +321,86 @@ Laws in this sector regulate how businesses can use personal data for marketing.
 * **Video Privacy Protection Act (VPPA) (1988):** Protects a consumer’s video rental/purchase history. Disclosure requires written consent (including electronic consent). Its privacy protections are now being applied to **streaming media services**.
 * **Driver’s Privacy Protection Act (DPPA) (1994):** Prevents states from indiscriminately releasing personal information from **DMV driver’s licensing databases** (e.g., name, address, photo), allowing sharing only for specific permissible purposes.
 * **Customer Proprietary Network Information (CPNI):** Rules under the **Telecommunications Act** governing metadata about subscriber phone calls. Carriers must implement safeguards and obtain consent before sharing CPNI outside of limited, allowed uses.
+
+# Government and Court Access to Private Sector Information Notes
+
+## 🏛️ Constitutional Foundation
+* **Fourth Amendment:** Protects U.S. citizens from **"unreasonable searches and seizures"** by federal agencies without a legal **warrant**. It covers "persons, houses, papers, and effects."
+* ***Katz v. United States* (1967):** Established that the Fourth Amendment protects an individual's "reasonable expectation of privacy," even in public places. This is crucial for electronic communications.
+* ***Third-Party Doctrine:*** Established by ***United States v. Miller* (1976)**. Once a person voluntarily turns information over to a third party (e.g., banks, service providers) for transactions, that information is no longer considered the individual's property and is generally **not protected** by the Fourth Amendment.
+
+---
+
+## 🚔 Law Enforcement and Privacy
+
+### Access to Financial Data
+
+| Legislation | Purpose | Key Requirements | Privacy Impact |
+| :--- | :--- | :--- | :--- |
+| **Right to Financial Privacy Act (RFPA) of 1978** | Regulates how federal authorities access customer records from financial institutions (FIs) following the *Miller* ruling. | Requires the government to notify the customer and provide a chance to **object** within 10 days (14 days if mailed). Disclosure must be authorized by: **Customer Authorization**, **Administrative/Judicial Subpoena**, **Search Warrant** (90-day notification delay), or **Formal Written Request**. | Provides some due process rights, but not Fourth Amendment protection. |
+| **Bank Secrecy Act (BSA) of 1970** (a.k.a. Currency and Foreign Transactions Reporting Act) | Established to combat **money laundering** and terrorist financing by creating a financial paper trail. | FIs must have an **Anti-Money Laundering (AML) program** and a **Customer Identification Program (CIP)**. Requires FIs to file: **Currency Transaction Reports (CTRs)** (transactions over \$10,000/day) and **Suspicious Activity Reports (SARs)**. | **Reduces privacy**; FIs are **prohibited from notifying customers** when filing an SAR (making SARs an exception to the RFPA). |
+
+### Access to Communications
+
+* **Electronic Communications Privacy Act (ECPA) of 1986:** Primary legislation regulating government eavesdropping.
+
+| ECPA Title | Common Name | Scope | Privacy Standard |
+| :--- | :--- | :--- | :--- |
+| **Title I** | **Wiretap Act** | Prohibits spying on **real-time** oral, wire, or electronic communication without **consent** (one-party consent federally) or a warrant. | High protection, requiring a warrant for content. |
+| **Title II** | **Stored Communications Act (SCA)** | Extends Fourth Amendment-like protection to **digital communications stored** on third-party servers (e.g., email). Requires a **search warrant** for government access. | Lower protection than real-time, due to third-party doctrine, but enhanced by the SCA. |
+| **Title III** | **Pen Registers/Trap-and-Trace** | Regulates technologies that track communications **metadata** (e.g., phone numbers, date/time) but **not content**. | Lower protection; generally requires only a court order. |
+
+* **CLOUD Act (2018):** Amends the SCA to compel U.S.-based companies to provide data stored on servers, regardless of the data’s **physical, overseas location**.
+* **Communications Assistance for Law Enforcement Act (CALEA):** Requires telecommunications carriers and manufacturers to design their devices and services to **enable authorized government surveillance** capabilities (wiretapping) to be **"baked-in"** features.
+    * **Limitation:** CALEA **does not compel** companies to assist the government with **decrypting** encrypted communications.
+
+---
+
+## 🔒 National Security and Privacy
+
+* In national security, the stakes are higher, often leading lawmakers to grant the government **more power** than for regular law enforcement.
+
+### Foreign Intelligence Surveillance Act (FISA) of 1978
+
+* **Purpose:** Provides a legal framework for the government to track **foreign targets** and agents spying on the U.S. while setting due process and oversight.
+* **FISC:** Established the **Foreign Intelligence Surveillance Court**, a secret court that issues warrants for surveillance under FISA.
+* **Targets:** Surveillance is easier if the target is **not a "United States person"** (U.S. citizens, legal aliens, U.S. corporations, etc.).
+* **Minimization Principle:** Requires the U.S. Attorney General to implement procedures to ensure that intelligence gathered and retained **pertains only to the intended investigation** and avoids collecting incidental information on U.S. persons.
+
+| Key Amendments/Related Acts | Impact on Surveillance Power |
+| :--- | :--- |
+| **USA-PATRIOT Act (2001)** | **Expanded power**, lowering FISA's surveillance threshold from "primary purpose" to **"significant purpose."** |
+| **FISA Amendments Act Section 702 (2008)** | Allows the government to obtain **broad certifications** (not warrants) from FISC to conduct surveillance on **non-U.S. persons located abroad**. This has led to the **mass collection** of communications data. |
+| **Section 206: Roving Wiretaps** (Patriot Act) | Authorized surveillance of **any device** associated with an individual, rather than specific devices/numbers. (Expired March 2020) |
+| **Section 215: Business Records Provision** (Patriot Act) | Allowed the government to order businesses to share records of any **"tangible things"** relevant to foreign intelligence, bypassing other laws (used for bulk phone record collection). (Expired March 2020) |
+| **USA FREEDOM Act (2015)** | **Curtailed power** by requiring requests to list **"selection terms"** (specific criteria like phone numbers) to end the bulk data collection programs revealed by Edward Snowden. Also reformed **National Security Letters (NSLs)**. |
+
+* **National Security Letters (NSLs):** A type of **administrative subpoena** used to compel the production of business records (stored email, phone data). Often includes a **gag order** prohibiting the recipient from disclosing the request.
+
+### Cybersecurity Information Sharing Act (CISA) of 2015
+
+* **Purpose:** Encourages **voluntary sharing** of **cyber-threat indicators** between private companies and the federal government by **removing legal barriers**.
+* **Safe Harbor:** Provides private companies protection from certain liabilities (like those under the ECPA or antitrust laws) when sharing information **in accordance with CISA's protocols**.
+* **Privacy:** Companies are required to **remove PII** before sharing unless that information is directly related to the cyber threat itself.
+
+---
+
+## 🧑‍⚖️ Civil Litigation and Privacy
+
+### Compelled Disclosure of Media Information
+
+* ***Zurcher v. Stanford Daily* (1978):** Supreme Court ruled that the Constitution **does not protect journalists** from duly authorized search warrants.
+* **Privacy Protection Act (PPA) of 1980:** Prohibits law enforcement from using a **search warrant** to seize journalistic **"work product materials"** and **"documentary materials."**
+    * To compel disclosure, law enforcement must generally use a **subpoena duces tecum**, which provides the journalist with **advance notice** and the opportunity to challenge the order in court.
+    * PPA provides a **private right of action** against agencies that violate the law.
+
+### Electronic Discovery (eDiscovery)
+
+* The process of identifying, collecting, and producing electronic records for legal proceedings.
+* **Key Stages (often managed by legal counsel):**
+    1.  **Identification:** Determining which records are subject to discovery, often assisted by IT staff.
+    2.  **Preservation:** Placing relevant records under a **legal hold** to prevent alteration or destruction.
+    3.  **Collection:** Gathering the preserved records and securely transferring them to legal counsel.
+    4.  **Processing:** Converting data to reviewable formats.
+    5.  **Review:** Attorneys examine the records to **redact or remove** information that is irrelevant, protected by privilege, or protected by statute.
+    6.  **Production and Presentation:** Sharing the finalized information with the opposing parties or court.
