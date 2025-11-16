@@ -84,3 +84,57 @@ Liability is being responsible or answerable in law.
     2.  **Public disclosure of private facts:** Disclosure of truthful, non-newsworthy information that would offend a reasonable person.
     3.  **False light:** Disclosing information that causes a person to be **falsely perceived** by others.
     4.  **Appropriation:** Unauthorized use of someone’s name or likeness.
+
+    # Regulatory Enforcement in U.S. Privacy
+
+## Federal Regulatory Authorities
+
+The **executive branch** enforces privacy laws through various agencies, often relying on the authority granted by different statutes.
+
+### Federal Trade Commission (FTC)
+* **Key Authority:** The FTC Act grants authority over **Unfair and Deceptive Trade Practices (UDTPs)**, which is the primary basis for regulating privacy and cybersecurity.
+* **Structure:** An independent agency led by five commissioners, with no more than three from the same political party.
+* **Additional Laws:** Also enforces laws like the **Children’s Online Privacy Protection Act (COPPA)**.
+* **Enforcement Process:**
+    * Initiates **investigations** based on consumer complaints or other stimuli.
+    * May issue a formal **complaint**.
+    * Contested cases go before an **Administrative Law Judge (ALJ)**, with appeals possible to the FTC Commissioners and then the federal court system.
+    * Most cases settle via an informal resolution or a formal, enforceable **consent decree**.
+
+### Unfair and Deceptive Trade Practices (UDTP)
+A practice may be unfair, deceptive, or both.
+
+| Standard | Criteria | Core Focus |
+| :--- | :--- | :--- |
+| **Unfair Practices** | 1. Injury must be **substantial** (financial harm or unwarranted health/safety risk). | Requires a finding that the injury is not outweighed by benefits and is not reasonably avoidable. |
+| | 2. Injury must not be **outweighed by countervailing benefits** to consumers/competition. | Often applies when a company **fails to implement security controls** to enforce its own privacy policy (e.g., *Wyndham Worldwide*, *LabMD*). |
+| | 3. Injury must not be **reasonably avoidable** by consumers. | |
+| **Deceptive Practices** | 1. Practice must be **likely to mislead** the consumer (representation or omission). | Must be material—likely to affect the consumer’s conduct or decision regarding the product or service. |
+| | 2. Examined from the perspective of a **consumer acting reasonably**. | Enforcement focuses on misrepresentations about data use, security, and message retention (e.g., *Facebook*, *Zoom*, *Snapchat*). |
+| | 3. The representation, omission, or practice must be **material**. | |
+
+### Other Federal Agencies
+* **Federal Communications Commission (FCC):** Regulates interstate and international communications, enforcing rules related to **Customer Proprietary Network Information (CPNI)** under the **Telecommunications Act of 1996**.
+* **Department of Health and Human Services (HHS):** The lead agency for implementing and enforcing the **Health Insurance Portability and Accountability Act (HIPAA)** Privacy and Security Rules, issuing substantial fines.
+* **Department of Commerce (DOC):** Manages the U.S. portion of the **Privacy Shield** and its successor, the **Data Privacy Framework (DPF)**, which govern transatlantic data transfers.
+* **Banking Regulators:**
+    * **Consumer Financial Protection Bureau (CFPB)** is the lead agency for consumer financial protection.
+    * Other involved agencies include the Federal Reserve, FDIC, NCUA, and OCC.
+* **Department of Education (ED):** Enforces the **Family Educational Rights and Privacy Act (FERPA)**, which regulates the handling of student educational records.
+
+## State Regulatory Authorities
+
+State governments also have significant enforcement power.
+
+* **Attorneys General (AG):** Most enforcement actions are brought by one or more state attorneys general under state privacy laws or **Unfair and Deceptive Acts and Practices (UDAP)** laws, which are similar to the FTC Act but vary by state.
+* **California Privacy Protection Agency (CPPA):** The first state-level agency specifically dedicated to privacy and data protection, established by the **California Privacy Rights Act (CPRA)** to enforce its provisions.
+
+## Self-Regulatory Programs
+
+These programs allow industries to develop and enforce their own privacy and/or security standards, often to preempt government regulation.
+
+* **Payment Card Industry Data Security Standard (PCI DSS):** A highly successful self-regulatory program focusing on security and data retention for the credit card processing industry. Merchants must comply via contractual agreements with banks.
+    * It contains 12 high-level security requirements (e.g., firewalls, encryption, strong passwords).
+* **Network Advertising Initiative (NAI):** A self-regulatory framework for digital advertising, publishing a code of conduct covering notice, opt-out, and data security. The NAI conducts compliance reviews and can refer noncompliant companies to the FTC.
+* **Trust Marks:** Symbols (e.g., the **TRUSTe** seal) displayed on a company’s website to show that an independent third party has certified the company meets specific privacy standards.
+* **Safe Harbors:** Agreements like the **Privacy Shield** (and its successor, the DPF) that offer firms exemption from prosecution under certain laws if they demonstrate compliance with specified regulatory requirements, particularly for international data transfers.
