@@ -113,6 +113,26 @@ A practice may be unfair, deceptive, or both.
 | | 2. Examined from the perspective of a **consumer acting reasonably**. | Enforcement focuses on misrepresentations about data use, security, and message retention (e.g., *Facebook*, *Zoom*, *Snapchat*). |
 | | 3. The representation, omission, or practice must be **material**. | |
 
+
+# FTC Privacy Enforcement Case Examples (UDTP)
+
+## Unfair Practices (Security Failures)
+The FTC uses the **Unfair** standard when a company fails to implement reasonable security measures, leading to substantial consumer injury.
+
+* **Wyndham Worldwide:** The hotel chain suffered multiple data breaches due to a failure to implement reasonable security (e.g., strong passwords, firewalls). The action was upheld, finding it **unfair** to promise security but fail to provide adequate safeguards.
+* **LabMD:** The company exposed a file with patient information on a peer-to-peer network. The FTC found the lack of sufficient cybersecurity practices to be **unfair**.
+* **DesignerWare:** A rent-to-own company secretly installed spyware on rented computers that captured keystrokes and images. This intrusive monitoring was deemed **unfair**.
+* **LifeLock (Security):** The identity theft protection service failed to implement strong security controls for its own customer data, violating its advertising claims and a prior consent decree, resulting in a **$100 million fine**.
+
+## Deceptive Practices (Misrepresentations)
+The FTC uses the **Deceptive** standard when a company makes misleading statements or omissions about how it handles, protects, or uses personal data.
+
+* **Facebook:** Charged with making deceptive claims about users' ability to control privacy, specifically allowing app developers access to user information even when users restricted access. This led to a large fine for violating a previous consent decree.
+* **Zoom:** Misled consumers into believing its service used **end-to-end encryption** (only users see content), when it used less secure encryption that allowed Zoom to access the content.
+* **Snapchat:** Informed users that messages and photos disappeared forever, while knowing that users could easily **preserve** them. This was a **material deception** about the service's core functionality.
+* **GeoCities:** **Resold personal information** of customers after telling them in its privacy policy that it would **not** do so. This direct contradiction of its policy was deemed **deceptive**.
+* **TRUSTe:** The privacy certification firm was found **deceptive** for failing to conduct required **annual recertifications** of its clients' privacy practices, violating the promise implied by its **Trust Mark** seal.
+
 ### Other Federal Agencies
 * **Federal Communications Commission (FCC):** Regulates interstate and international communications, enforcing rules related to **Customer Proprietary Network Information (CPNI)** under the **Telecommunications Act of 1996**.
 * **Department of Health and Human Services (HHS):** The lead agency for implementing and enforcing the **Health Insurance Portability and Accountability Act (HIPAA)** Privacy and Security Rules, issuing substantial fines.
