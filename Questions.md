@@ -1,4 +1,4 @@
-### Remixed Assessment Questions 1–5
+### Remixed Assessment Questions:
 
 **1. Which legal liability category is exclusively enforced by government bodies and prevents private individuals from filing a lawsuit?**
 * A. Negligence
