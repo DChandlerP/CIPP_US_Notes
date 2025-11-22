@@ -554,3 +554,70 @@ Several states have enacted GDPR-style comprehensive laws:
 ### Marketing Laws
 * **UDAP:** State "Unfair and Deceptive Acts or Practices" laws fill gaps in FTC enforcement.
 * **Telemarketing:** State laws often impose stricter curfews and registration requirements than federal rules.
+
+# International Privacy Regulation
+
+### Overview
+Multinational corporations face significant challenges in managing data across international boundaries. While U.S. state laws operate under federal preemption, international laws have no such hierarchy, leading to potential conflicts where complying with one nation's law may violate another's. The central tension lies between countries with strict privacy rights (like the EU) and the operational need for global data flow.
+
+### European Union General Data Protection Regulation (GDPR)
+The GDPR, effective May 2018, represents a progressive model of privacy protection that prioritizes individual rights over business interests. It has broad implications for U.S. companies due to its extraterritorial scope.
+
+#### Scope and Definitions
+* **Personal Data:** Broadly defined to include any information identifying a "natural person" or "data subject" (e.g., names, geolocation). It protects anyone physically in the EU, regardless of citizenship.
+* **Controllers vs. Processors:**
+    * *Controller:* Entity that determines the purpose and means of processing.
+    * *Processor:* Entity that processes data on behalf of the controller.
+    * Both parties have distinct obligations and liabilities.
+* **Territorial Jurisdiction:** Applies to any organization, regardless of location, that offers goods/services to or monitors the behavior of people within the EU.
+
+#### Data Subject Rights
+The GDPR grants extensive rights to individuals, requiring opt-in consent that is clear and distinguishable.
+* **Right to Erasure (Right to be Forgotten):** Subjects can demand the deletion of their data.
+* **Right to Access:** Subjects can request to know what data is collected and why.
+* **Right to Rectification:** Ability to correct inaccurate data.
+* **Right to Data Portability:** Right to receive data in a machine-readable format.
+* **Right to Object:** Ability to opt-out of processing or direct marketing.
+* **Automated Decision-Making:** Restrictions on AI making significant legal decisions about people.
+
+#### Penalties
+Violations can result in steep fines: up to **€20,000,000 or 4% of a company’s annual revenue**, whichever is greater.
+
+### Mechanisms for International Data Transfer (EU)
+The GDPR generally prohibits transferring data to non-EU countries unless the recipient ensures adequate protection.
+
+1.  **Adequacy Decisions:** The EU Commission reviews a non-EU country’s laws. If deemed "adequate" (commensurate with GDPR), data can flow freely.
+2.  **Binding Corporate Rules (BCRs):** Complex, legally binding internal rules for multinational corporations to transfer data between their own global entities. Requires EU regulatory approval.
+3.  **Standard Contractual Clauses (SCCs):** Standardized, non-negotiable contract language provided by the EU Commission. Used between a "data exporter" (EU) and "data importer" (non-EU) to contractually obligate GDPR compliance.
+4.  **Derogations:** Limited exceptions for specific transfers (e.g., explicit consent, vital interests, legal claims).
+
+### U.S.–EU Data Frameworks
+The history of U.S.-EU data transfer is marked by legal challenges regarding U.S. government surveillance.
+
+* **Past Agreements (Invalidated):**
+    * *Safe Harbor:* Invalidated following the *Schrems I* case.
+    * *Privacy Shield:* Invalidated by the CJEU in *Schrems II* (2020) due to concerns that U.S. surveillance laws overrode privacy protections for EU citizens.
+* **Current Framework: EU–U.S. Data Privacy Framework (DPF):**
+    * Established in 2023 after an EU adequacy decision.
+    * **Enforcement:** U.S. companies self-certify compliance via the Department of Commerce; enforcement is handled by the FTC.
+    * **Requirements:** Companies must update privacy policies, provide independent dispute resolution mechanisms, limit data retention, and ensure third-party accountability.
+
+### APEC Privacy Framework
+The Asia-Pacific Economic Cooperation (APEC) promotes flexible mechanisms to facilitate digital trade among member economies (which include the U.S., Canada, Japan, and Mexico, but not India).
+
+* **Nature:** Non-binding framework; does not override domestic laws.
+* **Nine Core Principles:**
+    1.  Preventing Harm
+    2.  Notice
+    3.  Collection Limitation
+    4.  Uses of Personal Information
+    5.  Choice
+    6.  Integrity of Personal Information
+    7.  Security Safeguards
+    8.  Access and Correction
+    9.  Accountability
+* **Cross-Border Privacy Rules (CBPR):** A voluntary safe harbor system where companies are certified by third parties (like TrustArc in the U.S.) to demonstrate compliance with APEC principles.
+
+### Global Cooperation & Enforcement
+* **Global Privacy Enforcement Network (GPEN):** Created by the OECD. It is not a regulatory framework but a network to facilitate cooperation, information sharing, and training among privacy enforcement authorities globally.
+* **Conflict Resolution:** There is no single international law to resolve conflicts. Companies must rely on data management programs and legal counsel to navigate contradictions (e.g., when U.S. law mandates disclosure that EU law prohibits).
