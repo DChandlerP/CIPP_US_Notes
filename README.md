@@ -483,3 +483,74 @@ Regulates interception of wire, oral, and electronic communications.
 * No federal requirement to provide references.
 * **Service Letter Acts:** Some states require employers to provide basic employment verification (dates, title).
 * **Defamation Risk:** Many employers limit references to basic facts (dates/title) to avoid lawsuits from former employees regarding negative comments.
+
+# State Privacy Laws
+
+### Overview
+The United States lacks a comprehensive federal privacy regulation, resulting in a "patchwork" of state laws. States fill gaps where federal law is silent (e.g., data breach notification) and often enact stricter regulations than federal statutes.
+
+### Federal Versus State Authority
+* **Preemption:** Federal laws generally preempt state laws unless otherwise specified.
+* **State Enforcement:** State Attorneys General (AGs) typically enforce privacy laws. Some states (e.g., California) have dedicated privacy agencies (CPPA).
+* **Jurisdiction:** AGs can seek remedies for violations affecting their state residents, even if the company is located elsewhere.
+
+### Common Elements of State Privacy Laws
+* **Applicability & Thresholds:** Laws often apply based on specific triggers, such as annual revenue, number of customers, or amount of revenue derived from selling data.
+* **Exemptions:** Common exemptions include nonprofits, government agencies, and entities already regulated by federal laws like HIPAA or GLBA.
+* **Data Subject Rights:**
+    * **Access:** Right to view collected data.
+    * **Correction/Deletion:** Right to fix errors or erase data.
+    * **Portability:** Right to receive data in a usable format.
+    * **Opt-out/Opt-in:** Rights regarding data sales, sharing, and targeted advertising.
+* **Privacy Notices:** Requirements to disclose practices, often aligning with transparency principles.
+* **Data Security:** Obligations to implement administrative, technical, and physical controls (often referencing frameworks like NIST).
+* **Enforcement:** Mechanisms include cure periods (time to fix violations before penalties), civil penalties, and occasionally a **private right of action** (allowing individuals to sue).
+
+### Data Breach Notification Laws
+Every state has enacted a data breach notification law. While they share a common structure, details vary significantly.
+* **Definitions:**
+    * *Breach:* Varies between "unauthorized access" vs. "unauthorized acquisition."
+    * *Personal Information (PI):* Typically Name + SSN, Driver’s License, or Financial info. Newer definitions include biometrics, medical info, and username/password combinations.
+* **Notification Requirements:**
+    * *Whom:* Affected residents, state regulators (AGs), and credit reporting agencies (based on thresholds).
+    * *When:* Timelines vary (e.g., "without unreasonable delay," 30 days, 45 days).
+    * *Encryption:* Historically, encrypted data was exempt. Newer laws require notification if encryption keys are also compromised.
+
+### Comprehensive State Privacy Laws
+Several states have enacted GDPR-style comprehensive laws:
+* **California (CCPA & CPRA):** The most extensive U.S. law. Includes a private right of action for security breaches, established the California Privacy Protection Agency (CPPA), and protects "sensitive personal information."
+* **Virginia (VCDPA):** Grants consumer rights (access, correct, delete) and requires data protection assessments. Enforced solely by the AG.
+* **Colorado (CPA):** Similar rights to Virginia; recognizes "sensitive data" requiring consent.
+* **Connecticut (CTDPA) & Utah (UCPA):** Follow similar models regarding data subject rights and controller obligations.
+* **Florida (FDBR):** Targeted at "Big Tech" with a high revenue threshold ($1B+).
+* **Oregon, Texas, & Montana:** Recent additions largely following the model of defining controller obligations, consumer rights, and AG enforcement.
+
+### Subject-Specific Privacy Laws
+
+#### Health & Genetic Information
+* **Washington My Health My Data Act:** Protects non-HIPAA health data; restricts geofencing near healthcare facilities; includes a private right of action.
+* **Illinois Genetic Information Privacy Act (GIPA):** Prohibits genetic discrimination in employment and insurance; has a private right of action.
+* **Nevada Consumer Health Data Privacy Law:** Similar to Washington's law, protecting health data not covered by HIPAA.
+
+#### Online Privacy & Children
+* **Delaware (DOPPA):** Requires privacy policies for websites/apps; restricts marketing of adult products to children.
+* **California Age-Appropriate Design Code:** Requires high privacy defaults and Data Protection Impact Assessments (DPIAs) for services likely accessed by children.
+* **CalECPA:** Requires warrants for law enforcement to access electronic communications (emails, location data).
+
+#### Biometric Information
+* **Illinois (BIPA):** Strict consent requirements for collecting biometrics; includes a private right of action (resulting in major settlements).
+* **Washington & Texas (CUBI):** Regulate biometric capture and sale but enforced only by AGs.
+* **New York City:** Requires commercial businesses to post signs if tracking biometrics; private right of action.
+
+#### AI & Automated Decision-Making
+* **Colorado SB 24-205:** Regulates "high-risk" AI systems making consequential decisions (hiring, lending).
+* **NYC Local Law 144:** Requires bias audits for AI tools used in hiring/employment.
+
+#### Financial & Data Brokers
+* **California Financial Information Privacy Act (CFIPA):** Stricter than federal GLBA; requires opt-in for sharing with unaffiliated third parties.
+* **NYDFS Cybersecurity Regulation:** Mandates rigorous security programs for financial institutions in NY (CISO, encryption, MFA).
+* **California Delete Act:** Creates a centralized mechanism for consumers to request data deletion from all registered data brokers.
+
+### Marketing Laws
+* **UDAP:** State "Unfair and Deceptive Acts or Practices" laws fill gaps in FTC enforcement.
+* **Telemarketing:** State laws often impose stricter curfews and registration requirements than federal rules.
