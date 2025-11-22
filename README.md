@@ -404,3 +404,82 @@ Laws in this sector regulate how businesses can use personal data for marketing.
     4.  **Processing:** Converting data to reviewable formats.
     5.  **Review:** Attorneys examine the records to **redact or remove** information that is irrelevant, protected by privilege, or protected by statute.
     6.  **Production and Presentation:** Sharing the finalized information with the opposing parties or court.
+
+## I. Introduction to Workplace Privacy
+Workplace privacy in the U.S. is not governed by a single comprehensive law but by a "patchwork" of federal and state statutes, tort law, and contracts. The primary drivers of federal workplace privacy legislation are **antidiscrimination** and **labor rights**, rather than privacy for privacy's sake.
+
+### A. Key Regulatory Agencies
+* **Federal Trade Commission (FTC):** Regulates background screening via the Fair Credit Reporting Act (FCRA).
+* **Consumer Financial Protection Bureau (CFPB):** Shares FCRA enforcement with the FTC; targets background check companies for inaccuracies.
+* **Department of Labor (DOL):** Enforces fair labor standards and laws like FMLA, OSHA, and EPPA.
+* **Equal Employment Opportunity Commission (EEOC):** Enforces antidiscrimination laws (ADA, ADEA, Title VII, GINA).
+* **National Labor Relations Board (NLRB):** Protects workers' rights to organize and bargain collectively; regulates employer surveillance that might intimidate union activities.
+* **Occupational Safety and Health Administration (OSHA):** Ensures workplace safety; protects confidentiality of employee complaints and medical records related to workplace safety.
+* **Securities and Exchange Commission (SEC):** Requires public companies to disclose human capital metrics relevant to investors.
+
+## II. U.S. Antidiscrimination Laws
+Federal laws restrict the collection and use of personal data to prevent bias.
+
+* **Civil Rights Act of 1964 (Title VII):** Prohibits discrimination based on race, color, religion, national origin, or sex (including pregnancy/childbirth).
+* **Americans with Disabilities Act (ADA):**
+    * Prohibits discrimination based on disability if the person is qualified and can perform essential functions with **reasonable accommodation**.
+    * **Medical Exams:** Pre-employment medical exams are banned before a conditional job offer. Medical info must be kept in separate, confidential files.
+    * **Undue Hardship:** Employers are not required to provide accommodations that cause significant difficulty/expense.
+* **Genetic Information Nondiscrimination Act (GINA):**
+    * Prohibits using genetic info (including family medical history) for hiring, firing, or promotion.
+    * Generally prohibits collecting genetic info, with narrow exceptions (e.g., accidental acquisition, FMLA requests, wellness programs).
+
+## III. Privacy Before Employment (Screening)
+### A. Automated Employment Decision Tools
+* Use of AI/algorithms in hiring creates risks of unintentional bias (e.g., facial analysis penalizing certain groups).
+* **Regulation:** Some jurisdictions (e.g., NYC) require bias audits and notices to candidates before using AI in hiring.
+
+### B. Background Screening & The FCRA
+Background checks by third parties are usually considered **Consumer Reports** under the FCRA.
+* **Employer Obligations:**
+    1.  Provide written notice to the applicant.
+    2.  Obtain written authorization.
+    3.  Certify compliance to the background check provider (CRA).
+    4.  **Investigative Consumer Reports:** If interviewing neighbors/associates about character, specific notice of the "investigative" nature is required.
+* **Adverse Action:** If not hiring based on the report, employers must follow specific pre-adverse and adverse action notice procedures.
+
+### C. Other Screening Methods
+* **Polygraphs:** The **Employee Polygraph Protection Act (EPPA)** bans most private employers from using lie detectors for pre-employment screening.
+    * *Exceptions:* Government, security firms, pharmaceutical distributors, or specific theft investigations.
+* **Drug/Alcohol Testing:** Regulated by a mix of state laws and federal requirements (e.g., DOT). The **Drug-Free Workplace Act** encourages, but doesn't always mandate, testing.
+* **Social Media:** Employers often check profiles but risk seeing protected class info (race, religion). Best practice is using a third party to redact protected info.
+
+## IV. Privacy During Employment (Monitoring)
+Employees generally have **no expectation of privacy** using company equipment.
+
+### A. Monitoring Technologies
+* **Computer/Phone Usage:** Employers own the equipment and can monitor use.
+* **Location Tracking:** GPS monitoring of company vehicles/phones is generally permitted, though some states require notice.
+* **Biometrics:** Collecting fingerprints/face scans for timekeeping is common. States like IL, TX, and WA have specific laws requiring notice/consent/retention policies.
+* **Wellness Programs:** Employers can offer incentives for health programs. Collection of health data must be voluntary and not penalized if opted out (EEOC rules).
+
+### B. Electronic Communications Privacy Act (ECPA)
+Regulates interception of wire, oral, and electronic communications.
+* **The "Business Purpose" Exception:** Employers can monitor calls/emails if there is a legitimate business reason.
+    * *Limitation:* Monitoring must stop if the communication is determined to be personal.
+* **Consent:** Monitoring is legal if one party consents (federal law). Some states require all-party consent.
+* **Stored Communications Act (SCA):** accessing stored emails (on company servers) is generally easier than intercepting real-time calls, as company ownership usually negates privacy expectations.
+
+### C. Investigation of Misconduct
+* **Fairness:** Investigations must be evenhanded to avoid discrimination claims.
+* **FACTA Amendment:** The Fair and Accurate Credit Transactions Act amended the FCRA so that **misconduct investigation reports** by third parties are **not** treated as standard consumer reports.
+    * *Result:* Employers do *not* need to get prior consent to investigate an employee for suspected misconduct, nor do they need to provide the full report (only a summary if adverse action is taken).
+
+## V. Privacy After Employment
+### A. Termination Procedures
+* **Transition Management:** Securely ending the relationship.
+* **Access Control:** Immediate revocation of physical (keys, badges) and digital (email, network) access.
+* **Property Return:** Retrieving laptops and ensuring no company data remains on personal devices.
+
+### B. Records Retention
+* Employers must follow retention schedules for personnel files (performance reviews, disciplinary records, medical info) to comply with laws and prepare for potential litigation (eDiscovery).
+
+### C. References
+* No federal requirement to provide references.
+* **Service Letter Acts:** Some states require employers to provide basic employment verification (dates, title).
+* **Defamation Risk:** Many employers limit references to basic facts (dates/title) to avoid lawsuits from former employees regarding negative comments.
