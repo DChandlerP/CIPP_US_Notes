@@ -305,12 +305,165 @@ These describe the specific actions (or inactions) that constitute the threat:
 
 -----
 
+### **Contextual Integrity**
 
+**Contextual Integrity (CI)** is a conceptual framework for understanding privacy developed by **Helen Nissenbaum**. Unlike models that define privacy simply as secrecy or control, CI defines privacy as maintaining personal information in alignment with the **informational norms** of a specific social context.
 
-### Reference
-**Book Title:** An Introduction to Privacy for Technology Professionals
-**Edition:** Second Edition
-**Executive Editor:** Travis D. Breaux, CIPT
-**Publisher:** International Association of Privacy Professionals (IAPP)
-**Publication Year:** 2024
-**ISBN:** 978-1-948771-84-9
+* **Core Concept:** Privacy problems arise not just when data is exposed, but when the flow of information disrupts established social norms.
+* **Primary Resource:** [Privacy in Context (Stanford Law Books)](https://www.sup.org/books/title/?id=8862)
+
+#### **The Framework Components**
+CI breaks down privacy analysis into specific "contexts" and the "norms" that govern them.
+
+**1. Contexts**
+These are socially constructed settings characterized by their own distinct values, goals, and rules.
+* **Examples:** Healthcare, banking, education, family, politics.
+* **Rule of Thumb:** Information appropriate in one context (e.g., health data in a hospital) may be inappropriate in another (e.g., health data in a workplace).
+
+**2. Informational Norms**
+These are the rules governing the flow of information. A norm is defined by five specific parameters:
+* **Actors:**
+    * **Sender:** Who is sending the information?
+    * **Recipient:** Who is receiving it?
+    * **Subject:** Who is the information about?
+* **Attributes:** The specific type of information (e.g., medical status, salary, GPS location).
+* **Transmission Principles:** The constraints or conditions under which information flows (e.g., with consent, under confidentiality, required by law, reciprocal).
+
+#### **How to Use It (The Heuristic)**
+The framework provides a method for identifying privacy vulnerabilities in a system:
+
+1.  **Identify the Context:** Determine the social setting (e.g., Medical treatment).
+2.  **Establish the Norms:** Define the expected flow based on the five parameters (e.g., Patient $\rightarrow$ Doctor, regarding Symptoms, for Treatment).
+3.  **Detect Disruptions:** Analyze if the IT system changes any of the parameters (e.g., changing the recipient to a marketing firm).
+4.  **Result:** Any system feature that disrupts these established norms is flagged as a **Privacy Vulnerability**.
+
+#### **Example Scenario**
+* **Established Norm:** A patient shares a medical condition with a doctor for the purpose of diagnosis.
+* **Disruption:** The system automatically forwards that condition to a pharmaceutical company to send ads to the patient’s home.
+* **Analysis:** The norm was disrupted because the **Recipient** changed (Doctor $\rightarrow$ Pharma Company) and the **Transmission Principle** changed (Confidentiality $\rightarrow$ Marketing/Commercial). This is a privacy violation.
+
+### **NIST Problematic Data Actions**
+
+This model is part of the **NIST Privacy Risk Assessment Methodology (PRAM)**. It provides a comprehensive framework for identifying privacy vulnerabilities by focusing on specific data operations.
+
+* **Core Concept:** Instead of viewing vulnerabilities just as flaws or bugs, NIST defines them as **"Problematic Data Actions."**
+* **Definition:** These are system behaviors or operations that—even if authorized—create the *potential* for an adverse event (a privacy problem for an individual).
+
+#### **Catalog of Problematic Data Actions**
+The NIST model provides a catalog of specific actions that should be analyzed as potential sources of risk:
+
+* **Appropriation:**
+    * Using personal information in ways that go beyond what the individual expects or has authorized.
+    * *Example:* Using data collected for service improvement to train a public AI model without consent.
+
+* **Distortion:**
+    * The dissemination of inaccurate, misleading, or incomplete personal information.
+    * *Example:* A credit report containing errors that lower a person's score.
+
+* **Induced Disclosure:**
+    * Pressuring individuals to provide personal information (often more than necessary).
+    * *Example:* Requiring a phone number to download a whitepaper when an email would suffice.
+
+* **Insecurity:**
+    * Lapses in data security safeguards that result in the loss of confidentiality, integrity, or availability.
+    * *Example:* Storing passwords in plain text or failing to patch a known server vulnerability.
+
+* **Surveillance:**
+    * Tracking or monitoring an individual’s activities, communications, or behaviors that is disproportionate to the system's stated objectives.
+    * *Example:* A flashlight app that tracks the user's GPS location.
+
+* **Unanticipated Revelation:**
+    * The unexpected exposure of facets of an individual or their data, often resulting from processing or aggregation.
+    * *Example:* Revealing a user's political affiliation based on their seemingly neutral browsing history.
+
+* **Unwarranted Restriction:**
+    * Imposing unjustified constraints on an individual’s ability to access the system or their own information.
+    * *Example:* Failing to provide a "forgot password" feature or refusing to let a user download their own data.
+
+### **Fair Information Practice Principles (FIPPs)**
+
+This model uses established privacy principles as a framework for identifying risks. The FIPPs often serve as the foundation for privacy laws and policy regimes, making this model closely related to the **Compliance Model**.
+
+* **Core Concept:** FIPPs prescribe (require) or proscribe (forbid) specific qualities and behaviors for systems that handle personal information.
+* **Adoption:**
+    * **Federal Trade Commission (FTC):** Recommends the FIPPs to private industry as a guide for privacy risk management.
+    * **U.S. Department of Homeland Security (DHS):** Applies FIPPs to its own internal government practices, specifically within privacy impact assessments.
+
+#### **How to Use It**
+Using FIPPs as a risk model involves treating the principles as requirements and identifying where the system might fail to meet them.
+
+* **Interpretation:** Because FIPPs are high-level abstractions (unlike specific legal strictures) and are often relative to the "purpose of the system," developers and analysts must interpret how each principle applies to their specific context.
+* **Analysis:** The risk analysis process entails examining system elements to identify threats and vulnerabilities that relate to specific FIPPs.
+* **Risk Definition:** A risk is defined as the failure to uphold a specific principle (e.g., a failure to limit use, a failure to provide notice).
+
+### **Subjective/Objective Dichotomy**
+
+This model, proposed by Ryan Calo, categorizes privacy harms based on how they are experienced by the individual. It serves as a coarse-grained reference point for aligning threats and vulnerabilities.
+
+* **Core Concept:** Privacy harms fall into two distinct categories: subjective and objective.
+* **Analogy:** Calo compares this to the legal distinction between assault (the threat of unwanted contact) and battery (the actual unwanted contact).
+
+#### **1. Subjective Harms**
+These harms are grounded in the individual's internal experience or state of mind.
+* **Definition:** The *perception* of unwanted observation, regardless of whether actual observation is taking place.
+* **Impact:** This creates fear, discomfort, or anxiety.
+* **Consequence:** It can lead to a "chilling effect" where an individual alters their behavior, limits their freedom of expression, or avoids using a system due to the fear of being watched (as noted by Julie Cohen and Alan Westin).
+* **Risk Alignment:** Any privacy threat that is *perceivable* by an individual can correspond to a subjective privacy harm.
+
+#### **2. Objective Harms**
+These harms are external actions that have measurable, adverse consequences.
+* **Definition:** The *unanticipated* or *coerced* use of information concerning a person against that person.
+* **Nature:** These are actual events where data is used in a way that negatively impacts the individual (e.g., identity theft, financial loss, reputation damage), distinct from the fear of such events.
+
+#### **How to Use It**
+Analysts use this model to assess system elements based on user perception versus actual data usage.
+* **Expectation vs. Reality:** Examine elements related to individuals' expectations of how data will be used versus how it is actually used.
+* **Consent:** Analyze elements related to surveillance, tracking, and whether the user has consented to the collection and use of their information.
+
+### **Taxonomy of Privacy Problems (Daniel Solove)**
+
+This model classifies privacy risks not by high-level principles, but by identifying 16 distinct activities that create privacy problems. These problems are derived from a cultural analysis of law, history, and philosophy. They are organized into four categories.
+
+#### **1. Information Collection**
+Harms caused by the gathering of data.
+* **Surveillance:** The observation or capturing of an individual’s activities.
+    * *Example:* An advertising site embedding hidden frames to track users across the web.
+* **Interrogation:** Actively questioning or probing an individual for information.
+    * *Example:* A website requiring a mobile phone number for registration when it is not functionally necessary.
+
+#### **2. Information Processing**
+Harms caused by the storage, analysis, and manipulation of data.
+* **Aggregation:** Combining multiple pieces of information to create a profile that is greater than the sum of its parts.
+    * *Example:* Inferring a customer is pregnant by correlating purchases of unscented lotion and vitamins.
+* **Identification:** Linking information to a specific individual.
+    * *Example:* Using cookies or device fingerprints to link browsing history to a real identity.
+* **Insecurity:** Failures to properly protect information from leaks or improper access.
+    * *Example:* Failing to encrypt private communications.
+* **Secondary Use:** Using information without consent for a purpose different from the one for which it was collected.
+    * *Example:* Using an email address collected for shipping updates to send marketing emails.
+* **Exclusion:** Denying an individual knowledge of, or participation in, the processing of their data.
+    * *Example:* A data broker selling a consumer's profile without the consumer knowing the profile exists.
+
+#### **3. Information Dissemination**
+Harms caused by revealing data to others.
+* **Breach of Confidentiality:** Revealing information that was promised to be kept secret.
+    * *Example:* A platform sharing user data with a third party despite a privacy policy promising not to.
+* **Disclosure:** Revealing truthful information that negatively affects how others view the individual.
+    * *Example:* Exposing a list of members of a private lifestyle service.
+* **Distortion:** Spreading false or inaccurate information about a person.
+    * *Example:* A background check service incorrectly labeling an applicant as a felon.
+* **Exposure:** Revealing information that is normally concealed (often physical/bodily details) or embarrassing.
+    * *Example:* Broadcasting a user's purchase of sensitive health products to their social network.
+* **Increased Accessibility:** Making information easier to obtain than it was previously.
+    * *Example:* Taking public records that were hard to access physically and putting them online where they are searchable.
+* **Blackmail:** Threatening to disclose information to coerce someone.
+    * *Example:* Threatening to release medical data unless a ransom is paid.
+* **Appropriation:** Using someone’s identity or likeness for another's benefit.
+    * *Example:* Using a user's profile photo in an advertisement without their permission.
+
+#### **4. Intrusion and Decisional Interference**
+Harms caused by invading an individual’s private life or autonomy.
+* **Intrusion:** Acts that disturb an individual’s solitude or tranquility.
+    * *Example:* Sending push notifications to a user's phone when they walk past a store.
+* **Decisional Interference:** Inserting oneself into an individual's decision-making process regarding their personal affairs.
+    * *Example:* Hiding negative reviews to manipulate a user into buying a specific product.
