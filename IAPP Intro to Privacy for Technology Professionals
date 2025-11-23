@@ -243,6 +243,70 @@ The chapter contrasts two organizational cultures regarding this cycle:
     * **Vulnerability Models:** Contextual Integrity (Nissenbaum), NIST Problematic Data Actions.
     * **Threat Models:** LINDDUN, MITRE PANOPTIC™.
 
+### **LINDDUN**
+
+**LINDDUN** is a privacy threat modeling framework developed by the DistriNet Research Unit at KU Leuven (Belgium). It is designed to help privacy engineers and developers identify and mitigate privacy threats in software architectures during the early design phases. It is analogous to the STRIDE framework used for security threat modeling but focuses specifically on privacy.
+
+  * **Official Website:** [linddun.org](https://linddun.org/)
+  * **Core Methodology:** Data Flow Diagram (DFD) analysis.
+
+#### **The Acronym (Threat Categories)**
+
+The framework is named after the seven privacy threat categories it identifies:
+
+1.  **L - Linkability:** The ability to link two or more items of interest (e.g., packets, records, actions) to the same user, even if their identity is unknown.
+2.  **I - Identifiability:** The ability to identify a data subject from a set of data items.
+3.  **N - Non-repudiation:** The inability of a data subject to deny a claim (e.g., having performed an action or sent a message), which is often a security goal but a privacy threat (e.g., for whistleblowers).
+4.  **D - Detectability:** The ability to distinguish whether an item of interest exists or not (e.g., determining if a person is in a sensitive database).
+5.  **D - Disclosure of Information:** The exposure of information to entities who are not authorized to access it.
+6.  **U - Unawareness:** The data subject is unaware of the collection, processing, storage, or sharing of their personal data (often related to lack of notice/consent).
+7.  **N - Non-compliance:** The processing of data is not compliant with legislation, regulations, or internal policies.
+
+#### **Methodology Variants**
+
+LINDDUN offers different levels of depth to suit different teams:
+
+  * **LINDDUN GO:** A lightweight, card-based brainstorming method designed for agile teams and quick assessments.
+  * **LINDDUN PRO:** A rigorous, systematic approach that involves creating a Data Flow Diagram (DFD), mapping threats to every element (entities, processes, data stores, data flows), and documenting everything thoroughly.
+  * **LINDDUN MAESTRO:** An advanced, model-based approach (currently in development/research) for automated analysis.
+
+-----
+
+### **MITRE PANOPTIC™**
+
+**MITRE PANOPTIC™** (Pattern and Action Nomenclature Of Privacy Threats In Context) is a newer privacy threat taxonomy developed by MITRE. Unlike LINDDUN, which is model-centric (analyzing a system diagram), PANOPTIC is data-driven and empirically derived from analyzing hundreds of real-world privacy incidents. It is designed to be the privacy equivalent of **MITRE ATT\&CK®**, focusing on the "tactics and techniques" of privacy violations.
+
+  * **Primary Resource:** [suspicious link removed]
+  * **Reference Paper:** [USENIX SOUPS Poster/Abstract](https://www.usenix.org/conference/soups2024/presentation/katcher-poster)
+
+#### **Core Components**
+
+PANOPTIC creates a structured vocabulary for privacy threats by splitting them into two taxonomies: **Contextual Domains** (where/who) and **Privacy Activities** (what happened).
+
+**1. Contextual Domains**
+These describe the environment and nature of the data involved:
+
+  * **Environment:** Where the event occurs (e.g., Digital, Physical).
+  * **Distribution:** The flow of data (e.g., One-to-One, One-to-Many).
+  * **Interaction:** The relationship between the user and the entity (e.g., User-initiated, Third-party observation).
+  * **Engagement:** Involvement of specific populations (e.g., Vulnerable populations, Children).
+  * **Data Type:** The specific category of data (e.g., Biometric, Financial, Location).
+
+**2. Privacy Activities**
+These describe the specific actions (or inactions) that constitute the threat:
+
+  * **Notice & Consent:** Issues with transparency (e.g., Misleading notice, Conditioning access on consent).
+  * **Collection:** How data is gathered (e.g., Surveillance, Interrogation).
+  * **Identification:** Linking data to individuals (e.g., Fingerprinting, Re-identification).
+  * **Manageability:** Issues with user control (e.g., Inability to delete, Inability to correct).
+  * **Sharing:** Transferring data to others (e.g., Sale of data, Unintended exposure).
+  * **Retention:** Keeping data longer than necessary.
+  * **Deviations:** Using data for purposes other than originally stated (secondary use).
+
+-----
+
+
+
 ### Reference
 **Book Title:** An Introduction to Privacy for Technology Professionals
 **Edition:** Second Edition
