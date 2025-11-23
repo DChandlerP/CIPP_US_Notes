@@ -1,0 +1,133 @@
+# Chapter 1: Introduction to Privacy for the IT Professional
+
+This chapter establishes the foundational concepts of privacy for information technology professionals, distinguishing between security and privacy, outlining key privacy definitions, and introducing frameworks for managing data throughout its life cycle.
+
+### 1.2 What Is Privacy?
+The text describes privacy as "pluralistic," meaning it encompasses multiple definitions and dimensions rather than a single concept. The chapter highlights four prominent viewpoints used to define privacy:
+* **Alan Westin’s Four States of Privacy:**
+    * *Solitude:* Separation from the group; freedom from observation.
+    * *Intimacy:* Acting as part of a small unit; negotiating secrecy rules.
+    * *Anonymity:* Freedom from identification and surveillance in public.
+    * *Reserve:* Psychological barrier against unwanted intrusion; the ability to withhold communication.
+* **Helen Nissenbaum’s Contextual Integrity:** Privacy is defined by norms governing information flow within specific contexts (e.g., medical data is governed by different norms than banking data).
+* **Daniel Solove’s Taxonomy of Privacy:** Focuses on specific activities that violate privacy, such as surveillance, interrogation, aggregation, and secondary use.
+* **Ryan Calo’s Harm Dimensions:** Distinguishes between *objective harms* (measurable, observable violations) and *subjective harms* (the perception of unwanted observation or expectation of harm).
+
+### 1.3 What Are Privacy Risks?
+Privacy risk is defined as the likelihood that a threat will exploit a vulnerability combined with the resulting impact.
+* **Threat Agents:** Can be internal (malicious insiders, careless employees) or external (hackers).
+* **Common Threats:** Identity theft, lost or stolen unencrypted devices, and social engineering attacks like "phishing" or "spear-phishing."
+* **Impact:** Costs include financial loss (e.g., identity fraud costs), reputation damage, system downtime, and loss of customer trust.
+
+### 1.4 Security, Privacy, and Data Governance
+The chapter clarifies that while security supports privacy, they are not equivalent.
+* **Security:** Traditionally focuses on the "CIA triad": Confidentiality, Integrity, and Availability.
+* **Privacy:** Broader than security. It involves individual autonomy, control over the granularity of information, and freedom from intrusion (e.g., surveillance or exposure).
+* **Governance:** Effective privacy requires coordination between IT (CISO), Privacy Officers (CPO), and Legal departments. Data governance policies often stem from regulations like HIPAA, SOX, or GDPR.
+
+### 1.5 Privacy Principles and Standards
+IT professionals should use established principles to guide system design. The text details the **OECD Guidelines (1980)** as a foundational standard:
+1.  **Collection Limitation:** Data should be obtained lawfully and with consent.
+2.  **Data Quality:** Data must be relevant, accurate, complete, and up-to-date.
+3.  **Purpose Specification:** Purposes for data collection must be specified at the time of collection.
+4.  **Use Limitation:** Data should not be disclosed or used for other purposes without consent or legal authority.
+5.  **Security Safeguards:** Reasonable safeguards must be in place against loss, access, or destruction.
+6.  **Openness:** Policies regarding data should be transparent.
+7.  **Individual Participation:** Individuals have rights to confirm, access, and challenge data held about them.
+8.  **Accountability:** Data controllers are accountable for complying with these principles.
+
+### 1.6 The Data Life Cycle
+A framework for managing data flow to ensure end-to-end privacy protection:
+* **Collection:** Can be active (subject aware) or passive (subject unaware). Includes first-party, third-party, and surveillance collection.
+* **Consent:** Mechanisms include "Explicit" (checkboxes, buttons) and "Implicit" (policy links).
+* **Processing & Disclosure:** Ensuring data is used only for stated purposes. "Repurposing" data creates significant privacy risks.
+* **Retention:** Data should be retained only as long as necessary for business or legal needs.
+* **Destruction:** Proper sanitization of media (overwriting, degaussing, incinerating) when data is no longer needed.
+
+The chapter contrasts two organizational cultures regarding this cycle:
+* **Maximize Information Utility:** Collects everything, retains indefinitely, and shares broadly to drive innovation.
+* **Minimize Privacy Risk:** Collects only what is needed, retains only for the transaction, and strictly limits disclosure.
+
+***
+
+### 2.1.1 The Privacy Engineer
+
+* **Role and Background**
+    * **Function:** Serves as both an active member of project teams and a repository of knowledge for interacting with various stakeholders in the software ecosystem.
+    * **Typical Career Path:** Often begins as a software developer, advances to a software project manager, and then transitions into the role of a privacy engineer.
+
+* **Key Responsibilities**
+    * **Requirements Collection:** Gathers critical regulatory requirements from legal teams to ensure marketing and other project requirements align with laws and social norms.
+    * **Requirement Proposal:** Proposes additional privacy-related requirements specific to the project's needs.
+    * **Design Collaboration:** Works with designers to discuss best practices and assess potential solutions, including the use of privacy-enhancing technologies (PETs) during the translation of requirements into design specifications.
+    * **Verification:** Helps verify that design specifications are correctly implemented and achieve the intended privacy-related effects.
+    * **Post-Deployment Support:** Assists with support after deployment, including addressing privacy-related bug fixes and enhancements.
+    * **Monitoring and Feedback:** Collects user feedback and monitors external sources (blogs, mailing lists, news) for new privacy incidents to update relevant practices.
+
+* **Community of Practice**
+    * **Definition:** The privacy engineer develops a "community of practice," defined as a collective learning process focused on a shared enterprise (e.g., reducing privacy risks in technology).
+    * **External Engagement:** This community includes professionals outside the engineer's own organization, such as bloggers, privacy law scholars, and nonprofits.
+    * **Sources of Information:**
+        * **Scholars & Nonprofits:** Monitoring thought leaders (e.g., Ryan Calo on autonomous vehicles) and organizations (e.g., Center for Democracy and Technology) for policy research on topics like location tracking and identity management.
+        * **Regulators:** Tracking guidelines from bodies like the Federal Trade Commission (FTC), including case highlights and workshop summaries, to understand consensus on emerging privacy issues.
+        * **Professional Associations:** Participating in workshops and training from organizations like the IAPP to network and improve professional practices.
+    * **Goal:** To stay current on how privacy evolves with technology and to provide relevant, updated input into the organization's engineering processes.
+
+* **Ethical Engineering Practice**
+    * **Guidance Sources:** Communities of practice serve as a source for ethical guidance.
+    * **Ethical Codes:** Privacy engineers rely on codes of ethics from major professional societies, including:
+        * Association for Computing Machinery (ACM)
+        * Institute of Electrical and Electronics Engineers (IEEE)
+        * British Computer Society (BCS)
+        * International Council on Systems Engineering (INCOSE)
+    * **Evolution of Ethics:** While historical codes focused on professional conduct, modern codes emphasize the ethical obligation to address system privacy and security within complex sociotechnical environments.
+
+### 2.1.3 Software Process Models
+
+* **Origins and Purpose**
+    * **Origin:** The concept of software engineering emerged from the 1968 NATO conference (Garmisch report) to manage engineering complexity.
+    * **Goal:** To coordinate the construction of software, moving from personal projects to large-scale endeavors requiring sophisticated ecosystems and processes.
+
+* **Core Software Development Activities**
+    * Regardless of the specific process model used, six key activities are universally addressed:
+        * **Requirements Engineering:** Identifying system constraints, stakeholder goals, and functional/behavioral properties (including privacy).
+        * **Design:** Creating architectures that define how the system operates, including modular components and data flows.
+        * **Implementation:** Translating design into source code and developing setup/configuration processes.
+        * **Testing:** Verifying the system conforms to requirements through test cases and user testing (finding ways to "break" the system).
+        * **Deployment:** Installing, configuring, and training users in the operational environment.
+        * **Maintenance:** Updating software to fix bugs or add functionality post-deployment.
+
+* **Types of Process Models**
+    * **Plan-Driven Methods (e.g., Waterfall, Spiral):**
+        * **Characteristics:** Emphasize up-front documentation and planning.
+        * **Privacy Integration:** Privacy must be addressed early (CONOPS and requirements phase). Retrofitting privacy later is costly.
+        * **Spiral Model:** Focuses on risk analysis. Iterative development where the team reassesses risks (feasibility, design alternatives) at each stage.
+    * **Agile Methods (e.g., Extreme Programming, Scrum):**
+        * **Characteristics:** Emphasize personal communication and small, dynamic teams.
+        * **Scrum:** Uses timeboxing (sprints) and manages requirements via a "product backlog" of user stories.
+        * **Privacy Integration:** Privacy engineers participate in developing user stories to identify risks. They review sprint backlogs to catch privacy dependencies (e.g., ensuring parental consent mechanisms are built before collecting child data).
+
+* **DevOps and DevSecOps**
+    * **DevOps:**
+        * Integrates development and operations to speed up deployment.
+        * Visualized as a figure eight; emphasizes continuous feedback and automation.
+        * **Challenge:** High velocity can make ensuring privacy and security difficult.
+    * **DevSecOps:**
+        * Evolution of DevOps that integrates security throughout the lifecycle using automated tools (scanning, patching, testing).
+        * **Note:** Privacy (beyond basic confidentiality) is not yet similarly integrated into this model.
+
+* **Privacy Engineering Frameworks**
+    * **Holistic Lifecycles:** Methods that act as specialized lifecycles themselves.
+        * *OASIS Privacy Management Reference Model and Methodology (PMRM)*
+        * *PRIPARE (Privacy and security-by-design)*
+    * **Atomic Methods:** Aimed at specific engineering activities.
+        * *LINDDUN:* A threat modeling method (discussed further in section 2.2.1.1).
+        * *NIST Privacy Risk Assessment Methodology (PRAM):* For risk assessment (discussed further in section 2.2.2.3).
+    * **Selection:** The choice of method depends on system complexity, environmental context, and organizational standards.
+### Reference
+**Book Title:** An Introduction to Privacy for Technology Professionals
+**Edition:** Second Edition
+**Executive Editor:** Travis D. Breaux, CIPT
+**Publisher:** International Association of Privacy Professionals (IAPP)
+**Publication Year:** 2024
+**ISBN:** 978-1-948771-84-9
