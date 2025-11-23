@@ -979,3 +979,37 @@ Based on section 2.2.2 of the text, here is a detailed summary of the **Privacy 
 * **Physical Risks**
     * Mobile devices are frequently lost or stolen.
     * **Design Defense:** Avoid storing sensitive data locally on mobile devices; if storage is necessary, use strict encryption.
+
+### 2.5 Low-Level Design and Implementation
+
+* **Overview**
+    * Implementation follows the requirements and design phases, producing working source code for testing.
+    * Opportunities exist to engage engineers in improving code quality regarding privacy, including coding practices, code reviews, and using standard libraries.
+    * Programmers are central to software development, often taking on multiple roles in small projects or coordinating with others in large ones using infrastructure like source configuration management (SCM) systems (e.g., Git, Subversion).
+
+* **Coding Practices**
+    * **Secure Coding:** Programmers should use secure coding practices and object-oriented languages that support "information hiding" and loose coupling.
+    * **Information Hiding:** Encapsulating data in classes and restricting access through limited functions. This prevents open access where any developer can read/write data, compromising confidentiality and integrity.
+    * **Strong Interfaces:** Designing interfaces that control access to data and operations reduces the likelihood of privacy violations compared to open data containers.
+    * **Code-Level Controls:** Privacy constraints can be implemented directly in code.
+        * *Example:* Using assertions (`assert`) to verify user consent before executing a function that publishes a user profile. If the assertion fails (consent is false), the program halts or raises an exception, preventing the privacy violation.
+
+* **Code Reviews**
+    * **Purpose:** Organized meetings to review critical source code for defects in logic or poor practices that automated testing might miss.
+    * **Roles:**
+        * **Reader:** Reads code aloud and questions the developer.
+        * **Moderator:** Independent mediator for disagreements.
+        * **Developer:** The code author who answers questions (cannot be reader or moderator to avoid defensiveness).
+        * **Tester:** Focuses on finding defects.
+    * **Privacy Focus:** Reviews should specifically look for privacy issues, such as checking if variables containing personal information are correctly identified and handled according to policy.
+
+* **Standard Libraries and Frameworks**
+    * **Reuse:** Programmers should reuse standard libraries and frameworks rather than writing custom code for critical security/privacy functions. This leverages existing standards and allows for easier patching of vulnerabilities.
+    * **Security Libraries:** Available for authentication (RBAC), encryption (RSA, AES), public key cryptography (X.509), and secure communications (SSL/TLS).
+    * **Privacy Frameworks:** Organizations can build and reuse their own frameworks for standard privacy functions, such as:
+        * **Anonymization:** Removing identifiers from datasets.
+        * **Audit Support:** Logging access to personal information.
+        * **Policy Management:** Managing user preferences and consent.
+        * **Privacy Notices:** Reusable links and email notification services.
+        * **Compliance:** Marketing services compliant with CAN-SPAM or reporting services compliant with ECPA.
+    * **Maturity:** Reuse of such libraries is a characteristic of higher maturity levels in process frameworks like CMMI.
