@@ -1217,3 +1217,145 @@ Based on section 2.2.2 of the text, here is a detailed summary of the **Privacy 
     * **Security:** Passwords should never be stored in plaintext. Systems store the hash of the password.
     * **Vulnerability:** Simple hashing is vulnerable to "rainbow table" attacks (databases of pre-computed hashes for common passwords).
     * **Mitigation:** Use **Salt** (random data added to the password before hashing) and **Pepper** (a secret value added to the password) to prevent rainbow table attacks and dictionary attacks.
+
+### 3.5 Public Key Infrastructure (PKI)
+
+  * **Overview**
+      * **Problem:** While public key cryptography solves the key exchange problem, it introduces the problem of verifying that a specific public key actually belongs to a specific person or organization (avoiding impersonation).
+      * **Solution:** PKI uses **Digital Certificates** to bind a public key to an identity.
+      * **Analogy:** A digital certificate is like a driver's license. It contains identity information and is "signed" (stamped) by a trusted third party (the Certificate Authority or DMV).
+
+#### 3.5.1 Web Server Certificates
+
+  * **Purpose**
+      * Used to authenticate the identity of a website (e.g., ensuring you are communicating with the real [suspicious link removed] and not an attacker).
+      * Prevents Man-in-the-Middle (MiTM) attacks where an attacker intercepts the connection.
+  * **Components**
+      * **Certificate Authority (CA):** A trusted third-party organization (e.g., DigiCert, Let's Encrypt) that verifies identities and issues certificates. Web browsers come pre-installed with the public keys of trusted CAs.
+      * **Certificate Signing Request (CSR):** A file sent by a website admin to a CA to apply for a certificate. It contains the website's public key and identity information.
+  * **Process**
+    1.  Website generates a public/private key pair.
+    2.  Website sends a CSR to the CA.
+    3.  CA verifies the website owner's identity (e.g., via email or DNS check).
+    4.  CA digitally signs the website's public key, creating a Certificate.
+    5.  Browser connects to the website, receives the certificate, and verifies the CA's signature.
+
+#### 3.5.2 Client-Side Public Key Infrastructure
+
+  * **Purpose**
+      * Used to verify the identity of a *user* (client) rather than a server.
+      * Serves as a stronger alternative to passwords.
+  * **Storage Mechanisms**
+      * **Software Stores:** Stored in the operating system's file system (protected by OS login). Vulnerable if the computer is compromised by malware.
+      * **Smart Cards:** A physical card with a chip that generates and stores the private key. The key never leaves the card; cryptographic operations happen on the card itself. Highly resistant to malware.
+  * **Common Uses**
+      * Web browser authentication (replacing passwords).
+      * Digitally signing documents (PDFs, Word docs).
+      * Code signing (proving software was written by a specific developer and hasn't been tampered with).
+
+#### 3.5.3 Certificate Revocation
+
+  * **Need for Revocation**
+      * Certificates must sometimes be invalidated before their expiration date (e.g., if a private key is stolen or an employee leaves a company).
+  * **Mechanisms**
+      * **Certificate Revocation List (CRL):** A list published by the CA containing the serial numbers of all revoked certificates. Browsers download this list to check validity. Can become large and unwieldy.
+      * **Online Certificate Status Protocol (OCSP):** A protocol where the browser queries the CA in real-time to ask, "Is this specific certificate still valid?"
+  * **Limitations**
+      * It is difficult to revoke a Certificate Authority itself if the CA is compromised (e.g., the DigiNotar hack), as this requires patching every browser/OS.
+
+#### 3.5.4 Creating and Managing Keys
+
+  * **Key Life Cycle**
+      * **Key Generation:** Creating the key pair using high-quality random numbers.
+      * **Certificate Generation:** Sending the public key to a CA to be signed.
+      * **Distribution:** Sending the certificate (public key) to users/servers.
+      * **Storage:** Protecting the private key (e.g., using Hardware Security Modules or offline vaults for Root CA keys).
+      * **Revocation:** Invalidating compromised keys.
+      * **Expiration/Update:** Replacing old keys with new ones regularly.
+
+#### 3.5.5 PKI Limitations and Extended Validation Certificates
+
+  * **Trust Issues**
+      * Browsers trust hundreds of CAs by default. If *any* single CA is compromised or acts maliciously, it can issue fake certificates for *any* website (e.g., a hacker breaching a small CA could issue a fake [suspicious link removed] certificate).
+      * There is a "race to the bottom" regarding price and verification rigor among CAs.
+  * **Certificate Types**
+      * **Domain Validation (DV):** The CA only verifies that the requester controls the domain (e.g., can receive an email at admin@domain.com). Cheap and fast.
+      * **Extended Validation (EV):** The CA performs a rigorous background check on the organization (legal existence, physical address). Intended to provide higher trust (formerly displayed as a green bar in browsers).
+  * **CAA Records**
+      * **Certification Authority Authorization (CAA):** A DNS record that allows a domain owner to specify which specific CAs are allowed to issue certificates for their domain, reducing the risk of rogue CAs.
+
+#### 3.6.1 Web Encryption with Transport Layer Security (TLS)
+* **Functionality**
+    * **Hybrid Cryptography:** TLS (formerly SSL) uses public key cryptography for the initial connection (handshake) to securely exchange keys, then switches to symmetric cryptography for efficient bulk data encryption.
+    * **Security Goals:** Provides **Confidentiality** (prevents eavesdropping), **Integrity** (prevents data tampering in transit), and **Authentication** (verifies the server’s identity).
+    * **Scope:** Protects "data in motion" across the internet. It does *not* protect data at the endpoints (the browser or the server) or metadata (like the domain name, though extensions like ECH are emerging).
+
+* **The TLS Handshake Process**
+    1.  **Connection:** The browser connects to a server (e.g., `https://www.example.com`).
+    2.  **Negotiation:** The client and server agree on which algorithms (cipher suites) to use.
+    3.  **Key Exchange (Forward Secrecy):**
+        * TLS 1.3 mandates ephemeral key exchanges like **ECDHE** (Elliptic Curve Diffie-Hellman Ephemeral).
+        * **Forward Secrecy:** Ensures that even if the server's long-term private key is stolen in the future, past sessions cannot be decrypted because the unique session keys were never transmitted or stored.
+    4.  **Authentication:** The server proves its identity by digitally signing the exchange parameters (verified by the client using the server's Digital Certificate).
+
+* **Threats and Vulnerabilities**
+    * **TLS Decrypting Proxy (Man-in-the-Middle):**
+        * Often used by corporate networks or governments to inspect encrypted traffic.
+        * The proxy intercepts the client's connection and establishes a separate connection to the destination server.
+        * **Mechanism:** The proxy issues a *fake* certificate for the destination site to the client.
+        * **Trust Requirement:** For this to work without error warnings, the client device must be configured to trust the proxy's Certificate Authority (CA) key (often installed via Mobile Device Management on employee devices).
+        * **Detection:** Technologies like **Certificate Pinning** allow applications to detect if the certificate authority has changed unexpectedly, alerting the user to potential interception.
+
+#### 3.6.2 Email Encryption
+* **The Challenge**
+    * Email is a "store-and-forward" system that passes through multiple servers (hops).
+    * **TLS Limitation:** TLS only encrypts the connection between hops (e.g., sender to mail server). Mail servers typically process and store emails in plaintext, making them vulnerable to lawful access requests or breaches.
+    * **End-to-End Encryption:** Required to ensure only the sender and recipient can read the message.
+
+* **S/MIME (Secure/Multipurpose Internet Mail Extensions)**
+    * The IETF standard for email encryption.
+    * **Infrastructure:** Relies on X.509 certificates and centralized PKI.
+    * **Adoption:** Supported natively by enterprise clients like Outlook and Apple Mail.
+    * **Usability Hurdle:** Users often struggle to obtain and install the necessary digital certificates, limiting adoption primarily to government (e.g., DoD) and enterprise sectors.
+
+* **PGP (Pretty Good Privacy)**
+    * **Infrastructure:** Relies on a **Web of Trust** rather than centralized CAs.
+    * **Key Management:** Users generate their own keys and sign each other's public keys to validate identities. Keys are distributed via keyservers.
+    * **Adoption:** Popular among activists and technical communities but lacks mass adoption due to complexity.
+
+* **Metadata Risks**
+    * Both S/MIME and PGP encrypt the message *body* but leave headers (Subject, To, From, Date) in plaintext. This metadata can still reveal sensitive information about relationships and activities.
+
+---
+
+### 3.7 Other Cryptographic Applications and Concepts
+
+#### 3.7.1 Identity and Authentication
+* **USB Security Tokens**
+    * Physical devices (e.g., YubiKey) used as a second factor for authentication.
+    * **FIDO/U2F Standards:** Use public key cryptography. The token generates a unique key pair for every website registration.
+    * **Privacy by Design:** Unlike PKI smart cards which use a single global identifier, FIDO tokens are designed for **unlinkability**. They do not expose a global unique identifier (GUID) to websites, preventing trackers from correlating a user's activity across different services.
+    * **Continuity of Identity:** These tokens prove that the person logging in now is the same physical holder of the token who registered previously.
+
+#### 3.7.2 Digital Rights Management (DRM)
+* **Purpose:** To control access to and prevent unauthorized copying of copyrighted digital media (movies, software, music).
+* **Mechanism:** Content is distributed in encrypted form. The playback software/hardware holds the decryption keys but is programmed to obey usage rules (e.g., "stream only, no save").
+* **The Analog Hole:** Cryptography cannot prevent a user from recording the decrypted output (e.g., recording a screen with a camera).
+* **Cryptographic Erasure:** DRM systems can "expire" rented content by deleting the decryption key stored on the device, rendering the downloaded data useless without needing to overwrite the file itself.
+
+#### 3.7.3 Database and Advanced Encryption
+* **Database Encryption Levels**
+    * **Whole Disk:** Protects against physical theft of the server hardware.
+    * **File/Database Level:** Protects against OS-level intrusion; the database engine handles decryption.
+    * **Record/Field Level:** Encrypts specific sensitive fields (e.g., SSNs, credit card numbers) for granular security.
+
+* **Advanced Privacy Technologies**
+    * **Oblivious RAM (ORAM):**
+        * A technique to hide **access patterns** from the storage server.
+        * Even if data is encrypted, a server can infer information based on *which* records are accessed and *when*. ORAM shuffles data and makes dummy requests to obscure these patterns.
+    * **Homomorphic Encryption:**
+        * Allows computation to be performed on **encrypted data** without decrypting it.
+        * *Example:* A cloud service could calculate the average salary of a department using encrypted salary records and return the encrypted result, without ever seeing a single individual's salary.
+    * **Blockchain:**
+        * A distributed, immutable ledger utilizing hash chains (Merkle trees) and digital signatures.
+        * **Privacy Implication:** While often associated with anonymity, public blockchains (like Bitcoin) are **pseudonymous**. All transactions are public; if a user's public key is linked to their real identity, their entire financial history is exposed. Privacy-focused blockchains add layers of encryption to obscure transaction details.
