@@ -124,6 +124,125 @@ The chapter contrasts two organizational cultures regarding this cycle:
         * *LINDDUN:* A threat modeling method (discussed further in section 2.2.1.1).
         * *NIST Privacy Risk Assessment Methodology (PRAM):* For risk assessment (discussed further in section 2.2.2.3).
     * **Selection:** The choice of method depends on system complexity, environmental context, and organizational standards.
+
+### 2.1.4 Defect, Fault, Error, Failure, and Harm
+
+* **The Chain of Causality (IEEE Definitions)**
+    * **Defect:** A flaw in the requirements, design, or implementation (e.g., coding mistake) that can cause a fault.
+    * **Fault:** An incorrect step, process, or data definition within the computer program itself.
+    * **Error:** The discrepancy between a computed/observed condition and the correct, specified condition.
+    * **Failure:** The system's inability to perform its required function within the specified requirements.
+    * **Harm:** The actual or potential negative impact ("hazard") on an individual's privacy.
+
+* **Example Scenario: Unauthorized Disclosure of PII**
+    * **Defect:** Source code that fails to correctly check for authorization.
+    * **Fault:** The execution of that specific line of flawed code.
+    * **Error:** The internal system state where unauthorized access is granted (deviating from the correct state of "access denied").
+    * **Failure:** The external event where sensitive PII is actually disclosed to a third party.
+
+* **Types of Privacy Harm**
+    * **Objective Harm:** The unanticipated or coerced use of information against a person (measurable/observable).
+    * **Subjective Harm:** The perception of unwanted observation (fear/discomfort), regardless of whether it actually occurs.
+
+* **Daniel Solove’s Taxonomy of Privacy Problems**
+    Solove categorizes privacy harms into four distinct risk categories:
+    1.  **Information Collection:** (e.g., surveillance, interrogation).
+    2.  **Information Processing:** (e.g., aggregation, identification, secondary use).
+    3.  **Information Dissemination:** (e.g., breach of confidentiality, exposure).
+    4.  **Invasion:** (e.g., intrusion, decisional interference).
+
+* **The Engineer's Role**
+    * Public reports usually focus on the **Failure** or **Harm** (the outcome).
+    * Engineers must investigate to find the underlying **Errors, Faults, and Defects** (the root causes).
+    * Engineers can use regulatory enforcement actions and news reports to identify these underlying technical causes and prevent similar privacy violations in their own systems.
+
+### 2.1.5 Relevant Frameworks
+
+* **Purpose and Usage**
+    * Frameworks act as a collective resource for privacy engineers, covering requirements, design, controls, skills, and ethics.
+    * Organizations typically leverage multiple frameworks rather than relying on just one, as different frameworks align with different aspects of practice.
+
+* **Requirement and Control Frameworks**
+    * **Generally Accepted Privacy Principles (GAPP):** Developed by CPA Canada and the AICPA. It serves as a source of general privacy requirements and includes a maturity model for detailed criteria.
+    * **NIST Privacy Framework:** Breakdowns privacy risk management into five core activities: Identify, Govern, Control, Communicate, and Protect. These categories function as high-level requirements.
+    * **NIST Special Publication 800-53 (Revision 5):** A comprehensive catalog of security and privacy controls. While intended for U.S. federal systems, it is widely used by non-government organizations for its detail and assessment guidance.
+    * **ISO/IEC 27701:** An extension of the ISO/IEC 27001 security standard. It details controls specifically for Privacy Information Management Systems (PIMS).
+    * **ISO/IEC 27550:** Addresses the relationship between privacy engineering and other engineering disciplines (like systems and security engineering) and common life cycle processes.
+
+* **Privacy by Design (PbD) Standards**
+    * **ISO 31700:** A standard addressing Privacy by Design for consumer goods and services, containing 30 high-level requirements.
+    * **Institute of Operational Privacy Design (IOPD) Design Process Standard:** Specifies process requirements for integrating privacy into products and services across the entire life cycle.
+
+* **Workforce and Skills**
+    * **NIST NICE Framework (SP 800-181):** Provides a standard structure for defining cybersecurity and privacy roles and the necessary competencies.
+    * **Privacy Workforce Taxonomy:** An initiative by NIST to align workforce definitions with the NIST Privacy Framework.
+
+* **Ethical Frameworks**
+    * **Professional Codes:** Ethical codes from societies like the ACM serve as frameworks for ethical engineering practice.
+    * **ACM Code of Ethics:** Includes principles with direct implications for privacy engineering, such as "Respect Privacy" (Principle 1.6) and "Avoid Harm" (Principle 1.2), which help inform design trade-offs.
+### 2.2 Privacy Risk Management
+
+* **Overview**
+    * Risk management is integral to developing reliable systems.
+    * IT development involves **programmatic risk** (cost/schedule) and **technical risk** (technology specifics).
+    * IT professionals often perform the role of a **privacy risk analyst**.
+
+* **Definition of Risk**
+    * **Classic Equation:** Risk = (Probability of an adverse event) × (Impact of the event).
+    * **Numerical Measurement:**
+        * Uses specific numbers for probability and impact to compute a comparable score.
+        * **Challenge:** Often lacks the necessary empirical data or technical basis to be accurate.
+    * **Ordinal Measurement:**
+        * Uses relative scales (e.g., Low, Medium, High).
+        * **Limitations:** Subjective; relies on human perception/bias; cannot be used for standard arithmetic (e.g., Low + High ≠ Medium).
+    * **Quantitative Argument:** Authors like Hubbard, Seiersen, Freund, and Jones argue that quantitative measures are ascertainable and preferable to the imprecision of qualitative/ordinal measures.
+
+* **Privacy Risk Scale (Bhatia and Breaux)**
+    * An empirically validated scale based on the theory of perceived risk (Slovic).
+    * **Method:** Surveys data subjects on their willingness to share data based on social/physical distance to a privacy harm.
+    * **Scoring:** Measurements are multiplicative (e.g., a score of 4 is twice as risky as 2).
+    * **Findings:**
+        * "Induced disclosure" is perceived as lower risk than "surveillance" and "insecurity."
+        * Higher perceived benefits lead to lower perceived risk (consistent with the Privacy Paradox).
+        * Likelihood was not found to be a multiplicative factor in computing privacy risk for data subjects.
+
+* **Risk Model Components**
+    * Effective management requires a risk model that aligns three elements:
+        1.  **Threats**
+        2.  **Vulnerabilities** (exploited by threats)
+        3.  **Risks** (Adverse Events with likelihood and impact)
+
+* **Risk Management Framework**
+    * A step-by-step process for applying the risk model to identify and manage risks.
+
+* **Risk Management Options**
+    * **Accept:** Acknowledge the risk but take no action (suitable for low risks or when fixing is too costly).
+    * **Transfer:** Shift responsibility to another entity (e.g., purchasing cyber insurance, using third-party vendors).
+    * **Mitigate:** Implement controls or design changes to reduce likelihood or impact (e.g., using encryption to mitigate the risk of device theft).
+    * **Avoid:** Stop the activity, data collection, or system functionality that causes the risk. (Note: This is often difficult or impossible for essential functions).
+    * **Risk-Risk Trade-off:** A situation where a decision to manage one risk inadvertently introduces a new, different risk.
+
+### 2.2.1 Privacy Risk Modeling
+
+* **Purpose**
+    * To construct a comprehensive model that addresses **Threats**, **Vulnerabilities**, and **Consequences** (Adverse Events).
+    * Each component (Threat, Vulnerability, Consequence) constitutes a model in itself.
+
+* **Modeling Approaches**
+    * **System-Specific:** Developing a custom model from scratch tailored to the specific system.
+    * **Preexisting Models:** Using established, off-the-shelf models (e.g., LINDDUN, Solove’s Taxonomy).
+    * **Hybrid:** Using a preexisting model as a baseline and tailoring it to fit the specific system context.
+
+* **Execution Strategy**
+    * Analysts frequently start with a **Consequence Model** (Adverse Events) because it connects directly to impact.
+    * From the consequence, analysts work backward to identify the relevant vulnerabilities and threats.
+    * **Warning:** Relying solely on consequence models can lead to an abbreviated analysis that misses the root causes (threats/vulnerabilities).
+
+* **Available Component Models**
+    * **Consequence Models:** Compliance Model, Fair Information Practice Principles (FIPPs), Subjective/Objective Dichotomy (Calo), Taxonomy of Privacy Problems (Solove), NIST Problems for Individuals.
+    * **Vulnerability Models:** Contextual Integrity (Nissenbaum), NIST Problematic Data Actions.
+    * **Threat Models:** LINDDUN, MITRE PANOPTIC™.
+
 ### Reference
 **Book Title:** An Introduction to Privacy for Technology Professionals
 **Edition:** Second Edition
