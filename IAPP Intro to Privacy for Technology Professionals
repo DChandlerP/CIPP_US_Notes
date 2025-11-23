@@ -900,3 +900,82 @@ Based on section 2.2.2 of the text, here is a detailed summary of the **Privacy 
     * Tools incorporated *into* the system being built.
     * **Scope:** Functionality covered (e.g., privacy-preserving record linkage).
     * **Scale:** Where it sits (e.g., device-based identity management vs. centralized server-based adjudication).
+
+### 2.4.3 Quality Attributes
+
+* **Definition**
+    * Quality attributes describe crosscutting concerns that cannot be addressed by a single function (e.g., privacy, security, reliability, usability).
+    * Designers must translate requirements into designs that satisfy these attributes alongside specific functional needs.
+
+#### 2.4.3.1 Identifiability
+* **Overview**
+    * The extent to which an individual can be identified within the system.
+    * **Pseudonymity:** Using an alias (e.g., "user123") rather than a real name.
+    * **Anonymity:** No identifier is linked to the data.
+
+* **Linkability & Re-identification**
+    * **Quasi-identifiers:** Attributes that differ from PII but can be combined to identify a person.
+    * **Sweeney's Finding:** 87% of the U.S. population can likely be uniquely identified by the combination of gender, birth date, and zip code.
+    * **Risk:** If quasi-identifiers are not isolated, they can be linked across databases to re-identify individuals.
+
+* **Fingerprinting**
+    * **Browser Fingerprinting:** Using configuration attributes (OS, browser version, fonts, settings) to create a unique identifier for a user without cookies.
+    * **Classification:** This is a form of pseudonymity (the fingerprint acts as the substitute ID).
+
+#### 2.4.3.2 Fairness
+* **Context**
+    * Often relates to machine learning (ML) and automated decision-making.
+    * Systems inevitably reflect a specific, contextually relevant definition of fairness (e.g., equal false positive rates vs. equal false negative rates), which may be mutually exclusive.
+* **Privacy Implication:** Design choices regarding fairness directly impact **autonomy** and **intrusion**.
+
+#### 2.4.3.3 Network Centricity
+* **Definition**
+    * The extent to which personal information remains local to the client versus being centralized on a server.
+* **Privacy Implications**
+    * **Client-Side Bias:** Keeping data local reduces risks of inappropriate server-side disclosure/secondary use and enhances user control.
+    * **Design Challenge:** Requires designers to push application logic to the client (e.g., smartphone) rather than relying on centralized processing.
+
+#### 2.4.3.4 Confidentiality
+* **Definition**
+    * Ensuring that only authorized parties can access specific data.
+* **Mechanisms**
+    * **Access Control:** Determining who can see what (e.g., Access Control Lists).
+    * **Encryption/Tokenization:** Scrambling data (e.g., using Format Preserving Encryption to maintain data readability for specific formats while hiding the actual value).
+* **Business Alignment**
+    * Confidentiality requires access controls to map strictly to business functions.
+    * *Example:* IRS tax processors are authorized to view returns, but only the specific returns they are currently processing ("browsing" other records is a breach).
+* **Granularity**
+    * **Coarse-Grained:** Access to an entire database or table.
+    * **Fine-Grained:** Access restricted to specific rows or cells (required for effective privacy).
+
+#### 2.4.3.5 Availability
+* **Definition**
+    * Ensuring information is available when needed (uptime, reliability).
+* **Privacy Implications (Data Persistence)**
+    * Availability requires backups, replication, and archives.
+    * **Risk:** Data deleted from a production database may persist in backups for years.
+    * **Consequence:** "Deleted" data remains accessible for forensic investigation or inappropriate disclosure.
+* **Mitigation:** Retention requirements must be established early and traced to design/implementation to ensure data is truly destroyed across all storage tiers.
+
+#### 2.4.3.6 Integrity
+* **Definition**
+    * The extent to which the system maintains a reliable state.
+    * **Data Quality:** Accuracy, Completeness, and Currency (up-to-date).
+* **Privacy Implication: Decisional Interference**
+    * Inaccurate data leads to incorrect decisions made about an individual (a privacy harm in Solove's taxonomy).
+    * *Example:* A woman lost insurance coverage because a data broker (ChoicePoint) incorrectly recorded her claims and fed that bad data to the state insurance department.
+    * *Example:* Missing medical information can lead to misdiagnosis.
+* **Design Considerations**
+    * **Data Entry:** Are there cross-checks for manual entry?
+    * **Restoration:** Do corrections propagate to backups? If a backup is restored, does it overwrite corrections?
+    * **Participation:** Allowing individuals to access and correct their own data reduces reliance on fallible internal mechanisms.
+
+#### 2.4.3.7 Mobility
+* **Definition**
+    * The extent to which a system moves from one location to another.
+* **Location Tracking Risks**
+    * Mobility introduces location data, which creates surveillance risks.
+    * *Example:* The Nissan Leaf "Carwings" system broadcasted GPS location (latitude/longitude/speed) via RSS feeds even though the info wasn't needed for the RSS feature.
+* **Physical Risks**
+    * Mobile devices are frequently lost or stolen.
+    * **Design Defense:** Avoid storing sensitive data locally on mobile devices; if storage is necessary, use strict encryption.
