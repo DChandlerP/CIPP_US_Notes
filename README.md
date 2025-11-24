@@ -49,6 +49,35 @@ Data can be transformed from "personal" to "non-personal" to avoid regulation:
 **Key Terminology:**
 * **Processing:** Any operation performed on data (collection, storage, deletion, etc.).
 
+* **Fair Information Practices (FIPs/FIPPs)**
+    * **Definition:** Principles guiding data collection, storage, and management for fairness, privacy, and security.
+    * **Role:** Foundation for data privacy laws/regulations (often not legally binding themselves).
+
+* **US Frameworks**
+    * **1973 HEW Report:** First US articulation. Five principles: no secret records, individual access, limit secondary use, correction rights, data reliability.
+    * **Privacy Act of 1974:** Codified FIPs for federal agencies.
+    * **2012 White House Report:** Proposed "Consumer Privacy Bill of Rights" (individual control, transparency, accountability).
+    * **2012 FTC Report:**
+        * **Privacy by Design:** Build privacy in at development stage.
+        * **Simplified Consumer Choice:** Meaningful options (e.g., Do-Not-Track).
+        * **Transparency:** Clear notices and access.
+
+* **International Frameworks**
+    * **OECD Guidelines (1980):** Eight principles (Collection Limitation, Data Quality, Purpose Specification, Use Limitation, Security Safeguards, Openness, Individual Participation, Accountability).
+    * **Council of Europe Convention 108 (1981):** Binding agreement requiring FIPs in domestic law.
+    * **Madrid Resolution (2009):** Standards for transborder data flow (Lawfulness, Purpose Specification, Proportionality, Data Quality, Openness, Accountability).
+
+* **Common Themes**
+    * **Individual Rights:**
+        * **Notice:** Informing consumers of practices.
+        * **Consent:** Control over data use (Opt-in/Opt-out).
+        * **Access:** Right to view/correct data.
+    * **Organizational Management:**
+        * **Security Controls:** Physical, technical, administrative safeguards.
+        * **Data Quality:** Accuracy, completeness, relevance.
+        * **Collection/Use Limits:** Data minimization and retention limits.
+        * **Accountability:** Monitoring, training, and assigning responsibility.
+
 ---
 # 1. Branches of U.S. Government
 
