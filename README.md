@@ -1,4 +1,18 @@
-## 1. Branches of U.S. Government
+# Introduction to Privacy
+
+Before diving into the legal framework, it is important to understand the four broad categories of privacy that U.S. law and the CIPP/US exam cover:
+
+* **Information Privacy:** The claim of individuals to determine for themselves when, how, and to what extent information about them is communicated to others.
+    * *Examples:* Financial data, medical records, personal marketing data.
+* **Bodily Privacy:** The protection of a person's physical being against invasive procedures.
+    * *Examples:* Genetic testing, drug testing, body cavity searches.
+* **Communication Privacy:** The security and privacy of mail, telephones, email, and other forms of communication.
+    * *Examples:* Wiretapping, opening mail, intercepting email.
+* **Territorial Privacy:** Limits on intrusion into domestic and other environments (the "right to be left alone").
+    * *Examples:* Home searches, workplace monitoring, video surveillance.
+
+---
+# 1. Branches of U.S. Government
 
 The U.S. federal government operates on a system of checks and balances with three coequal branches.
 
