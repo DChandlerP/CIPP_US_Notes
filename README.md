@@ -11,6 +11,44 @@ Before diving into the legal framework, it is important to understand the four b
 * **Territorial Privacy:** Limits on intrusion into domestic and other environments (the "right to be left alone").
     * *Examples:* Home searches, workplace monitoring, video surveillance.
 
+## 1. Personal vs. Non-Personal Information
+* **Scope:** U.S. privacy laws generally protect "personal information" (PI) or "personally identifiable information" (PII). Non-personal info is usually not regulated.
+* **Key Factor:** The distinction often depends on how easily the data can be associated with a specific person.
+
+### Identified vs. Identifiable
+* **Identified Individual:** Someone who can be ascertained with certainty (e.g., via Social Security Number).
+* **Identifiable Individual:** Someone who can be indirectly identified through a combination of factors (e.g., combining a city, street address, and gender).
+    * *Note:* This is a sliding scale. The more data you combine, the more "identifiable" a person becomes.
+    * **IP Addresses:** Historically considered non-personal by U.S. courts, but the FTC increasingly views static IP addresses as identifiable PI.
+
+## 2. Sensitive Personal Information
+* Some laws only regulate specific subsets of sensitive data rather than all PI.
+* **Examples:**
+    * **HIPAA:** Regulates personal health records, not all data held by a facility.
+    * **FCRA:** Places tighter restrictions on medical records within consumer reports.
+
+## 3. Data Protection Techniques
+Data can be transformed from "personal" to "non-personal" to avoid regulation:
+* **Encryption:** Transforming data into an unrecognizable form (ciphertext).
+* **Anonymization:** Stripping data of identifying information (irreversible).
+* **Pseudonymization:** Replacing identifiers with a pseudonym/code.
+    * *Benefit:* It is reversible (can be re-identified) if you have the key.
+
+## 4. Sources of Information
+* **Public Records:** (e.g., court filings) - generally less protected.
+* **Publicly Available:** (e.g., social media) - broadly accessible.
+* **Non-Public Information:** This is the primary focus of privacy protection laws.
+
+## 5. Key Data Roles (GDPR & Industry Standard)
+* **Data Subject:** The individual whose information is being processed.
+* **Data Controller:** The entity that **decides** how and why data is processed (has the ultimate authority).
+* **Data Processor:** The entity that processes data **on behalf of** the controller.
+    * *Limit:* Can only do what the controller authorizes.
+    * *Synonyms:* "Business Associate" (HIPAA), "Service Provider" (GLBA).
+
+**Key Terminology:**
+* **Processing:** Any operation performed on data (collection, storage, deletion, etc.).
+
 ---
 # 1. Branches of U.S. Government
 
