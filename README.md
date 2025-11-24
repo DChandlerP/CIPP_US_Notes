@@ -108,21 +108,33 @@ The U.S. federal government operates on a system of checks and balances with thr
 ---
 
 ## 2. Sources of Law
-
 Laws in the United States come from a variety of sources:
 
-* **Constitutional Law:** The highest possible source of law; no other law may conflict with it. The **Supremacy Clause** (Article VI) establishes that the Constitution is the supreme law of the land.
-    * The word *privacy* does not appear in the Constitution, but constitutional protections are established by the **Fourth Amendment** (protects against unreasonable searches and seizures) and Supreme Court precedent.
+* **Constitutional Law:** The highest possible source of law; no other law may conflict with it.
+    * *Supremacy Clause (Article VI):* Establishes the Constitution as the supreme law of the land.
+    * *Privacy Protections:* The word "privacy" does not appear in the text, but protections are derived from:
+        * **3rd Amendment:** Prohibition on quartering soldiers (privacy of the home).
+        * **4th Amendment:** Protection against unreasonable searches and seizures.
+        * **5th Amendment:** Protection against self-incrimination.
+        * **14th Amendment:** Due process and liberty clauses.
+    * *State Constitutions:* Can provide **greater** privacy rights than the federal constitution (e.g., California), but cannot provide less (federal law sets the "floor").
+
 * **Legislation (Statutes):** Laws passed by Congress (federal) or state legislatures.
-    * Federal laws are compiled in the **U.S. Code**.
+    * *Preemption:* Federal law generally preempts state law, but states can often legislate where federal law is silent or to provide stricter protections.
+    * Federal laws are compiled in the *U.S. Code*.
+
 * **Administrative Law:** Rules and regulations created by executive branch agencies to implement statutes.
-    * Commonly documented in the **Code of Federal Regulations (CFR)**.
-    * *Example:* The HIPAA Privacy Rule and Security Rule were created by HHS to implement the HIPAA statute.
-* **Case Law:** Interpretations of law made by courts over time to resolve disputes.
-    * **Stare Decisis:** (Latin for "let the decision stand") The principle that previous decisions on questions of law serve as **precedent** guiding future decisions.
-* **Common Law:** A set of judicial precedents, originating from the English court system, that guides decisions even if not codified in legislation (e.g., torts like negligence).
-* **Contract Law:** Legally binding agreements between parties to exchange things of value.
-    * Requires: capacity, an offer, acceptance, **consideration** (exchange of value), and mutual intent to be bound.
+    * *Formal Rulemaking:* Legally binding rules (e.g., HIPAA Privacy Rule) documented in the *Code of Federal Regulations (CFR)*.
+    * *Informal Guidance:* Agency reports, speeches, and workshops that interpret law but strictly speaking are not binding.
+
+* **Common Law (Case Law):** Legal principles developed over time through judicial decisions rather than statutes.
+    * *Stare Decisis:* ("To stand by things decided") The principle that courts should follow prior *precedent* to keep the law stable.
+    * *Torts:* Civil wrongs (like negligence or invasion of privacy) often stem from common law.
+
+* **Contract Law:** Legally binding agreements between parties.
+    * *Elements:* Requires an **Offer**, **Acceptance**, and **Consideration** (exchange of value).
+    * *Meeting of the Minds:* The moment of mutual assent when offer and acceptance align.
+    * *Consent Decree:* A specific type of contract (settlement) used in government enforcement (e.g., FTC). The defendant agrees to stop the illegal action and pay fines **without admitting guilt**.
 
 ---
 
