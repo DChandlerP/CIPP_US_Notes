@@ -134,11 +134,13 @@ Laws in the United States come from a variety of sources:
     * *Stare Decisis:* ("To stand by things decided") The principle that courts should follow prior *precedent* to keep the law stable.
     * *Torts:* Civil wrongs (like negligence or invasion of privacy) often stem from common law.
 
-* **Contract Law:** Legally binding agreements between parties.
-    * *Elements:* Requires an **Offer**, **Acceptance**, and **Consideration** (exchange of value).
-    * *Meeting of the Minds:* The moment of mutual assent when offer and acceptance align.
-    * *Consent Decree:* A specific type of contract (settlement) used in government enforcement (e.g., FTC). The defendant agrees to stop the illegal action and pay fines **without admitting guilt**.
-
+* **Remedies for Breach:**
+        * **Monetary Damages:**
+            * *Expectation Interest:* Puts the plaintiff in the position as if the contract had been performed (benefit of the bargain).
+            * *Reliance Interest:* Compensates for loss suffered by relying on the contract (puts plaintiff back to pre-contract position).
+            * *Restitution Interest:* Prevents unjust enrichment of the breaching party.
+        * **Specific Performance:** A court orders the breaching party to perform their contractual duties (used when money damages aren't enough).
+  
 ---
 
 ## 3. Core Legal Concepts
