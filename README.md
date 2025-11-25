@@ -120,7 +120,10 @@ Laws in the United States come from a variety of sources:
     * *State Constitutions:* Can provide **greater** privacy rights than the federal constitution (e.g., California), but cannot provide less (federal law sets the "floor").
 
 * **Legislation (Statutes):** Laws passed by Congress (federal) or state legislatures.
-    * *Preemption:* Federal law generally preempts state law, but states can often legislate where federal law is silent or to provide stricter protections.
+    * **Preemption:** Federal law generally preempts state law (based on the **Supremacy Clause**).
+        * **Express Preemption:** The federal law specifically states it overrides state law (e.g., **CAN-SPAM** expressly preempts most state anti-spam laws).
+        * **Implied Preemption:** Courts determine that Congress intended to preempt state law even if not explicitly stated.
+        * *Note on the 10th Amendment:* Powers not delegated to the federal government are reserved to the States, allowing for state-level privacy laws (like CCPA) where federal law is silent.
     * Federal laws are compiled in the *U.S. Code*.
 
 * **Administrative Law:** Rules and regulations created by executive branch agencies to implement statutes.
@@ -148,7 +151,9 @@ A court's authority to render legal judgments has two elements:
     * Place of residence or business.
     * **Consent** (e.g., a clause in a contract).
     * **Minimum contacts** (conducting business within a state).
-* **Subject Matter Jurisdiction:** A court's authority to hear cases on a **particular area of the law** (e.g., federal courts over federal law).
+* **Subject Matter Jurisdiction:** A court's authority to hear specific types of disputes.
+        * **General vs. Limited:** State courts have *general jurisdiction* (can hear almost anything), while federal courts have *limited jurisdiction* (only specific types of cases, like those involving federal laws or diversity of citizenship).
+        * **Exclusive Jurisdiction:** When *only* a specific court can hear a case (e.g., bankruptcy or copyright cases *must* be heard in federal court).
 
 ### Legal Definitions
 * **Person:** A legal entity that can sue, be sued, own property, and sign contracts. Includes **human beings** (citizens, residents) and **legal organizations** (corporations).
@@ -180,31 +185,37 @@ Liability is being responsible or answerable in law.
 
     # Regulatory Enforcement in U.S. Privacy
 
-## Federal Regulatory Authorities
+---
+## 4. Regulatory Authorities
+Privacy regulation in the U.S. follows a **sectoral model**, meaning different agencies regulate different industries.
 
-The **executive branch** enforces privacy laws through various agencies, often relying on the authority granted by different statutes.
+### Federal Regulatory Authorities
+* **Federal Trade Commission (FTC):** The primary federal privacy regulator.
+    * **Authority:** Regulates "unfair or deceptive acts or practices" (Section 5 of the FTC Act).
+    * **Specifics:** Enforces the Telemarketing Sales Rule and children's privacy (COPPA).
+* **Federal Communications Commission (FCC):** Regulates telecommunications (e.g., TCPA).
+* **Dept. of Health and Human Services (HHS):** Enforces HIPAA (Privacy and Security Rules) for healthcare.
+* **Financial Regulators:**
+    * **CFPB (Consumer Financial Protection Bureau):** Regulates consumer financial products and parts of FCRA.
+    * **Federal Reserve & OCC:** Regulate banking institutions.
+* **Department of Commerce (DOC):**
+    * **Role:** Policy development and international frameworks (e.g., Data Privacy Framework).
+    * **Key Note:** The DOC **does not** have enforcement authority.
 
-### Federal Trade Commission (FTC)
-* **Key Authority:** The FTC Act grants authority over **Unfair and Deceptive Trade Practices (UDTPs)**, which is the primary basis for regulating privacy and cybersecurity.
-* **Structure:** An independent agency led by five commissioners, with no more than three from the same political party.
-* **Additional Laws:** Also enforces laws like the **Children’s Online Privacy Protection Act (COPPA)**.
-* **Enforcement Process:**
-    * Initiates **investigations** based on consumer complaints or other stimuli.
-    * May issue a formal **complaint**.
-    * Contested cases go before an **Administrative Law Judge (ALJ)**, with appeals possible to the FTC Commissioners and then the federal court system.
-    * Most cases settle via an informal resolution or a formal, enforceable **consent decree**.
+### State Regulatory Authorities
+* **State Attorneys General (AG):** The chief legal officers of the states.
+    * **Powers:** Enforce state privacy laws (UDAP statutes).
+    * **Federal Enforcement:** Uniquely, State AGs can bring enforcement actions under certain *federal* laws, specifically **HIPAA** and **FCRA**.
+* **California Privacy Protection Agency (CPPA):** The first dedicated state-level privacy agency in the U.S. (created by CPRA).
+* **State Departments of Insurance:**
+    * Insurance is regulated at the **state level** (not federal).
+    * **NAIC:** The National Association of Insurance Commissioners sets standards (e.g., Insurance Data Security Model Law).
 
-### Unfair and Deceptive Trade Practices (UDTP)
-A practice may be unfair, deceptive, or both.
-
-| Standard | Criteria | Core Focus |
-| :--- | :--- | :--- |
-| **Unfair Practices** | 1. Injury must be **substantial** (financial harm or unwarranted health/safety risk). | Requires a finding that the injury is not outweighed by benefits and is not reasonably avoidable. |
-| | 2. Injury must not be **outweighed by countervailing benefits** to consumers/competition. | Often applies when a company **fails to implement security controls** to enforce its own privacy policy (e.g., *Wyndham Worldwide*, *LabMD*). |
-| | 3. Injury must not be **reasonably avoidable** by consumers. | |
-| **Deceptive Practices** | 1. Practice must be **likely to mislead** the consumer (representation or omission). | Must be material—likely to affect the consumer’s conduct or decision regarding the product or service. |
-| | 2. Examined from the perspective of a **consumer acting reasonably**. | Enforcement focuses on misrepresentations about data use, security, and message retention (e.g., *Facebook*, *Zoom*, *Snapchat*). |
-| | 3. The representation, omission, or practice must be **material**. | |
+### Self-Regulatory Organizations (SROs)
+Industry bodies that create and enforce their own privacy standards.
+* **PCI-DSS:** Security standards for the payment card industry (credit cards).
+* **DAA / NAI:** Standards for online behavioral advertising and ad-tech.
+* **Trust Marks:** Certification programs (badges) that verify a business's privacy practices.
 
 
 # FTC Privacy Enforcement Case Examples (UDTP)
