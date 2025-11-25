@@ -183,8 +183,13 @@ Liability is being responsible or answerable in law.
     3.  **False light:** Disclosing information that causes a person to be **falsely perceived** by others.
     4.  **Appropriation:** Unauthorized use of someone’s name or likeness.
 
-    # Regulatory Enforcement in U.S. Privacy
-
+### Framework for Analyzing a Law
+When determining if a law applies to a specific scenario, follow this hierarchy:
+* **1. Scope (Who):** Does the law apply to the specific entity? (e.g., HIPAA applies to "Covered Entities," but not to a fitness app).
+* **2. Application (What):** Does the law protect the specific type of data involved? (e.g., FCRA applies to "Consumer Reports," but not to internal marketing lists).
+* **3. Preemption:** If it is a state law, has it been preempted (overridden) by a federal statute?
+* **4. Enforcement:** Who has the authority to enforce it (FTC, State AG, Private Right of Action) and what are the penalties?
+    
 ---
 ## 4. Regulatory Authorities
 Privacy regulation in the U.S. follows a **sectoral model**, meaning different agencies regulate different industries.
