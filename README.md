@@ -162,13 +162,19 @@ A court's authority to render legal judgments has two elements:
     * **Contains PRA:** CCPA (California Consumer Privacy Act).
     * **Lacks PRA:** FERPA, GLBA, HIPAA.
 
-### Legal Liability
+## Legal Liability
 Liability is being responsible or answerable in law.
 
-| Type | Description | Standard of Proof |
+### Civil vs. Criminal Litigation
+| *Feature* | *Civil Litigation* | *Criminal Litigation* |
 | :--- | :--- | :--- |
-| **Criminal Liability** | Violating a criminal law (requires *mens rea* or "guilty mind"). | **Beyond a reasonable doubt** |
-| **Civil Liability** | Failing to carry out a legal duty (e.g., breach of contract, torts). | **Preponderance of the evidence** (greater than 50% chance) |
+| *Who brings suit?* | **Plaintiff** (Private individual, Company, or Agency like FTC) | **Prosecutor** (Government only: DOJ or State AG) |
+| *Basis* | Civil wrong (Tort, Breach of Contract, Statutory violation) | Violation of Criminal Statute |
+| *Standard of Proof* | **Preponderance of the evidence** (More likely than not / >50%) | **Beyond a reasonable doubt** (Highest standard; presumption of innocence) |
+| *Remedy/Punishment* | Money damages, Injunctions (court orders), Declaratory judgment | Imprisonment, Criminal Fines |
+| *Procedural Protections* | Standard due process | Enhanced protections (e.g., right to speedy trial, right to counsel) |
+
+> **Key Example:** While most privacy enforcement is civil, the **Wiretap Act** (Title III) explicitly provides for criminal penalties, including fines up to $250,000 and imprisonment of up to 5 years.
 
 ### Torts and Negligence
 * **Tort:** A civil wrong that involves harm to one party caused by the action or inaction of another, *not* involving a contract.
