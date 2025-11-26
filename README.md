@@ -238,9 +238,22 @@ Privacy regulation in the U.S. follows a **sectoral model**, meaning different a
 
 ### Self-Regulatory Organizations (SROs)
 Industry bodies that create and enforce their own privacy standards.
+- **Theory of Self-Regulation:**
+    - *Benefits:* Utilizes industry expertise, efficient, flexible, and quicker to adapt to technology changes than government regulation.
+    - *Critiques:* Can be anti-competitive, enforcement may be lax ("fox guarding the henhouse"), and may lack diverse stakeholder input.
 * **PCI-DSS:** Security standards for the payment card industry (credit cards).
+- *Enforcement:* The PCI Council *sets* the standards, but the individual *Card Brands* (Visa, Amex, etc.) *enforce* them.
+        - Penalties can range from $5,000 to $100,000 per month.
+    - *Compliance Verification:*
+        - **Qualified Security Assessor (QSA):** Hired to assess security.
+        - **Approved Scanning Vendor (ASV):** Hired to detect vulnerabilities.
 * **DAA / NAI:** Standards for online behavioral advertising and ad-tech.
+  - **AdChoices:** The DAA's specific program/icon that allows consumers to opt-out of online interest-based ads.
 * **Trust Marks:** Certification programs (badges) that verify a business's privacy practices.
+* - **Co-Regulatory Enforcement:**
+    - Occurs when industry groups and government jointly administer regulations.
+    - *Prime Example (COPPA):* The FTC allows companies to satisfy COPPA requirements by complying with the rules of an FTC-approved "Safe Harbor" program.
+    - *Safe Harbor Orgs:* Aristotle, CARU, ESRB, iKeepSafe, kidSAFE, PRIVO, TrustArc.
 
 
 # FTC Privacy Enforcement Case Examples (UDTP)
