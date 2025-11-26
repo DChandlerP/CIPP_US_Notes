@@ -227,6 +227,10 @@ Privacy regulation in the U.S. follows a **sectoral model**, meaning different a
 * **State Attorneys General (AG):** The chief legal officers of the states.
     * **Powers:** Enforce state privacy laws (UDAP statutes).
     * **Federal Enforcement:** Uniquely, State AGs can bring enforcement actions under certain *federal* laws, specifically **HIPAA** and **FCRA**.
+  - **Coordination:** States often coordinate via the *National Association of Attorneys General (NAAG)* to facilitate information exchange and multi-state actions.
+- **UDAP Specifics:**
+    - Every state has a UDAP statute.
+    - **Private Right of Action (PRA):** Every state provides a PRA under their UDAP statute *except for Iowa*.
 * **California Privacy Protection Agency (CPPA):** The first dedicated state-level privacy agency in the U.S. (created by CPRA).
 * **State Departments of Insurance:**
     * Insurance is regulated at the **state level** (not federal).
@@ -742,7 +746,12 @@ The Asia-Pacific Economic Cooperation (APEC) promotes flexible mechanisms to fac
     8.  Access and Correction
     9.  Accountability
 * **Cross-Border Privacy Rules (CBPR):** A voluntary safe harbor system where companies are certified by third parties (like TrustArc in the U.S.) to demonstrate compliance with APEC principles.
+- **Cross-border Privacy Enforcement Arrangement (CPEA):**
+    - A framework for regional cooperation specifically for *Privacy Enforcement Authorities (PE Authorities)* to share information and conduct joint investigations.
+    - *Distinction:* Unlike the CBPR (which certifies *companies*), the CPEA connects *regulators*.
+    - The U.S. is a member of the CPEA.
 
 ### Global Cooperation & Enforcement
 * **Global Privacy Enforcement Network (GPEN):** Created by the OECD. It is not a regulatory framework but a network to facilitate cooperation, information sharing, and training among privacy enforcement authorities globally.
+  - *U.S. Participation:* The U.S. participates through the **FTC**, the **FCC**, and the **California Attorney General**.
 * **Conflict Resolution:** There is no single international law to resolve conflicts. Companies must rely on data management programs and legal counsel to navigate contradictions (e.g., when U.S. law mandates disclosure that EU law prohibits).
