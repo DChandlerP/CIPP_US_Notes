@@ -129,6 +129,10 @@ Laws in the United States come from a variety of sources:
 * **Administrative Law:** Rules and regulations created by executive branch agencies to implement statutes.
     * *Formal Rulemaking:* Legally binding rules (e.g., HIPAA Privacy Rule) documented in the *Code of Federal Regulations (CFR)*.
     * *Informal Guidance:* Agency reports, speeches, and workshops that interpret law but strictly speaking are not binding.
+    * - **Administrative Enforcement Actions:**
+    - Considered a "third category of litigation" (alongside civil and criminal).
+    - **Adjudication:** Typically litigated before an *Administrative Law Judge (ALJ)* rather than a standard court. ALJ decisions are often subject to appeal in a federal civil court.
+    - **Administrative Procedure Act (APA):** The federal statute that acts as the rulebook for these actions (similar to the Federal Rules of Civil Procedure). It governs the process unless a specific statute (like the *FTC Act*) mandates different procedures.
 
 * **Common Law (Case Law):** Legal principles developed over time through judicial decisions rather than statutes.
     * *Stare Decisis:* ("To stand by things decided") The principle that courts should follow prior *precedent* to keep the law stable.
@@ -208,6 +212,10 @@ Privacy regulation in the U.S. follows a **sectoral model**, meaning different a
     * **Specifics:** Enforces the Telemarketing Sales Rule and children's privacy (COPPA).
 * **Federal Communications Commission (FCC):** Regulates telecommunications (e.g., TCPA).
 * **Dept. of Health and Human Services (HHS):** Enforces HIPAA (Privacy and Security Rules) for healthcare.
+  - **Concurrent Jurisdiction:** Multiple agencies may have authority over the same issue.
+    - *Example (HIPAA):* - **HHS:** Has primary administrative enforcement authority.
+        - **DOJ:** Has jurisdiction to bring *criminal* charges for certain violations.
+        - **FTC:** Can simultaneously enforce under Section 5 if the violation also constitutes an "unfair or deceptive" practice.
 * **Financial Regulators:**
     * **CFPB (Consumer Financial Protection Bureau):** Regulates consumer financial products and parts of FCRA.
     * **Federal Reserve & OCC:** Regulate banking institutions.
