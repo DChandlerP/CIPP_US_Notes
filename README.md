@@ -78,6 +78,7 @@ Data can be transformed from "personal" to "non-personal" to avoid regulation:
         * **Collection/Use Limits:** Data minimization and retention limits.
         * **Accountability:** Monitoring, training, and assigning responsibility.
 
+
 ---
 # 1. Branches of U.S. Government
 
@@ -327,6 +328,29 @@ Developing an inventory is the first step in managing sensitive data. Organizati
 
 * This process produces **data flow diagrams** that vary in detail (technical vs. business process).
 * Diagrams help identify potential privacy and regulatory concerns, especially with **third-party data sharing**.
+
+### Data Assessment Practices
+
+- Ongoing activity: Data assessments are not one-time projects. They should be revisited on a regular cadence and after major business or technology changes to keep inventories, maps, and classifications accurate.
+
+- Core assessment questions: Key questions include where data is stored and who owns it, what information flows into and out of systems (including cross-border transfers), the volume and format of data, what it is used for, which categories of personal or sensitive data are involved, and which third parties receive or access it.
+
+- Assessment approaches: 
+  - Top-down assessments focus on legal and regulatory requirements and then evaluate whether systems and processes meet those obligations.
+  - Bottom-up assessments start from specific data assets or systems (such as a local database or a cloud application) and trace how data enters, is processed, and leaves those assets.### Privacy Programs and Organizational Roles
+
+#### Privacy Programs as Organization-Wide Efforts
+
+- Privacy program: The organizational process used to meet legal compliance obligations, market expectations, and data security goals for handling personal information. It should be tailored to the unique obligations, risk profile, and business model of each organization.
+
+- Program purpose: Facilitate a clear understanding of how the organization collects, uses, shares, and retains personal data, while balancing business needs with data protection, auditability, and accountability.
+
+- Cross-functional collaboration: Effective privacy programs depend on collaboration across legal, compliance, information security, information technology, risk, marketing, HR, and other business units, not just a standalone privacy team.
+
+- Functional implementation: Even when there is a centralized privacy office, privacy policies and standards are implemented at the functional level (e.g., marketing, product, operations), so those teams must understand and support privacy goals.
+
+- Dedicated vs distributed teams: Large organizations may have a dedicated privacy team; others rely on functional groups (e.g., IT, legal, compliance, security) to share responsibility for privacy activities as part of their broader roles.
+
 
 ### Data Lifecycle Management
 Data protection must be maintained from collection to disposal.
