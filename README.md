@@ -404,6 +404,31 @@ Developing an inventory is the first step in managing sensitive data. Organizati
 * **Incident response:** A predefined incident response program prepares the organization to detect, escalate, and remediate privacy incidents and data breaches in a way that aligns with legal requirements.
 * **Internal audit and risk management:** Internal audit tests controls and reports on privacy-related risks, while risk management functions analyze and communicate business, regulatory, and operational risk relevant to privacy.
 
+#### Workforce Training and Awareness
+
+* **Role in accountability:** A well-trained workforce is essential to the accountability principle and to effective implementation of privacy programs, data inventories, classifications, and incident response plans.
+* **Scope of training:** Employees, contractors, and relevant third parties should receive role-appropriate training and periodic refreshers on organizational policies, procedures, and security practices.
+
+##### Employee Data Leaks and Human Error
+
+* **Human error as a major cause:** A significant portion of security incidents and breaches arise from human error, including falling for phishing or social engineering, misconfiguring systems, or mishandling documents and devices.
+* **Inadvertent disclosures:** Training should address non-malicious leaks such as leaving documents exposed, improper disposal of records, or failing to follow “clean desk” and similar physical security practices.
+* **Behavioral focus:** Effective programs teach employees how to recognize and respond to phishing, social engineering, and other threats, and how to escalate incidents promptly.
+
+##### Legal and Regulatory Training Requirements
+
+* **HIPAA:** Covered entities must train all workforce members on policies and procedures for protected health information within a reasonable time after hire and whenever there is a material change, and must document that training.
+* **GLBA Safeguards Rule:** Financial institutions must train staff to implement the information security program, including specialized training where appropriate (for example, fraud and identity theft recognition, computer security, and secure disposal of customer information).
+* **FTC Red Flags Rule:** Entities that maintain “covered accounts” must establish an identity theft prevention program, including workforce training as necessary to implement the program effectively.
+* **Massachusetts Data Security Regulations:** Any person or entity that owns or licenses personal information about a Massachusetts resident must maintain a written information security program that includes ongoing employee training and training on the proper use of the computer security system.
+* **Self-regulatory programs (PCI-DSS):** The PCI Data Security Standard requires a security awareness program to make all personnel aware of cardholder data security, with training at hire and at least annually, and verification that training occurred.
+
+##### Key Training Takeaways
+
+* **Risk reduction:** Effective training can reduce both the frequency and cost of data breaches by improving detection, reporting, and prevention of incidents.
+* **Documentation and metrics:** Organizations should document training completion, track participation, and treat training effectiveness as a measurable component of the privacy and security program.
+
+
 ### Implementation and Metrics
 
 * **Implementation and communication:** Successfully implementing a privacy framework requires communicating it to internal and external stakeholders and embedding its requirements into processes and technology, rather than leaving it as documentation only.
