@@ -351,6 +351,28 @@ Developing an inventory is the first step in managing sensitive data. Organizati
 
 - Dedicated vs distributed teams: Large organizations may have a dedicated privacy team; others rely on functional groups (e.g., IT, legal, compliance, security) to share responsibility for privacy activities as part of their broader roles.
 
+#### Key Organizational Privacy Roles
+
+* **Data Protection Officer (DPO):** Most common title for employees involved in the privacy function; originates in GDPR, which mandates DPOs for many organizations, but the title is widely used even where not legally required.
+* **Designated privacy leader:** Laws such as the GLBA Safeguards Rule and other sectoral regulations often require a specific individual to be accountable for privacy or information security programs, increasing organizational accountability and providing a clear point of contact for regulators and data subjects.
+* **Privacy Leader:** The most senior employee with oversight of the privacy program; common titles include Chief Privacy Officer, DPO, Director of Privacy, and Privacy Officer, though in some organizations the CIO, CTO, CEO, or another executive fills this role.
+
+##### Core Privacy Team Roles
+
+* **Chief Privacy Officer (CPO):** Senior management role that leads the privacy team, oversees compliance and training, and serves as the organization’s primary internal expert on privacy.
+* **Privacy Manager:** Provides day-to-day oversight and coordination of privacy initiatives, supports business units, promotes privacy practices, and ensures alignment with applicable laws and internal policies.
+* **Privacy Analyst:** Assesses privacy risks in business operations, contributes to policies and procedures, develops training content, and often reviews privacy and data-use provisions in third-party contracts and new initiatives.
+* **Privacy Engineer:** Translates legal and policy requirements into technical solutions, applies privacy by design to products and services, and advises on how new technologies affect personal data processing.
+* **Information Security Specialist:** Brings security expertise to the privacy program, designs and reviews technical controls, and acts as a liaison between privacy and information security functions.
+
+##### Distributed and Support Roles
+
+* **Line-of-Business Privacy Steward:** Embedded within a business unit as a front-line contact for privacy, responsible for spotting issues, escalating concerns, and helping the unit apply organizational privacy policies.
+* **Privacy Attorney / Privacy Counsel:** Provides legal advice on privacy and data protection issues, supports the CPO and business teams, and coordinates with the organization’s broader legal or general counsel function.
+* **Privacy Compliance Manager / Consultant:** Focuses on ensuring that specific business lines or regions implement privacy policies and procedures effectively and consistently.
+* **incident response / privacy incident handler:** Operational role responsible for coordinating the organization’s response to privacy incidents and working within the incident response program.
+* **Privacy Champion:** Executive-level sponsor or senior manager who advocates for privacy as a core organizational value and helps secure resources and support for the privacy program across the enterprise.
+
 
 ### Data Lifecycle Management
 Data protection must be maintained from collection to disposal.
