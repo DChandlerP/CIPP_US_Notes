@@ -872,6 +872,41 @@ Several states have enacted GDPR-style comprehensive laws:
 * **Florida (FDBR):** Targeted at "Big Tech" with a high revenue threshold ($1B+).
 * **Oregon, Texas, & Montana:** Recent additions largely following the model of defining controller obligations, consumer rights, and AG enforcement.
 
+### Comparison of Key State Privacy Laws
+
+| State Law | Effective Date | Sensitive Data | Cure Period | Private Right of Action |
+| :--- | :--- | :--- | :--- | :--- |
+| **California (CCPA/CPRA)** | Jan 1, 2023 | **Opt-Out** ("Limit Use") | Discretionary (Auto 30-day ended '23) | **Yes** (limited to breaches) |
+| **Virginia (VCDPA)** | Jan 1, 2023 | **Opt-In** (Consent) | 30 days | No |
+| **Colorado (CPA)** | July 1, 2023 | **Opt-In** (Consent) | 60 days (Sunsets 1/1/25) | No |
+| **Connecticut (CTDPA)** | July 1, 2023 | **Opt-In** (Consent) | 60 days (Sunsets 12/31/24) | No |
+| **Utah (UCPA)** | Dec 31, 2023 | **Notice + Opt-Out** | 30 days | No |
+
+### Quick Reference: Jurisdictional Thresholds
+A business is subject to the law if it meets **one or more** of these criteria (varies by state):
+
+*   **California (CCPA/CPRA):**
+    *   Gross Annual Revenue > **$25 Million**
+    *   Buys, sells, or shares personal revenue of **100,000+** consumers/households
+    *   Derives **50% or more** of annual revenue from selling/sharing personal info
+
+*   **Virginia (VCDPA):**
+    *   Controls/processes personal data of **100,000+** consumers
+    *   Controls/processes personal data of **25,000+** consumers AND derives **>50%** of gross revenue from the sale of personal data
+
+*   **Colorado (CPA):**
+    *   Controls/processes personal data of **100,000+** consumers
+    *   Controls/processes personal data of **25,000+** consumers AND derives **revenue or a discount** from the sale of personal data
+
+*   **Connecticut (CTDPA):**
+    *   Controls/processes personal data of **100,000+** consumers (excluding payment data)
+    *   Controls/processes personal data of **25,000+** consumers AND derives **>25%** of gross revenue from the sale of personal data
+
+*   **Utah (UCPA):**
+    *   Must meet **BOTH**: Annual Revenue > **$25 Million** AND one of the following:
+        *   Controls/processes personal data of **100,000+** consumers
+        *   Derives **>50%** of gross revenue from the sale of personal data AND controls/processes data of **25,000+** consumers
+
 ### Subject-Specific Privacy Laws
 
 #### Health & Genetic Information
