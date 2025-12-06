@@ -367,6 +367,34 @@ Developing an inventory is the first step in managing sensitive data. Organizati
 * **Compliance obligations:** Sets out the rules employees must follow, including data use limitations, security requirements, and how the organization will honor data subject rights.
 * **Consequences of non-compliance:** Describes the potential consequences to the organization for policy failures, while detailed employee-level sanctions are usually handled in functional documents like standards and handbooks.
 
+#### Privacy Notices (External Disclosures)
+
+* **Definition and purpose:** A privacy notice is an external-facing statement that explains how an organization collects, uses, discloses, and stores personal information so that individuals can make informed privacy decisions. It also guides employees on how data should be handled in practice.
+* **Policy vs. notice:** Unlike the internal privacy policy (governance document), the privacy notice is directed at consumers or other external audiences and may also be called a privacy statement or fair processing notice, even though some sources use “privacy policy” and “privacy notice” interchangeably.
+
+##### Legal Implications of Privacy Notices
+
+* **Sectoral legal requirements:** Certain U.S. sectoral laws require specific privacy notices, including content, timing, and placement. Examples:
+  * **COPPA:** Requires child-directed sites and services to describe what information is collected, how it is used, and whether it is shared with third parties, and to link to the notice on the home page and every page where children’s data is collected.
+  * **GLBA:** Requires financial institutions to provide customers with annual privacy notices describing their information-sharing practices.
+  * **CalOPPA:** Requires websites and online services collecting personal information from California residents to conspicuously post a privacy notice and include disclosures about categories of data collected, sharing practices, how users can request changes, effective date, how updates are communicated, how Do Not Track signals are handled, and whether third parties collect data on the site.
+* **FTC UDAP risk:** Even when no specific statute mandates a notice, privacy notices are treated as legal commitments. Misrepresenting practices or failing to follow the notice can be an “unfair or deceptive” act under the FTC Act, so notices should be reviewed by legal and appropriate executives before publication.
+
+##### Maintaining and Updating Privacy Notices
+
+* **Change management and version control:** Privacy notices should be updated through a managed process (design, test, release, review) and versioned with dates, with prior versions retained to show which terms applied at the time of collection.
+* **Material changes and consent:** The FTC expects organizations to honor the notice that was in effect when data was collected unless they obtain express, affirmative consent before making material retroactive changes (for example, starting to share data with third parties after saying they would not).
+
+##### Designing Effective Notices
+
+* **Common elements:** Effective privacy notices typically include the effective date; scope; what data is collected (active vs. passive); how data is used; how and when data is shared; user choices and controls; access and correction mechanisms; contact information; dispute procedures; and how changes will be communicated.
+* **Layered notices:** A layered notice presents a short, standardized summary of key practices up front with links or expansion to a more detailed, full notice, improving readability for typical users.
+* **Just-in-time notices:** Just-in-time notices present focused information and consent prompts at the moment data is collected (for example, an in-app pop-up when requesting location data), often linking to the relevant section of the full notice.
+* **Privacy dashboards:** Dashboards provide a centralized interface where users can view privacy information and manage preferences across devices and services (for example, managing ad settings, data sharing, or deletion requests).
+* **Privacy icons and visualization tools:** Icons and visual cues (such as standardized symbols or the AdChoices icon for targeted advertising) can quickly communicate key processing or choice information, especially where long-form text is impractical.
+* **Single vs. multiple notices:** Organizations may use a single enterprise notice when data practices are consistent across units, but multiple notices may be more appropriate where business units or subsidiaries use data in fundamentally different ways or maintain separate customer relationships.
+
+
 #### Privacy Program Activities
 
 * **Education and awareness:** Training and awareness campaigns ensure employees understand privacy policies, procedures, and their responsibilities in day-to-day operations.
