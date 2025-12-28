@@ -638,12 +638,30 @@ The 2017 OMB guidelines provide a seven-step structure for federal agency respon
 
 Managing risks posed by third-party vendors is critical, especially those handling personal information (like cloud vendors).
 
+* **Data Controller Liability:** The principal organization (controller) remains **legally responsible** for any misuse of data by its vendors (processors).
+* **Vendor Vetting Criteria:** Organizations should evaluate a vendor's:
+    * **Reputation:** Ability to handle objectives securely.
+    * **Financial Stability:** Includes having appropriate **cyberinsurance** to cover potential breaches or litigation.
+    * **Security Controls:** Must be as good as or better than the controller's own (e.g., ISO/IEC 27001, PCI-DSS, or SOC 2 certifications).
+* **Core Contract Terms (Data Processing Agreements):**
+    * **Confidentiality:** Prohibition on sharing data with unauthorized parties.
+    * **"No Further Use":** Vendor must not use data for any purpose other than those specified in the agreement.
+    * **Audit Rights:** Controller must retain the right to audit the vendor’s security/privacy practices.
+    * **Subcontractor Use (Flow-Down):** Vendors must be contractually obligated to flow the same privacy/security requirements down to any **downstream subcontractors**.
+    * **End of Relationship:** Must specify whether data is **returned or deleted** at the end of the contract.
 * **Master Service Agreement (MSA):** An **umbrella contract** for long-term work, including general security and privacy requirements.
 * **Statement of Work (SOW):** Documents project-specific details, referencing the overarching MSA.
 * **Service-Level Agreement (SLA):** Specifies the conditions of service (e.g., system availability, response time) and remedies for failure.
 * **Business Associate Agreement (BAA):** Required by **HIPAA**; contractually obligates vendors (**Business Associates**) to comply with HIPAA's security, privacy, and breach rules.
 * **PCI DSS:** Requires organizations to work only with vendors that are certified as compliant with **PCI DSS** requirements.
 * **Vendor Incident Management:** Agreements must clearly spell out the vendor's obligation to **report known or suspected security incidents** to the customer.
+
+### 5.1 Cloud Computing & Data Residency
+Cloud computing introduces unique risks that often require sign-off from high-ranking executives:
+* **Data Residency:** The physical location of servers (where data is stored) can trigger **extraterritorial regulation**. 
+    * *Example:* A U.S. company using a cloud provider with only EU-based servers may become subject to the **GDPR**.
+* **Data Classification Rules:** Cloud contracts often include a classification system with specific rules applied to different sensitivity levels (e.g., Public vs. Highly Sensitive).
+
 
 ## FTC Privacy Protection
 The **Federal Trade Commission (FTC)** is the lead agency for broad consumer protection in the private sector, enforcing the **FTC Act** (Section 5) against **unfair and deceptive trade practices**.
@@ -903,6 +921,8 @@ Every state has enacted a data breach notification law. While they share a commo
 ### Comprehensive State Privacy Laws
 Several states have enacted GDPR-style comprehensive laws:
 * **California (CCPA & CPRA):** The most extensive U.S. law. Includes a private right of action for security breaches, established the California Privacy Protection Agency (CPPA), and protects "sensitive personal information."
+    * **Vendor Contracts:** As of Jan 2023, data controllers **must** enter into contracts with *any* third party with whom they share data, featuring specific restrictive provisions.
+    * **Opt-out Requirements:** CCPA/CPRA (California) and VCDPA (Virginia) require systems to restrict data sharing with vendors if a consumer exercises their right to **opt-out of data selling or targeted advertising**.
 * **Virginia (VCDPA):** Grants consumer rights (access, correct, delete) and requires data protection assessments. Enforced solely by the AG.
 * **Colorado (CPA):** Similar rights to Virginia; recognizes "sensitive data" requiring consent.
 * **Connecticut (CTDPA) & Utah (UCPA):** Follow similar models regarding data subject rights and controller obligations.
