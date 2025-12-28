@@ -589,6 +589,11 @@ Organizations must activate a formal **cybersecurity incident response plan** im
 * **Adverse Event:** Any event with negative consequences (e.g., malware infection).
 * **Security Incident:** A violation or imminent threat of a violation of security policies (e.g., accidental loss of sensitive information, intrusion).
 
+* **Preparation Steps:** Proper response starts before an incident via: (1) developing a response plan; (2) training; (3) defining roles; (4) insurance; and (5) managing 3rd-party vendors.
+* **Readiness Assessment:** A pre-incident assessment to evaluate:
+    * **Risk Level:** Whether it will affect a large data set or greatly impact specific individuals.
+    * **Severity:** Types of privacy harms that could arise in light of offsetting controls.
+
 ### Phases of Incident Response (NIST Model)
 1.  **Preparation:** Building the foundation for the CSIRT (Computer Security Incident Response Team), including policy, procedures, training, and purchasing **cyberinsurance**.
 2.  **Detection and Analysis:** Identifying that an incident is occurring. Indicators include alerts (from IDS/antivirus), logs, publicly available information (new vulnerabilities), and reports from people.
@@ -601,9 +606,29 @@ Organizations must activate a formal **cybersecurity incident response plan** im
     * **Lessons-Learned Review:** A thorough review, ideally led by an **independent facilitator**, to improve procedures.
     * **Evidence Retention:** Identifying internal and external retention requirements (U.S. federal agencies must retain records for at least **three years**).
 
+### 4.1 FTC Data Breach Response Guidelines
+The FTC framework for private sector response includes:
+* **Preliminary Step - Confirm the Breach:** Verify the fact of a breach through technical analysis.
+* **Step 1 - Secure Operations & Containment:** Assemble a response team, secure physical areas, take equipment offline to stop data loss, and maintain evidence.
+* **Step 2 - Analyze & Fix Vulnerabilities:** Re-evaluate 3rd-party providers, review data segmentation, and create a communication plan.
+* **Step 3 - Notify Appropriate Parties:**
+    * **Notification Content:** Generally includes what happened, contact info, and steps the individual can take to mitigate risk.
+    * **Special Cases:** If health info is involved, media and HHS may require notification.
+* **Step 4 - Proactive Steps:** Conduct 3rd-party audits and analyze weaknesses to avoid future repeats.
+
 ### Incident Response Plan Documentation
 * **Policy:** The high-level cornerstone, approved by top management, assigning authority and roles. It should be relatively timeless (e.g., defining scope, roles, severity scheme).
 * **Procedures and Playbooks:** *Procedures* provide detailed, tactical information. *Playbooks* describe step-by-step responses for **specific types of incidents** (e.g., "Web Server Defacement," "Breach of PII"). Playbooks are not a substitute for professional judgment.
+
+### 4.2 OMB Framework (Federal Agencies)
+The 2017 OMB guidelines provide a seven-step structure for federal agency response:
+1. Create a breach response team.
+2. Identify applicable privacy compliance documentation.
+3. Share information to understand the extent of the breach.
+4. Determine reporting requirements.
+5. Assess risk of harm to individuals.
+6. Mitigate risk of harm.
+7. Notify affected individuals.
 
 ### Data Breach Notification
 * **U.S. Requirements:** The U.S. lacks a single federal law for broad breach notification, but **every state has its own data breach notification law**.
