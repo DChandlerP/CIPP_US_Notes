@@ -684,6 +684,13 @@ The **Federal Trade Commission (FTC)** is the lead agency for broad consumer pro
     * **Scope:** Applies to online services (websites, apps, etc.) that are intended for, or knowingly collect data from, children under 13.
     * **Requirements:** Requires online operators to post a complete **Privacy Policy**, provide **Parental Notification**, obtain verifiable **Parental Consent** before collection, grant parents the right to review/delete data, and implement **Information Security** programs.
 * **Future of Enforcement:** Addresses challenges from new technologies like **Big Data**, **Artificial Intelligence (AI)**, **Machine Learning (ML)**, and the **Internet of Things (IoT)**, which enable new business models like data brokers and cross-border data flows.
+* **Teen-Specific State Protections (Ages 13–18):**
+    * **California Minors "Eraser" Law:** Provides individuals under 18 the right to request removal of information they posted online.
+    * **Delaware Online and Personal Privacy Protection Act:** Restricts marketing adult products (alcohol, firearms) to children and offers similar removal rights.
+    * **New York Child Data Protection Act (June 2025):** Prohibits processing personal data of those aged 13–18 without informed consent.
+* **CCPA Opt-in Requirements:**
+    * **Ages 13–15:** Data sale/sharing requires the direct **opt-in consent** of the minor.
+    * **Under 13:** Requires verifiable **parental consent**, aligning with COPPA standards.
 
 ***
 
@@ -736,6 +743,24 @@ Laws in this sector regulate how businesses can use personal data for marketing.
 * **Video Privacy Protection Act (VPPA) (1988):** Protects a consumer’s video rental/purchase history. Disclosure requires written consent (including electronic consent). Its privacy protections are now being applied to **streaming media services**.
 * **Driver’s Privacy Protection Act (DPPA) (1994):** Prevents states from indiscriminately releasing personal information from **DMV driver’s licensing databases** (e.g., name, address, photo), allowing sharing only for specific permissible purposes.
 * **Customer Proprietary Network Information (CPNI):** Rules under the **Telecommunications Act** governing metadata about subscriber phone calls. Carriers must implement safeguards and obtain consent before sharing CPNI outside of limited, allowed uses.
+
+### Webtracking Technologies
+* **Web Cookies (HTTP Cookies):** Small text files placed on a device's hard drive by a web server to "save state" (e.g., login status, language preferences).
+    * **Types of Cookies:**
+        * *Session:* Temporary; deleted when the browser closes.
+        * *Persistent:* Remain until a pre-defined expiration date; used for authentication.
+        * *First-Party:* Set by the web server of the visited site.
+        * *Third-Party:* Set by another party (e.g., an ad network) to track activity across different sites.
+        * *Flash (Zombie) Cookies:* Stored outside browser control via Adobe Flash; difficult to delete and can "respawn" deleted standard cookies.
+* **Other Tracking Methods:**
+    * **Web Beacons (Pixels):** Invisible 1x1 images that record visits and can place cookies or log HTTP request header data (OS, URL, etc.).
+    * **Digital Fingerprinting:** Identifying a device based on a unique combination of browser settings, IP addresses, and hardware information.
+    * **URL Rewriting:** Redirecting a user through a tracking link (e.g., "t.co") before sending them to the destination to record the interaction.
+    * **Cross-Device Tracking:** Mapping users as they move between devices (e.g., phone to laptop).
+        * *Deterministic:* Based on user logins to the same service.
+        * *Probabilistic:* Based on algorithms and behavioral patterns.
+* **Legal Standards:**
+    * **E.U. Cookie Directive:** Requires informed consent for cookies unless they are "strictly necessary" (e.g., security) or solely for communication transmission.
 
 # Government and Court Access to Private Sector Information Notes
 
