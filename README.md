@@ -33,6 +33,9 @@ Data can be transformed from "personal" to "non-personal" to avoid regulation:
 * **Anonymization:** Stripping data of identifying information (irreversible).
 * **Pseudonymization:** Replacing identifiers with a pseudonym/code.
     * *Benefit:* It is reversible (can be re-identified) if you have the key.
+* **Data Life Cycle:** Typically consists of five steps: (1) collection; (2) use; (3) disclosure; (4) retention; and (5) destruction.
+* **Data Life Cycle Management (DLM):** Also known as Information Life Cycle Management (ILM), this is a policy-based approach to managing the flow of information through its entire life cycle.
+* **Methods of Disposal:** Electronic data can be destroyed via overwriting or **degaussing** (using magnetic fields); physical data is typically destroyed via shredding, melting, or burning.
 
 ## 4. Sources of Information
 * **Public Records:** (e.g., court filings) - generally less protected.
@@ -1012,6 +1015,7 @@ The Asia-Pacific Economic Cooperation (APEC) promotes flexible mechanisms to fac
     - A framework for regional cooperation specifically for *Privacy Enforcement Authorities (PE Authorities)* to share information and conduct joint investigations.
     - *Distinction:* Unlike the CBPR (which certifies *companies*), the CPEA connects *regulators*.
     - The U.S. is a member of the CPEA.
+* **FACTA Disposal Rule:** Requires any individual or entity that uses a consumer report for a business purpose to dispose of it in a manner that avoids unauthorized access and misuse.
 
 ### Global Cooperation & Enforcement
 * **Global Privacy Enforcement Network (GPEN):** Created by the OECD. It is not a regulatory framework but a network to facilitate cooperation, information sharing, and training among privacy enforcement authorities globally.
