@@ -1022,6 +1022,12 @@ The GDPR, effective May 2018, represents a progressive model of privacy protecti
     * *Processor:* Entity that processes data on behalf of the controller.
     * Both parties have distinct obligations and liabilities.
 * **Territorial Jurisdiction:** Applies to any organization, regardless of location, that offers goods/services to or monitors the behavior of people within the EU.
+* **Data Protection Authority (DPA) Powers:** National-level agencies (except Germany, which has 16 state-level DPAs for the private sector) with investigatory, corrective, and advisory authority, including the power to:
+    1. Demand records of processing activities and proof of compliance.
+    2. Impose temporary bans on data processing.
+    3. Require additional data breach notifications.
+    4. Order the erasure of personal information.
+    5. Suspend cross-border data flows.
 
 #### Data Subject Rights
 The GDPR grants extensive rights to individuals, requiring opt-in consent that is clear and distinguishable.
@@ -1031,6 +1037,17 @@ The GDPR grants extensive rights to individuals, requiring opt-in consent that i
 * **Right to Data Portability:** Right to receive data in a machine-readable format.
 * **Right to Object:** Ability to opt-out of processing or direct marketing.
 * **Automated Decision-Making:** Restrictions on AI making significant legal decisions about people.
+* **Operational Standards for Rights:**
+    * **Transparency:** Communications must be concise, transparent, intelligible, and in plain language.
+    * **Timeline:** Actions must be taken "without undue delay" and no later than **one month** (extendable by two additional months for complex requests).
+    * **Burden of Proof:** If a data subject objects to processing, the controller has the burden to demonstrate "compelling legitimate grounds" that override the subject's interests.
+
+#### GDPR Breach Notification Framework
+The GDPR defines a breach more broadly than most U.S. state laws, covering accidental or unlawful destruction, loss, or unauthorized access. It imposes three distinct reporting duties:
+1. **Controller-to-DPA:** Must notify within **72 hours** of discovery unless the breach is unlikely to result in a risk to individuals.
+2. **Processor-to-Controller:** Must notify "without undue delay" after becoming aware of the incident.
+3. **Controller-to-Subject:** Required "without undue delay" only if the breach is likely to result in a **high risk** to the rights and freedoms of individuals.
+    * *Exemptions:* Notice is not required if the data was unintelligible (encrypted), the risk was immediately mitigated, or notice would require "disproportionate effort."
 
 #### Penalties
 Violations can result in steep fines: up to **€20,000,000 or 4% of a company’s annual revenue**, whichever is greater.
@@ -1098,4 +1115,11 @@ The Asia-Pacific Economic Cooperation (APEC) promotes flexible mechanisms to fac
 ### Global Cooperation & Enforcement
 * **Global Privacy Enforcement Network (GPEN):** Created by the OECD. It is not a regulatory framework but a network to facilitate cooperation, information sharing, and training among privacy enforcement authorities globally.
   - *U.S. Participation:* The U.S. participates through the **FTC**, the **FCC**, and the **California Attorney General**.
-* **Conflict Resolution:** There is no single international law to resolve conflicts. Companies must rely on data management programs and legal counsel to navigate contradictions (e.g., when U.S. law mandates disclosure that EU law prohibits).
+### Multinational Compliance Strategies
+* **"Rationalizing" Requirements (Most Restrictive Law Approach):** To manage overlapping global laws, organizations often "key" their data practices to the most restrictive jurisdiction in which they operate, implementing those higher standards globally.
+* **Global Cross-Border Privacy Rules (Global CBPR) Forum:** Established in **2022** by the U.S., Canada, Japan, and others to create an international certification system that allows non-APEC members to participate.
+* **Legal Compliance Conflicts:**
+    * **U.S. Discovery Conflicts:** U.S. court discovery standards often require the disclosure of data that the GDPR prohibits sharing.
+    * **The Reasonableness Standard:** U.S. courts and agencies generally review conduct based on whether it was **reasonable under the circumstances**, provided the party made good faith efforts to reconcile the conflicting legal requirements.
+
+> **Pro-Tip for Exam:** If a tool like reCAPTCHA is legally required for site security (e.g., to prevent fraud), but violates EU transfer rules, U.S. courts may view a "good faith effort" to implement supplementary measures (like a TIA) as meeting the reasonableness standard during a discovery dispute.
