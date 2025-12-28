@@ -493,6 +493,26 @@ Developing an inventory is the first step in managing sensitive data. Organizati
 * **Incident response:** A predefined incident response program prepares the organization to detect, escalate, and remediate privacy incidents and data breaches in a way that aligns with legal requirements.
 * **Internal audit and risk management:** Internal audit tests controls and reports on privacy-related risks, while risk management functions analyze and communicate business, regulatory, and operational risk relevant to privacy.
 
+#### Privacy Risk Assessment Deep Dive
+* **Risk Definition:** The combination of the consequences of an event and the associated likelihood of occurrence.
+* **Privacy Assessment vs. PIA:**
+    * *Privacy Assessment:* A comprehensive, holistic review of an organization’s entire privacy risk profile.
+    * *Privacy Impact Assessment (PIA):* An analysis of discrete products, services, or processes to ensure legal compliance and mitigate risks. Should be forward-looking and conducted *before* implementation.
+* **Privacy Threshold Analysis (PTA):** Also called an "initial privacy assessment" or "express PIA." A preliminary investigation used to determine if a full-blown PIA is required.
+* **Legal Triggers for PIAs:**
+    * *Federal:* The **E-Government Act of 2002** requires federal agencies to conduct PIAs when implementing programs that collect personal info.
+    * *International:* Under GDPR Article 35, these are known as **Data Protection Impact Assessments (DPIA)**.
+* **Privacy Harms Models:**
+    * *Calo’s Harms Dimensions:* Categorizes risks as either measurable/objective or perceived/subjective.
+    * *Solove’s Taxonomy of Privacy:* Identifies risk based on four activities: collection, processing, dissemination, and invasions.
+    * *Nissenbaum’s Contextual Integrity:* Identifies risk based on whether data use aligns with the norms of a specific context.
+* **ISO 29134 (PIA Framework) Phases:**
+    1. Determining if a PIA is needed (PTA).
+    2. Preparation.
+    3. Performance (identifying data flows, analyzing risks/safeguards).
+    4. Follow-up.
+
+
 ### Implementation and Metrics
 
 * **Implementation and communication:** Successfully implementing a privacy framework requires communicating it to internal and external stakeholders and embedding its requirements into processes and technology, rather than leaving it as documentation only.
@@ -655,13 +675,6 @@ Managing risks posed by third-party vendors is critical, especially those handli
 * **Business Associate Agreement (BAA):** Required by **HIPAA**; contractually obligates vendors (**Business Associates**) to comply with HIPAA's security, privacy, and breach rules.
 * **PCI DSS:** Requires organizations to work only with vendors that are certified as compliant with **PCI DSS** requirements.
 * **Vendor Incident Management:** Agreements must clearly spell out the vendor's obligation to **report known or suspected security incidents** to the customer.
-
-### 5.1 Cloud Computing & Data Residency
-Cloud computing introduces unique risks that often require sign-off from high-ranking executives:
-* **Data Residency:** The physical location of servers (where data is stored) can trigger **extraterritorial regulation**. 
-    * *Example:* A U.S. company using a cloud provider with only EU-based servers may become subject to the **GDPR**.
-* **Data Classification Rules:** Cloud contracts often include a classification system with specific rules applied to different sensitivity levels (e.g., Public vs. Highly Sensitive).
-
 
 ## FTC Privacy Protection
 The **Federal Trade Commission (FTC)** is the lead agency for broad consumer protection in the private sector, enforcing the **FTC Act** (Section 5) against **unfair and deceptive trade practices**.
