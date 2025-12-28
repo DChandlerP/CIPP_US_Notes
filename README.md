@@ -79,6 +79,15 @@ Data can be transformed from "personal" to "non-personal" to avoid regulation:
         * **Accountability:** Monitoring, training, and assigning responsibility.
 
 
+## 6. The Accountability Principle
+The **Accountability Principle** dictates that organizations must take responsibility for protecting personal information and be able to *demonstrate* that compliance to stakeholders.
+
+* **Core Requirement:** Organizations must implement appropriate technical and organizational measures to ensure and demonstrate that data handling complies with relevant laws.
+* **Demonstrating Compliance:** This requires significant documentation, such as recording attendance at all employee training events.
+* **Responsibility Shift:** The ultimate responsibility for legal compliance lies with the organization (data controller), *not* government regulatory authorities.
+* **Flexibility:** How an organization realizes accountability is inherently flexible, allowing them to determine the best means to meet obligations based on their specific processing activities.
+* **GDPR Influence:** Under Article 5 of the GDPR, the data controller is expressly responsible for, and must be able to demonstrate compliance with, the other principles of the regulation.
+
 ---
 # 1. Branches of U.S. Government
 
