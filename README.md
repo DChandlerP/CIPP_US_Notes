@@ -27,15 +27,35 @@ Before diving into the legal framework, it is important to understand the four b
     * **HIPAA:** Regulates personal health records, not all data held by a facility.
     * **FCRA:** Places tighter restrictions on medical records within consumer reports.
 
-## 3. Data Protection Techniques
-Data can be transformed from "personal" to "non-personal" to avoid regulation:
-* **Encryption:** Transforming data into an unrecognizable form (ciphertext).
-* **Anonymization:** Stripping data of identifying information (irreversible).
-* **Pseudonymization:** Replacing identifiers with a pseudonym/code.
-    * *Benefit:* It is reversible (can be re-identified) if you have the key.
-* **Data Life Cycle:** Typically consists of five steps: (1) collection; (2) use; (3) disclosure; (4) retention; and (5) destruction.
-* **Data Life Cycle Management (DLM):** Also known as Information Life Cycle Management (ILM), this is a policy-based approach to managing the flow of information through its entire life cycle.
-* **Methods of Disposal:** Electronic data can be destroyed via overwriting or **degaussing** (using magnetic fields); physical data is typically destroyed via shredding, melting, or burning.
+## 3. Privacy-Enhancing Technologies (PETs)
+PETs are "technologies whose purpose is privacy". This field is often led by **privacy engineers** who focus on achieving "freedom from conditions" that create problems for individuals during data processing.
+
+### Identifiability and Identifiers
+* **Identifiability:** The degree to which data can be directly attributed to an individual.
+* **Linkability:** The amount of effort required to link data to a specific individual.
+* **Strong Identifiers:** Data that is identifying without additional context (e.g., SSN, Passport #).
+* **Weak Identifiers:** General data belonging to multiple people, needed in combination for identification (e.g., height, home address).
+* **Quasi-Identifiers:** Data combined with external knowledge to link it to an individual.
+
+### Anonymization & De-Identification Techniques
+* **Suppression:** Removing identifying information or values from a data set.
+* **Generalization:** Reducing granularity by replacing specific info with more general elements (e.g., removing a house number from an address).
+* **Top- and Bottom-Coding:** Grouping the extreme ends of a range into a single category (e.g., income brackets labeled as "< $20,000").
+* **Noise Addition:** Replacing actual values with data from the same class to maintain statistical properties while hiding individuals.
+* **Anonymity Metrics:** The relative success of these techniques is measured by **k-anonymity**, **l-diversity**, and **t-closeness**.
+
+### Aggregation and Differential Privacy
+* **Aggregation:** Using statistics from groups of records rather than individual data.
+* **Differential Privacy:** A mathematical framework that introduces "noise" to provide a guarantee of **indistinguishability** and "plausible deniability" for individuals in a dataset.
+
+### Encryption and Hashing
+* **Encryption Components:** Requires an **algorithm** (mathematical application) and a **key** (data that controls the algorithm).
+    * **Symmetric:** Uses a single secret key for both encryption and decryption.
+    * **Asymmetric:** Uses two separate keys—a **public key** (shared freely) and a **private key** (kept secret).
+* **Public Key Infrastructure (PKI):** A system of digital certificates and authorities that verifies the authenticity of parties in an electronic transaction.
+* **Hash Functions:** Map an input of any length to a fixed-length output.
+    * **One-Way:** Computationally infeasible to reverse the output to find the input.
+    * **Collision Resistance:** Infeasible to find two distinct inputs that produce the same output.
 
 ## 4. Sources of Information
 * **Public Records:** (e.g., court filings) - generally less protected.
