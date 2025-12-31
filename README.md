@@ -762,6 +762,26 @@ Laws in this sector regulate how businesses can use personal data for marketing.
 * **Legal Standards:**
     * **E.U. Cookie Directive:** Requires informed consent for cookies unless they are "strictly necessary" (e.g., security) or solely for communication transmission.
 
+### Mobile and IoT Device Surveillance
+Beyond web tracking, mobile and Internet of Things (IoT) devices present unique surveillance risks due to their constant connectivity and sensory capabilities.
+
+#### Mobile Device Risks
+* **Always-On Sensors:** Microphones and cameras can be utilized for illicit eavesdropping or legitimate mobile assistants (e.g., "Hey Siri").
+* **Broad Data Collection:** These devices store intimate details, including contacts, video, and audio recordings, often shared with a vast ecosystem of third-party applications.
+
+#### Internet of Things (IoT)
+* **Ubiquitous Computing:** Also known as pervasive computing, this is where information processing is integrated into everyday objects and activities, appearing to be everywhere at all times.
+* **Privacy Intrusiveness:** IoT devices (smart TVs, wearable fitness trackers) provide a constant stream of behavioral data, often from within the private environment of a home.
+* **Consent Challenges:** Many IoT devices lack a user interface, making traditional notice and informed consent difficult or "theoretical" rather than a real alternative for the user.
+* **Security & Attack Surface:**
+    * **Large Attack Surface:** Multiple connected devices in a single household create numerous entry points for hackers.
+    * **Maintenance Issues:** Because of interface limitations, users are less likely to keep IoT software updated, increasing vulnerability.
+
+#### Mitigation and Best Practices
+* **Privacy by Design (PbD):** Due to the high risks and lack of user interfaces, PbD is critical during development to ensure security is "front and center."
+* **Data Minimization:** Controllers should account for personal data across the entire life cycle, implementing Fair Information Practices even when specific legal rules are absent.
+* **Privacy Impact Assessments (PIAs):** Essential for identifying and remediating risks associated with these cutting-edge, pervasive technologies.
+
 ### Location Tracking
 Location data is personal data under nearly any definition. It is particularly invasive because it can reveal sensitive inferences about an individual's private life, such as religious or political affiliations.
 
