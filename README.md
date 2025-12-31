@@ -762,6 +762,28 @@ Laws in this sector regulate how businesses can use personal data for marketing.
 * **Legal Standards:**
     * **E.U. Cookie Directive:** Requires informed consent for cookies unless they are "strictly necessary" (e.g., security) or solely for communication transmission.
 
+### Location Tracking
+Location data is personal data under nearly any definition. It is particularly invasive because it can reveal sensitive inferences about an individual's private life, such as religious or political affiliations.
+
+#### Types of Location Tracking
+* **GPS (Global Positioning System):** Functional equivalent to the European **Galileo** system. GPS devices **only receive data**; they do not transmit it. An additional transmitter is required to share the location externally.
+* **Wi-Fi Tracking:** Routers identify the unique **MAC address** of mobile devices searching for networks. Because Wi-Fi has a limited range, it can pinpoint a device to a specific building or store.
+* **Cell Tower Triangulation:** Uses the signal strength and "time of arrival" of messages across multiple towers to calculate a phone's relative location.
+* **Bluetooth Beaconing:** A low-energy signal sent from a beacon to a mobile device. This "reverses" Wi-Fi logic—the beacon sends the message and the device receives it.
+* **RFID (Radio-Frequency Identification):**
+    * **Passive:** No internal power; requires an external reader to activate the chip.
+    * **Active:** Contains its own power source and can transmit signals outwardly.
+* **Other Sources:** Metadata (Exif) in photos, location-specific search queries, and IP addresses (though IP is considered **unreliable** for precise location due to VPNs and spoofing).
+
+#### Location-Based Services (LBS)
+The IAPP defines LBS as services that utilize location information to deliver applications in various contexts (social networking, gaming, advertising).
+* **Privacy Risks:** Geolocation is extremely difficult to anonymize.
+* **Best Practices:** Due to its invasive nature, **opt-in consent** is the preferred standard for LBS, even when not strictly required by law.
+
+#### Prevention and Control
+* **Physical Protections:** RFID signals can be blocked using specialized **blocking sleeves**.
+* **User Control:** Users can toggle Wi-Fi and Bluetooth off, though emergency features may still transmit signals even when a device is powered down.
+
 # Government and Court Access to Private Sector Information Notes
 
 ## 🏛️ Constitutional Foundation
