@@ -943,7 +943,9 @@ Background checks by third parties are usually considered **Consumer Reports** u
     2.  Obtain written authorization.
     3.  Certify compliance to the background check provider (CRA).
     4.  **Investigative Consumer Reports:** If interviewing neighbors/associates about character, specific notice of the "investigative" nature is required.
-* **Adverse Action:** If not hiring based on the report, employers must follow specific pre-adverse and adverse action notice procedures.
+* **Adverse Action Procedures:** Before taking "adverse action" (e.g., denying a job, promotion, or terminating employment) based on a report: 
+    * **Pre-Adverse Action:** The employer must first provide the individual with a copy of the report and a written summary of their rights under the FCRA. 
+    * **Final Adverse Action:** If the employer proceeds with the decision, they must then send a formal adverse action notice.
 
 ### C. Other Screening Methods
 * **Polygraphs:** The **Employee Polygraph Protection Act (EPPA)** bans most private employers from using lie detectors for pre-employment screening.
