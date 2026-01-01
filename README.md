@@ -1162,23 +1162,29 @@ The GDPR generally prohibits transferring data to non-EU countries unless the re
 * **The Consent Wall:** Under GDPR/ePrivacy, if a tool is not "strictly necessary" for the user-requested service, it requires prior opt-in consent.
 * **Operational Impact:** This creates a paradox where a person cannot access a secure page without passing reCAPTCHA, but reCAPTCHA cannot be loaded until the person accesses the page to give consent. Loading it before consent is a violation; requiring consent before access may violate the principle of "freely given" consent.
 
-### U.S.–EU Data Frameworks
-The history of U.S.-EU data transfer is marked by legal challenges regarding U.S. government surveillance.
+### **U.S.–EU Data Frameworks**
+The history of U.S.-EU data transfer is defined by legal challenges to U.S. government surveillance and the requirement for "essential equivalence" in data protection.
 
 * **Past Agreements (Invalidated):**
-    * *Safe Harbor:* Invalidated following the *Schrems I* case.
-    * *Privacy Shield:* Invalidated by the CJEU in *Schrems II* (2020) due to concerns that U.S. surveillance laws overrode privacy protections for EU citizens.
+    * **Safe Harbor:** The first framework, invalidated by the CJEU in *Schrems I*.
+    * **Privacy Shield:** Invalidated by the CJEU in *Schrems II* (2020) because U.S. surveillance laws (like FISA 702) were found to override EU privacy protections.
+
+* **Transfer Impact Assessments (TIA):**
+Following *Schrems II*, TIAs became a mandatory procedural requirement for any organization relying on safeguards like SCCs or BCRs.
+    * **Note:** A TIA is a **risk assessment step**, not a valid legal transfer mechanism itself.
+    * **Purpose:** To verify on a case-by-case basis if the laws of the destination country undermine the protections of the chosen transfer tool.
     * **EDPB 6-Step Roadmap for TIAs:**
-        1. **Map all transfers:** Know exactly where data is going and any downstream transfers.
+        1. **Map all transfers:** Identify data destinations and any downstream transfers.
         2. **Verify transfer tools:** Identify the legal basis used (SCC, BCR, etc.).
-        3. **Assess local law:** Determine if the destination country's laws (like U.S. surveillance) impinge on safeguards.
-        4. **Adopt supplementary measures:** Implement technical (encryption), organizational, or legal safeguards if needed.
-        5. **Formalize steps:** Document the assessment and measures taken.
-        6. **Re-evaluate:** Monitor the level of protection at appropriate intervals.
+        3. **Assess local law:** Determine if destination laws (e.g., U.S. surveillance) impinge on safeguards.
+        4. **Adopt supplementary measures:** Implement technical (encryption), organizational, or legal safeguards if gaps are identified.
+        5. **Formalize steps:** Document the assessment and measures taken to meet accountability requirements.
+        6. **Re-evaluate:** Monitor protection levels and legal developments at appropriate intervals.
+
 * **Current Framework: EU–U.S. Data Privacy Framework (DPF):**
-    * Established in 2023 after an EU adequacy decision.
-    * **Enforcement:** U.S. companies self-certify compliance via the Department of Commerce; enforcement is handled by the FTC.
-    * **Requirements:** Companies must update privacy policies, provide independent dispute resolution mechanisms, limit data retention, and ensure third-party accountability.
+    * **Basis:** Established in 2023 following a new EU adequacy decision.
+    * **Enforcement:** U.S. companies self-certify compliance via the Department of Commerce; oversight is handled by the FTC.
+    * **Key Requirements:** Participating companies must update privacy policies, provide independent dispute resolution, limit data retention, and ensure third-party accountability.
 
 ### APEC Privacy Framework
 The Asia-Pacific Economic Cooperation (APEC) promotes flexible mechanisms to facilitate digital trade among member economies (which include the U.S., Canada, Japan, and Mexico, but not India).
