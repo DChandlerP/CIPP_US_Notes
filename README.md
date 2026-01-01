@@ -48,14 +48,7 @@ PETs are "technologies whose purpose is privacy". This field is often led by **p
 * **Aggregation:** Using statistics from groups of records rather than individual data.
 * **Differential Privacy:** A mathematical framework that introduces "noise" to provide a guarantee of **indistinguishability** and "plausible deniability" for individuals in a dataset.
 
-### Encryption and Hashing
-* **Encryption Components:** Requires an **algorithm** (mathematical application) and a **key** (data that controls the algorithm).
-    * **Symmetric:** Uses a single secret key for both encryption and decryption.
-    * **Asymmetric:** Uses two separate keys—a **public key** (shared freely) and a **private key** (kept secret).
-* **Public Key Infrastructure (PKI):** A system of digital certificates and authorities that verifies the authenticity of parties in an electronic transaction.
-* **Hash Functions:** Map an input of any length to a fixed-length output.
-    * **One-Way:** Computationally infeasible to reverse the output to find the input.
-    * **Collision Resistance:** Infeasible to find two distinct inputs that produce the same output.
+
 
 ## 4. Sources of Information
 * **Public Records:** (e.g., court filings) - generally less protected.
@@ -240,8 +233,7 @@ When determining if a law applies to a specific scenario, follow this hierarchy:
 Privacy regulation in the U.S. follows a **sectoral model**, meaning different agencies regulate different industries.
 
 ### Federal Regulatory Authorities
-* **Federal Trade Commission (FTC):** The primary federal privacy regulator.
-    * **Authority:** Regulates "unfair or deceptive acts or practices" (Section 5 of the FTC Act).
+* **Federal Trade Commission (FTC):** The primary federal privacy regulator. (See the [FTC Deep Dive](#5-federal-trade-commission-ftc-deep-dive) below for details).
     * **Specifics:** Enforces the Telemarketing Sales Rule and children's privacy (COPPA).
 * **Federal Communications Commission (FCC):** Regulates telecommunications (e.g., TCPA).
 * **Dept. of Health and Human Services (HHS):** Enforces HIPAA (Privacy and Security Rules) for healthcare.
@@ -288,6 +280,42 @@ Industry bodies that create and enforce their own privacy standards.
     - *Prime Example (COPPA):* The FTC allows companies to satisfy COPPA requirements by complying with the rules of an FTC-approved "Safe Harbor" program.
     - *Safe Harbor Orgs:* Aristotle, CARU, ESRB, iKeepSafe, kidSAFE, PRIVO, TrustArc.
 
+
+## 5. Federal Trade Commission (FTC) Deep Dive
+The FTC is the primary federal privacy regulator, enforcing consumer protection and antitrust laws.
+
+### 1. Organizational Structure & Authority
+* **Independent Agency Status:** Established by the FTC Act of 1914, the FTC is an independent administrative agency not under the direct authority of the President.
+* **Governance:** Governed by a Chairperson and four additional Commissioners.
+* **Primary Power (Section 5):** Prohibits "unfair or deceptive acts or practices in or affecting commerce." This is the most important piece of federal privacy legislation despite not explicitly mentioning data.
+* **Rulemaking (Magnuson-Moss):** Unlike most agencies, the FTC must follow the rigorous Magnuson-Moss Act for rulemaking rather than the standard APA. To date, it has not issued specific privacy regulations under this authority.
+
+### 2. Jurisdictional Limits (Exclusions)
+* **Commerce Requirement:** Authority only applies to practices "in or affecting commerce."
+* **Exempt Entities:** Section 5 authority does NOT extend to:
+    * Non-profit organizations.
+    * Most banks and financial institutions.
+    * Common carriers (communications and transportation).
+* **No Private Right of Action:** Only the government can bring suits; individuals cannot sue under the FTC Act.
+
+### 3. Enforcement Life Cycle
+* **Investigatory Powers:**
+    * **Section 6:** Authority to require businesses to submit written reports under oath.
+    * **Section 9:** Broad subpoena power for investigations.
+* **Formal Proceedings:**
+    * **ALJ Hearing:** Complaints are heard by an Administrative Law Judge (ALJ). The ALJ can issue injunctions but cannot impose civil penalties.
+    * **Appeals:** ALJ decisions can be appealed to the five FTC Commissioners, and then to a federal circuit court.
+* **Penalties and Remedies:**
+    * **Civil Penalties:** While the ALJ/Commission cannot impose them directly, the FTC can seek them in federal court. As of July 2025, penalties can be up to $53,088 per violation.
+    * **Section 13(b):** Allows the FTC to go directly to federal court for injunctions. Note: The Supreme Court (*AMG Capital*) ruled that this section cannot be used for "equitable monetary relief."
+
+### 4. Consent Decrees
+The vast majority of FTC enforcement actions are settled via a Consent Decree.
+* **Legal Force:** An agreement where a defendant takes specific actions to end litigation. Once court-approved, it has the force of a federal court order.
+* **Key Features:**
+    * Publicly posted to provide industry guidance.
+    * Generally does not require an admission of guilt.
+    * Usually requires the defendant to maintain and provide proof of compliance to the FTC.
 
 # FTC Privacy Enforcement Case Examples (UDTP)
 
@@ -696,10 +724,9 @@ Managing risks posed by third-party vendors is critical, especially those handli
 * **PCI DSS:** Requires organizations to work only with vendors that are certified as compliant with **PCI DSS** requirements.
 * **Vendor Incident Management:** Agreements must clearly spell out the vendor's obligation to **report known or suspected security incidents** to the customer.
 
-## FTC Privacy Protection
-The **Federal Trade Commission (FTC)** is the lead agency for broad consumer protection in the private sector, enforcing the **FTC Act** (Section 5) against **unfair and deceptive trade practices**.
+## FTC-Enforced Statutes (COPPA & Teens)
+The FTC lead agency for broad consumer protection in the private sector, but it also has specific enforcement authority over several key privacy statutes.
 
-* **FTC’s Role:** Regulates private sector privacy through enforcement actions based on published privacy policies versus actual business conduct, conducts studies, and advises lawmakers. The US lacks a single comprehensive federal privacy law.
 * **Children’s Online Privacy Protection Act (COPPA):** Provides special protection for children under 13.
     * **Scope:** Applies to online services (websites, apps, etc.) that are intended for, or knowingly collect data from, children under 13.
     * **Requirements:** Requires online operators to post a complete **Privacy Policy**, provide **Parental Notification**, obtain verifiable **Parental Consent** before collection, grant parents the right to review/delete data, and implement **Information Security** programs.
