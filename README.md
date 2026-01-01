@@ -288,9 +288,24 @@ The FTC is the primary federal privacy regulator, enforcing consumer protection 
 * **Independent Agency Status:** Established by the FTC Act of 1914, the FTC is an independent administrative agency not under the direct authority of the President.
 * **Governance:** Governed by a Chairperson and four additional Commissioners.
 * **Primary Power (Section 5):** Prohibits "unfair or deceptive acts or practices in or affecting commerce." This is the most important piece of federal privacy legislation despite not explicitly mentioning data.
-* **Rulemaking (Magnuson-Moss):** Unlike most agencies, the FTC must follow the rigorous Magnuson-Moss Act for rulemaking rather than the standard APA. To date, it has not issued specific privacy regulations under this authority.
+* **Rulemaking (Section 18 / Magnuson-Moss):** Unlike most agencies, the FTC must follow the rigorous Magnuson-Moss Act (Section 18) for rulemaking rather than the standard APA.
+    * **The "Prevalence" Requirement:** The FTC can only issue rules if it has reason to believe the unfair or deceptive practices are **prevalent** (widespread), established via prior cease-and-desist orders or evidence of a widespread pattern of conduct.
+    * **Commercial Surveillance Rule:** A proposed rulemaking is currently pending to govern the "commercial surveillance" industry.
 
-### 2. Jurisdictional Limits (Exclusions)
+### 2. Legal Standards for Section 5
+
+* **Deceptive Trade Practices (3-Part Test):**
+    1. **Material:** Likely to affect a consumer’s conduct or decision.
+    2. **Statement or Omission:** A representation or failure to disclose.
+    3. **Likely to Mislead:** Must be deceptive to a consumer acting reasonably under the circumstances.
+
+* **Unfair Trade Practices (3-Part Test - Section 5(n)):**
+    1. **Substantial Injury:** Causes or is likely to cause significant harm.
+    2. **Not Reasonably Avoidable:** Consumers could not have reasonably prevented the injury themselves.
+    3. **Not Outweighed by Benefits:** The harm is not offset by countervailing benefits to consumers or competition.
+
+
+### 3. Jurisdictional Limits (Exclusions)
 * **Commerce Requirement:** Authority only applies to practices "in or affecting commerce."
 * **Exempt Entities:** Section 5 authority does NOT extend to:
     * Non-profit organizations.
@@ -298,7 +313,7 @@ The FTC is the primary federal privacy regulator, enforcing consumer protection 
     * Common carriers (communications and transportation).
 * **No Private Right of Action:** Only the government can bring suits; individuals cannot sue under the FTC Act.
 
-### 3. Enforcement Life Cycle
+### 4. Enforcement Life Cycle
 * **Investigatory Powers:**
     * **Section 6:** Authority to require businesses to submit written reports under oath.
     * **Section 9:** Broad subpoena power for investigations.
@@ -309,7 +324,14 @@ The FTC is the primary federal privacy regulator, enforcing consumer protection 
     * **Civil Penalties:** While the ALJ/Commission cannot impose them directly, the FTC can seek them in federal court. As of July 2025, penalties can be up to $53,088 per violation.
     * **Section 13(b):** Allows the FTC to go directly to federal court for injunctions. Note: The Supreme Court (*AMG Capital*) ruled that this section cannot be used for "equitable monetary relief."
 
-### 4. Consent Decrees
+### 5. FTC Enforcement Remedies
+The FTC uses several tools to enforce compliance and remediate harm:
+
+* **Injunctive Relief:** Court-ordered requirements for a company to take specific actions (e.g., implementing a privacy program).
+* **Civil Penalties:** Fines for violating statutes (like COPPA) or prior consent decrees. Following *AMG Capital*, the FTC cannot seek "equitable monetary relief" (like consumer restitution) under Section 13(b).
+* **Algorithmic Disgorgement:** A remedy requiring companies to **delete algorithms or models** developed using improperly obtained data. (See *Everalbum* below).
+
+### 6. Consent Decrees
 The vast majority of FTC enforcement actions are settled via a Consent Decree.
 * **Legal Force:** An agreement where a defendant takes specific actions to end litigation. Once court-approved, it has the force of a federal court order.
 * **Key Features:**
@@ -317,12 +339,13 @@ The vast majority of FTC enforcement actions are settled via a Consent Decree.
     * Generally does not require an admission of guilt.
     * Usually requires the defendant to maintain and provide proof of compliance to the FTC.
 
+
 # FTC Privacy Enforcement Case Examples (UDTP)
 
 ## Unfair Practices (Security Failures)
 The FTC uses the **Unfair** standard when a company fails to implement reasonable security measures, leading to substantial consumer injury.
 
-* **Wyndham Worldwide:** The hotel chain suffered multiple data breaches due to a failure to implement reasonable security (e.g., strong passwords, firewalls). The action was upheld, finding it **unfair** to promise security but fail to provide adequate safeguards.
+* **Wyndham Worldwide (2015):** Landmark appellate case that **affirmed the FTC's authority** to regulate cybersecurity as an "unfair" trade practice after the hotel chain suffered multiple data breaches.
 * **LabMD:** The company exposed a file with patient information on a peer-to-peer network. The FTC found the lack of sufficient cybersecurity practices to be **unfair**.
 * **DesignerWare:** A rent-to-own company secretly installed spyware on rented computers that captured keystrokes and images. This intrusive monitoring was deemed **unfair**.
 * **LifeLock (Security):** The identity theft protection service failed to implement strong security controls for its own customer data, violating its advertising claims and a prior consent decree, resulting in a **$100 million fine**.
@@ -330,10 +353,10 @@ The FTC uses the **Unfair** standard when a company fails to implement reasonabl
 ## Deceptive Practices (Misrepresentations)
 The FTC uses the **Deceptive** standard when a company makes misleading statements or omissions about how it handles, protects, or uses personal data.
 
+* **GeoCities (1999):** The **first** privacy enforcement action based on web-based promises. The company **resold personal information** after promising not to do so.
+* **Eli Lilly & Co. (2002):** The **first** action where the FTC mandated the creation of a **comprehensive information privacy and security program** after the company accidentally leaked the email addresses of 600 users.
+* **Everalbum, Inc. (2021):** Introduced **Algorithmic Disgorgement**, a remedy requiring the deletion of algorithms or models developed using improperly obtained data (specifically from facial recognition features).
 * **Facebook:** Charged with making deceptive claims about users' ability to control privacy, specifically allowing app developers access to user information even when users restricted access. This led to a large fine for violating a previous consent decree.
-* **Zoom:** Misled consumers into believing its service used **end-to-end encryption** (only users see content), when it used less secure encryption that allowed Zoom to access the content.
-* **Snapchat:** Informed users that messages and photos disappeared forever, while knowing that users could easily **preserve** them. This was a **material deception** about the service's core functionality.
-* **GeoCities:** **Resold personal information** of customers after telling them in its privacy policy that it would **not** do so. This direct contradiction of its policy was deemed **deceptive**.
 * **TRUSTe:** The privacy certification firm was found **deceptive** for failing to conduct required **annual recertifications** of its clients' privacy practices, violating the promise implied by its **Trust Mark** seal.
 
 ### Other Federal Agencies
