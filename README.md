@@ -395,7 +395,7 @@ While the U.S. lacks a single federal health privacy law, several key statutes r
 * **HIPAA & HITECH:** The primary federal standards for the privacy and security of **Protected Health Information (PHI)**. (See the [HIPAA section](#medical-privacy) below for details).
 * **Genetic Information Nondiscrimination Act (GINA):** Prohibits health insurers and employers from discriminating based on genetic information. (Note: Genetic info is classified as **PHI** under HIPAA).
 * **21st Century Cures Act:** Focuses on accelerating medical product development and prohibiting **"information blocking"** (penalties up to $1M). Requires developers to publish APIs that allow patient data to be accessed **"without special effort."**
-* **42 C.F.R. Part 2:** Provides extra confidentiality protections for records of patients treated for **substance use disorders**.
+* **42 C.F.R. Part 2:** Provides heightened confidentiality for records of patients treated for **substance use disorders (SUD)** by a "Part 2 Program." Generally prohibits **redisclosure** of records by third-party recipients without additional consent.
 
 ### 3. Scope of Coverage & "Regulatory Gaps"
 It is a common misconception that all health-related data is protected by federal privacy law.
@@ -797,7 +797,12 @@ Federal laws provide special protections for personal medical information.
     * **Remote Access:** Researchers are permitted to remotely view PHI if they maintain appropriate privacy and security standards.
     * **Information Blocking:** Prohibits practices that interfere with access/exchange of ePHI. Penalties can be up to **$1,000,000 per violation**, with the **Inspector General** authorized to investigate claims.
     * **IT Certification & APIs:** Managed via the **ONC IT certification program**; requires developers to publish **APIs** that allow patient data to be accessed and used **"without special effort."**
-* **Confidentiality of Substance Use Disorder Patient Records Rule (42 CFR Part 2):** Provides heightened confidentiality for substance use disorder treatment records, broadly requiring patient consent for disclosure.
+* **Confidentiality of Substance Use Disorder Patient Records Rule (42 CFR Part 2):** Provides heightened confidentiality for SUD treatment records.
+    * **Expanded Scope:** Applies to a **"Part 2 Program,"** which includes any individual or entity that holds itself out as providing SUD services and is federally assisted. This includes specialized units within general medical facilities or staff whose **"primary function"** is SUD diagnosis, treatment, or referral.
+    * **Strict Consent Requirements:** Written consent must include: (1) Patient name; (2) Specific Part 2 program making the disclosure; (3) Description of info; (4) Identity of the recipient; (5) Purpose; (6) Revocation statement; and (7) Expiration date (not to exceed what is **"reasonably necessary"**).
+    * **Third-Party Redisclosure:** Third parties receiving Part 2 records are strictly prohibited from **"redisclosing"** that information without further patient consent.
+    * **Use Restrictions:** Records cannot be used to initiate **criminal charges** or as a predicate for **criminal investigations** against a patient.
+    * **Administrative Duties:** Upon request, programs must provide patients with a list of entities that received their info in the past **two years**. Programs must also maintain a **formal security program** for both paper and electronic records.
 
 ***
 
