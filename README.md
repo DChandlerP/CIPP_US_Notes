@@ -330,6 +330,7 @@ The FTC uses several tools to enforce compliance and remediate harm:
 * **Injunctive Relief:** Court-ordered requirements for a company to take specific actions (e.g., implementing a privacy program).
 * **Civil Penalties:** Fines for violating statutes (like COPPA) or prior consent decrees. Following *AMG Capital*, the FTC cannot seek "equitable monetary relief" (like consumer restitution) under Section 13(b).
 * **Algorithmic Disgorgement:** A remedy requiring companies to **delete algorithms or models** developed using improperly obtained data. (See *Everalbum* below).
+    * **Specificity Requirement (Post-*LabMD*):** Following the *LabMD* ruling, the FTC must provide **concrete directives** in its orders (e.g., "Implement MFA") rather than ordering indeterminable "reasonable" programs.
 
 ### 6. Consent Decrees
 The vast majority of FTC enforcement actions are settled via a Consent Decree.
@@ -339,16 +340,38 @@ The vast majority of FTC enforcement actions are settled via a Consent Decree.
     * Generally does not require an admission of guilt.
     * Usually requires the defendant to maintain and provide proof of compliance to the FTC.
 
+### 7. FTC Security Enforcement & "Reasonableness"
+Because the FTC has not issued formal security regulations, practitioners look to **consent orders** and court rulings to define "reasonable" security.
+
+#### **Landmark Judicial Decisions**
+* **FTC v. Wyndham Worldwide Corp. (2015):** Landmark 3rd Circuit case that **affirmed the FTC's authority** to regulate cybersecurity as an "unfair" trade practice.
+    * **Impact:** Established that companies have "fair notice" that poor security can be a Section 5 violation.
+* **LabMD, Inc. v. FTC (2018):** 11th Circuit vacated an FTC order for being **unenforceable and non-specific**.
+    * **Key Finding:** The court assumed the FTC has authority over security but ruled the order to implement a "reasonable" program was too vague. The FTC must provide **concrete directives** rather than an **"indeterminable standard of reasonableness."**
+
+#### **What the FTC Considers "Unreasonable" (2017–2020 Case Examples)**
+* **Uber (2017):** Failed to use unique access keys or **multi-factor authentication (MFA)** and stored unencrypted geolocation data in the cloud.
+* **Lenovo (2017):** Pre-installed **"man-in-the-middle"** software that bypassed browser encryption to show ads, creating major vulnerabilities.
+* **PayPal/Venmo (2018):** Falsely claimed "bank-grade security" while lacking a written information security program.
+* **VTech Electronics (2018):** The first child privacy case against an **IoT device maker**; failed to implement intrusion detection or encryption.
+* **Equifax (2019):** Massive settlement ($575M+) following a breach of 147 million records; cited for failing to patch known vulnerabilities and **segment servers**.
+* **Tapplock (2020):** **IoT Security:** Falsely claimed smart locks were "unbreakable" despite API vulnerabilities that allowed account bypass.
+* **SkyMed (2020):** **Health Data:** Stored PHI in unsecured cloud databases and used a fake "HIPAA Compliance" seal.
+* **Ascension Data & Analytics (2020):** **Vendor Oversight:** Violated the GLBA Safeguards Rule by failing to oversee a vendor that left mortgage data exposed.
+
+#### **Modern Remedies**
+* **Algorithmic Disgorgement:** Requires companies to **delete algorithms or models** developed using improperly obtained data. (e.g., *Everalbum*, 2021).
+
+
 
 # FTC Privacy Enforcement Case Examples (UDTP)
 
 ## Unfair Practices (Security Failures)
-The FTC uses the **Unfair** standard when a company fails to implement reasonable security measures, leading to substantial consumer injury.
+The FTC uses the **Unfair** standard when a company fails to implement reasonable security measures, leading to substantial consumer injury. (See the [Security Enforcement Section](#7-ftc-security-enforcement--reasonableness) for Wyndham, LabMD, and modern failures like Equifax).
 
-* **Wyndham Worldwide (2015):** Landmark appellate case that **affirmed the FTC's authority** to regulate cybersecurity as an "unfair" trade practice after the hotel chain suffered multiple data breaches.
-* **LabMD:** The company exposed a file with patient information on a peer-to-peer network. The FTC found the lack of sufficient cybersecurity practices to be **unfair**.
 * **DesignerWare:** A rent-to-own company secretly installed spyware on rented computers that captured keystrokes and images. This intrusive monitoring was deemed **unfair**.
 * **LifeLock (Security):** The identity theft protection service failed to implement strong security controls for its own customer data, violating its advertising claims and a prior consent decree, resulting in a **$100 million fine**.
+
 
 ## Deceptive Practices (Misrepresentations)
 The FTC uses the **Deceptive** standard when a company makes misleading statements or omissions about how it handles, protects, or uses personal data.
@@ -675,7 +698,20 @@ The FTC lead agency for broad consumer protection in the private sector, but it 
 
 * **Children’s Online Privacy Protection Act (COPPA):** Provides special protection for children under 13.
     * **Scope:** Applies to online services (websites, apps, etc.) that are intended for, or knowingly collect data from, children under 13.
-    * **Requirements:** Requires online operators to post a complete **Privacy Policy**, provide **Parental Notification**, obtain verifiable **Parental Consent** before collection, grant parents the right to review/delete data, and implement **Information Security** programs.
+    * **Personal Information (2025 Amendments):** Now explicitly includes **government-issued identifiers** and **biometric identifiers** (e.g., fingerprints, facial geometry).
+    * **Internal Procedures:** Requires:
+        * **Annual security assessments** to identify and remediate risks.
+        * Designation of an **oversight employee** accountable for the privacy/security program.
+    * **Verifiable Parental Consent (VPC) Methods:** Operators must use one of 7 FTC-approved methods:
+        1. **Signed forms** (returned via fax, mail, or electronic scan).
+        2. **Credit/Debit card transactions** (providing notification of each transaction to the primary account holder).
+        3. **Toll-free telephone number** staffed by trained personnel.
+        4. **Video conference** with trained personnel.
+        5. **Knowledge-Based Authentication (KBA)** (personalized questions).
+        6. **Government-issued ID verification** (checked against databases and then deleted).
+        7. **Facial Recognition** (matching a live photo against an ID photo).
+    * **Safe Harbor Programs:** Companies can demonstrate compliance by joining self-regulatory programs like **Aristotle**, **iKeepSafe**, and **kidSAFE**.
+    * **Requirements:** Requires operators to post a complete **Privacy Policy**, provide **Parental Notification**, obtain **Consent** before collection, and grant parents the right to review/delete data.
 * **Future of Enforcement:** Addresses challenges from new technologies like **Big Data**, **Artificial Intelligence (AI)**, **Machine Learning (ML)**, and the **Internet of Things (IoT)**, which enable new business models like data brokers and cross-border data flows.
 * **Teen-Specific State Protections (Ages 13–18):**
     * **California Minors "Eraser" Law:** Provides individuals under 18 the right to request removal of information they posted online.
