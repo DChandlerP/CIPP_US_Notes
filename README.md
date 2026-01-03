@@ -383,6 +383,28 @@ The FTC continues to evolve its enforcement strategies to address emerging techn
         2. **Unfair Conduct:** The conduct must be "coercive, exploitative, exclusionary, or otherwise restrictive" of competition.
 
 
+## 6. Healthcare Privacy Framework
+Healthcare privacy in the U.S. is governed by a complex mix of constitutional principles and specific sectoral statutes.
+
+### 1. Constitutional Context
+The U.S. legal system has historically recognized a broad **right to privacy** regarding health and medical issues, often derived from the "penumbras" of the Bill of Rights.
+* **Legal Uncertainty (Post-*Dobbs*):** The 2022 Supreme Court decision in ***Dobbs v. Jackson Women's Health Organization*** has created significant legal uncertainty regarding the privacy of **reproductive health data**. This ruling narrowed the federal constitutional basis for privacy in this area, shifting many protections to a state-by-state level.
+
+### 2. Core Federal Statutes
+While the U.S. lacks a single federal health privacy law, several key statutes regulate specific domains:
+* **HIPAA & HITECH:** The primary federal standards for the privacy and security of **Protected Health Information (PHI)**. (See the [HIPAA section](#medical-privacy) below for details).
+* **Genetic Information Nondiscrimination Act (GINA):** Prohibits health insurers and employers from discriminating based on genetic information.
+* **21st Century Cures Act:** Focuses on accelerating medical product development and prohibiting "information blocking" that prevents patients from accessing their electronic health info.
+* **42 C.F.R. Part 2:** Provides extra confidentiality protections for records of patients treated for **substance use disorders**.
+
+### 3. Scope of Coverage & "Regulatory Gaps"
+It is a common misconception that all health-related data is protected by federal privacy law.
+* **Entity-Based Protection:** Laws like HIPAA apply only to **"Covered Entities"** (providers, insurers) and their **Business Associates**.
+* **Unprotected Activities:** Health information generated through activities outside of these entities is often **not federally protected**.
+    * *Examples:* Online health searches, fitness tracker data (not linked to a provider), and information shared on social media support groups.
+* **FTC Oversight:** When sectoral health laws (like HIPAA) do not apply, the **FTC** acts as the primary regulator for health-related privacy under its Section 5 authority.
+
+
 
 # FTC Privacy Enforcement Case Examples (UDTP)
 
