@@ -363,6 +363,26 @@ Because the FTC has not issued formal security regulations, practitioners look t
 * **Algorithmic Disgorgement:** Requires companies to **delete algorithms or models** developed using improperly obtained data. (e.g., *Everalbum*, 2021).
 
 
+### 8. Modern FTC Enforcement Priorities
+The FTC continues to evolve its enforcement strategies to address emerging technological risks and complex market behaviors.
+
+* **2023 Office of Technology:** Created to provide the agency with specialized technical expertise. This team supports agency matters by helping investigators and attorneys understand complex technologies, data practices, and algorithmic systems.
+* **Four Key Focus Areas:** Current FTC enforcement is primarily focused on:
+    * **Artificial Intelligence (AI):** Monitoring deceptive claims about AI capabilities and the use of biased or improperly trained models.
+    * **Healthcare Privacy:** Protecting sensitive health data, especially in non-HIPAA regulated spaces (e.g., health apps and trackers).
+    * **Children's Privacy:** Continued rigorous enforcement of COPPA and expanding protections for teens.
+    * **Location Data:** Cracking down on the unauthorized sale and misuse of precise geolocation information.
+* **Dark Patterns:** The FTC is actively monitoring and taking action against deceptive design elements that subvert user intent. Four specific elements include:
+    * **False Beliefs:** Creating deceptive impressions that lead consumers to take actions they otherwise wouldn't.
+    * **Hidden Disclosures:** Burying key terms or fees in obscure locations or fine print.
+    * **Unauthorized Charges:** Enrolling consumers in recurring payments without clear, informed consent.
+    * **Obscured Choices:** Making it difficult for users to opt-out, cancel, or select privacy-protective settings.
+* **Unfair Methods of Competition (UMC):** In 2022, the FTC issued a **Policy Statement** regarding its authority under Section 5 to regulate unfair methods of competition.
+    * **Two-Part Test:** To determine if conduct is a UMC violation, the FTC looks for:
+        1. **Method of Competition:** The conduct must be a type of competition (not just an individual consumer harm).
+        2. **Unfair Conduct:** The conduct must be "coercive, exploitative, exclusionary, or otherwise restrictive" of competition.
+
+
 
 # FTC Privacy Enforcement Case Examples (UDTP)
 
