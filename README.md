@@ -770,12 +770,22 @@ Federal laws provide special protections for personal medical information.
 
 * **Health Insurance Portability and Accountability Act (HIPAA):** Sets standards for the privacy and security of **Protected Health Information (PHI)** and **electronic PHI (ePHI)**.
     * **Scope:** Applies to **Covered Entities** (health plans, clearinghouses, providers) and their **Business Associates** (third parties with access to PHI, bound by **Business Associate Agreements** or BAAs).
-    * **Privacy Rule:** Governs the **use and disclosure** of PHI, requiring the **minimum necessary** amount of PHI be shared. Grants **Individual Rights** to patients (e.g., to access, correct, and request restrictions on their data).
-    * **Security Rule:** Applies only to ePHI, requiring covered entities to conduct a regular **risk analysis** and implement safeguards for confidentiality, integrity, and availability.
+    * **Privacy Rule:** Governs the **use and disclosure** of PHI, requiring the **minimum necessary** amount of PHI be shared.
+        * **Patient Rights:** Includes the right to access the **Designated Record Set** (medical, billing, and enrollment records). Requests must be fulfilled within **30 days**.
+        * **Valid Authorizations:** To be valid, a written authorization must include six elements: (1) description of info, (2) identity of the granter, (3) identity of the recipient, (4) purpose of use, (5) expiration date/event, and (6) signature and date.
+    * **Security Rule:** Applies only to ePHI, requiring safeguards for confidentiality, integrity, and availability.
+        * **Required vs. Addressable:** Controls are either **Required** (must be implemented) or **Addressable** (must assess if reasonable; if not, document why and implement an equivalent alternative).
 * **Health Information Technology for Economic and Clinical Health (HITECH) Act (2009):** Promoted Electronic Health Records (EHRs) and strengthened HIPAA.
-    * **Key Change:** Extended HIPAA's direct liability to **Business Associates** and introduced the **Breach Notification Rule** (requiring notice to victims and HHS within **60 days** for significant breaches).
-* **21st Century Cures Act (2016):** Encourages standardized EHRs, penalizes **information blocking** (preventing appropriate sharing of ePHI), and facilitates sharing of mental health/substance abuse information with family/caregivers.
-* **Confidentiality of Substance Use Disorder Patient Records Rule (42 CFR Part 2):** Provides heightened confidentiality for substance use disorder treatment records, generally requiring patient consent for disclosure.
+    * **Key Changes:** Extended HIPAA's direct liability to **Business Associates** and introduced the **Breach Notification Rule** (requiring notice within **60 days** for significant breaches).
+    * **Enforcement & Penalties:**
+        * **DOJ Criminal Penalties (3 Tiers):**
+            * *Knowing:* $50,000 fine and up to 1 year in prison.
+            * *False Pretenses:* $100,000 fine and up to 5 years in prison.
+            * *Malicious/Commercial:* $250,000 fine and up to 10 years in prison.
+        * **Max Civil Penalty (2024):** The maximum civil penalty for a violation has been updated to **$2,067,813**.
+    * **2021 Safe Harbor Bill:** Added a provision where HHS may mitigate fines or length of audits if "recognized security practices" (e.g., NIST or Cybersecurity Act 405(d) standards) were in place for at least **12 months** prior to the incident.
+* **21st Century Cures Act (2016):** Encourages standardized EHRs, penalizes **information blocking**, and facilitates sharing of mental health/substance abuse information with family/caregivers.
+* **Confidentiality of Substance Use Disorder Patient Records Rule (42 CFR Part 2):** Provides heightened confidentiality for substance use disorder treatment records, broadly requiring patient consent for disclosure.
 
 ***
 
