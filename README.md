@@ -394,7 +394,7 @@ The U.S. legal system has historically recognized a broad **right to privacy** r
 While the U.S. lacks a single federal health privacy law, several key statutes regulate specific domains:
 * **HIPAA & HITECH:** The primary federal standards for the privacy and security of **Protected Health Information (PHI)**. (See the [HIPAA section](#medical-privacy) below for details).
 * **Genetic Information Nondiscrimination Act (GINA):** Prohibits health insurers and employers from discriminating based on genetic information. (Note: Genetic info is classified as **PHI** under HIPAA).
-* **21st Century Cures Act:** Focuses on accelerating medical product development and prohibiting "information blocking" that prevents patients from accessing their electronic health info.
+* **21st Century Cures Act:** Focuses on accelerating medical product development and prohibiting **"information blocking"** (penalties up to $1M). Requires developers to publish APIs that allow patient data to be accessed **"without special effort."**
 * **42 C.F.R. Part 2:** Provides extra confidentiality protections for records of patients treated for **substance use disorders**.
 
 ### 3. Scope of Coverage & "Regulatory Gaps"
@@ -792,7 +792,11 @@ Federal laws provide special protections for personal medical information.
             * *Malicious/Commercial:* $250,000 fine and up to 10 years in prison.
         * **Max Civil Penalty (2024):** The maximum civil penalty for a violation has been updated to **$2,067,813**.
     * **2021 Safe Harbor Bill:** Added a provision where HHS may mitigate fines or length of audits if "recognized security practices" (e.g., NIST or Cybersecurity Act 405(d) standards) were in place for at least **12 months** prior to the incident.
-* **21st Century Cures Act (2016):** Encourages standardized EHRs, penalizes **information blocking**, and facilitates sharing of mental health/substance abuse information with family/caregivers.
+* **21st Century Cures Act (2016):** Encourages standardized EHRs and addresses data sharing/research.
+    * **Research Protections:** Includes **Certificates of Confidentiality** (issued by NIH to prevent the use of research data in legal proceedings without consent) and a **FOIA exemption** for health data in biomedical research.
+    * **Remote Access:** Researchers are permitted to remotely view PHI if they maintain appropriate privacy and security standards.
+    * **Information Blocking:** Prohibits practices that interfere with access/exchange of ePHI. Penalties can be up to **$1,000,000 per violation**, with the **Inspector General** authorized to investigate claims.
+    * **IT Certification & APIs:** Managed via the **ONC IT certification program**; requires developers to publish **APIs** that allow patient data to be accessed and used **"without special effort."**
 * **Confidentiality of Substance Use Disorder Patient Records Rule (42 CFR Part 2):** Provides heightened confidentiality for substance use disorder treatment records, broadly requiring patient consent for disclosure.
 
 ***
