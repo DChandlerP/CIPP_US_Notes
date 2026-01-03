@@ -393,7 +393,7 @@ The U.S. legal system has historically recognized a broad **right to privacy** r
 ### 2. Core Federal Statutes
 While the U.S. lacks a single federal health privacy law, several key statutes regulate specific domains:
 * **HIPAA & HITECH:** The primary federal standards for the privacy and security of **Protected Health Information (PHI)**. (See the [HIPAA section](#medical-privacy) below for details).
-* **Genetic Information Nondiscrimination Act (GINA):** Prohibits health insurers and employers from discriminating based on genetic information.
+* **Genetic Information Nondiscrimination Act (GINA):** Prohibits health insurers and employers from discriminating based on genetic information. (Note: Genetic info is classified as **PHI** under HIPAA).
 * **21st Century Cures Act:** Focuses on accelerating medical product development and prohibiting "information blocking" that prevents patients from accessing their electronic health info.
 * **42 C.F.R. Part 2:** Provides extra confidentiality protections for records of patients treated for **substance use disorders**.
 
@@ -997,8 +997,11 @@ Federal laws restrict the collection and use of personal data to prevent bias.
     * **Medical Exams:** Pre-employment medical exams are banned before a conditional job offer. Medical info must be kept in separate, confidential files.
     * **Undue Hardship:** Employers are not required to provide accommodations that cause significant difficulty/expense.
 * **Genetic Information Nondiscrimination Act (GINA):**
-    * Prohibits using genetic info (including family medical history) for hiring, firing, or promotion.
-    * Generally prohibits collecting genetic info, with narrow exceptions (e.g., accidental acquisition, FMLA requests, wellness programs).
+    * **Framework:** Functions by amending existing statutes, including **ERISA** and **HIPAA**. Genetic information is explicitly classified as **PHI** under HIPAA.
+    * **Employment Protections:** Prohibits using genetic info (including family medical history) for hiring, firing, or promotion. Generally prohibits collecting genetic info (exceptions for accidental acquisition, FMLA, wellness programs).
+    * **Health Insurer Restrictions:** Health plans cannot use genetic info for **underwriting** purposes or discriminate based on a **predisposition** to disease.
+    * **Genetic Testing:** Insurers are prohibited from requesting or requiring individuals to undergo genetic tests, except for limited, voluntary research purposes.
+    * **Exam Note:** For CIPP/US purposes, GINA is primary classified under **Workplace Privacy**.
 
 ## III. Privacy Before Employment (Screening)
 ### A. Automated Employment Decision Tools
