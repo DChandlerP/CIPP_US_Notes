@@ -776,7 +776,15 @@ Federal laws provide special protections for personal medical information.
     * **Security Rule:** Applies only to ePHI, requiring safeguards for confidentiality, integrity, and availability.
         * **Required vs. Addressable:** Controls are either **Required** (must be implemented) or **Addressable** (must assess if reasonable; if not, document why and implement an equivalent alternative).
 * **Health Information Technology for Economic and Clinical Health (HITECH) Act (2009):** Promoted Electronic Health Records (EHRs) and strengthened HIPAA.
-    * **Key Changes:** Extended HIPAA's direct liability to **Business Associates** and introduced the **Breach Notification Rule** (requiring notice within **60 days** for significant breaches).
+    * **Key Changes:** Extended HIPAA's direct liability to **Business Associates** and introduced the **Breach Notification Rule**.
+        * **Breach Standard:** A breach is **presumed** following an unauthorized use or disclosure unless the entity performs a risk assessment showing a **"low probability"** that PHI was compromised.
+        * **Four Mandatory Risk Factors:** Assessments must consider: (1) The nature and extent of the PHI involved; (2) The identity of the unauthorized person who used or received it; (3) Whether the PHI was actually acquired or viewed; and (4) The extent to which the risk has been mitigated.
+        * **Exceptions:** Not considered a breach if: (1) Inadvertent, good-faith access by an employee within their scope of authority; or (2) Disclosure where the recipient could not reasonably have retained the information.
+        * **Tiered Notifications:**
+            * **Individuals:** Must be notified within **60 days** of discovery.
+            * **Media:** Must be notified within **60 days** if a breach affects more than **500 residents** of a single state or jurisdiction.
+            * **HHS (Secretary):** All breaches must be reported. If >500 individuals are affected, notification must be immediate. If <500, the entity must maintain an **annual log** and report all breaches within 60 days of the end of the calendar year.
+        * **Burden of Proof:** The Covered Entity or Business Associate bears the **burden of proof** to demonstrate that all required notifications were made or that the use/disclosure did not constitute a breach.
     * **Enforcement & Penalties:**
         * **DOJ Criminal Penalties (3 Tiers):**
             * *Knowing:* $50,000 fine and up to 1 year in prison.
