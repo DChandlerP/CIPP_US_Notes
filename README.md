@@ -414,6 +414,14 @@ The HBNR fills a key regulatory gap by protecting health information that is not
 * **Key Precedent:** The **2023 GoodRx enforcement action** was the first case brought under this rule, resulting from the unauthorized sharing of health data with advertising platforms.
 * **Preemption:** The HBNR **preempts state law** regarding health breach notifications for entities within its scope.
 
+### 5. Consumer Medical Technology (MedTech)
+The rapid growth of health-related consumer technology has created a unique regulatory landscape involving the FDA, FTC, and sectoral laws.
+* **FDA/FDCA Scope:** Under the Food, Drug, and Cosmetic Act (FDCA), a **'device'** is defined as an instrument, apparatus, or similar article intended for use in the **diagnosis or treatment** of disease.
+* **21st Century Cures Act Exclusion:** This Act explicitly excludes **general wellness/lifestyle software** (e.g., meditation apps, sleep trackers) from the definition of a 'device' if they are considered **'low risk'** to patient safety.
+* **Cybersecurity Plan Requirement:** For **'cyber devices'** (those capable of connecting to the internet), the FDCA requires manufacturers to submit a plan to monitor, identify, and address **post-market vulnerabilities**.
+* **FTC Section 5 Oversight:** Even when HIPAA does not apply, **FTC Section 5** governs MedTech companies. The FTC has specifically prioritized enforcement (notably in 2022) against companies that exploit or improperly share sensitive health and location data.
+* **Notice Importance:** Providing **accurate and transparent notice** is paramount in the MedTech sector, as consumers frequently mistake non-HIPAA health applications for services provided by regulated healthcare providers.
+
 
 # FTC Privacy Enforcement Case Examples (UDTP)
 
