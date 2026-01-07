@@ -404,6 +404,15 @@ It is a common misconception that all health-related data is protected by federa
     * *Examples:* Online health searches, fitness tracker data (not linked to a provider), and information shared on social media support groups.
 * **FTC Oversight:** When sectoral health laws (like HIPAA) do not apply, the **FTC** acts as the primary regulator for health-related privacy under its Section 5 authority.
 
+### 4. FTC Health Breach Notification Rule (HBNR)
+The HBNR fills a key regulatory gap by protecting health information that is not covered by HIPAA.
+* **Statutory Basis:** 16 C.F.R. Part 318.
+* **Scope:** Applies to non-HIPAA covered entities, specifically **vendors of personal health records (PHRs)** and **third-party service providers** that interact with PHR data.
+* **Notification Requirements:** Requires notice to **individuals** and the **FTC**.
+* **The 'Media Rule':** Notification to prominent media outlets is required if a breach affects more than **500 residents** of a single state or jurisdiction.
+* **Timeline:** Notifications must be sent without unreasonable delay and no later than **60 days** after the breach is discovered or "reasonably should have been known."
+* **Key Precedent:** The **2023 GoodRx enforcement action** was the first case brought under this rule, resulting from the unauthorized sharing of health data with advertising platforms.
+* **Preemption:** The HBNR **preempts state law** regarding health breach notifications for entities within its scope.
 
 
 # FTC Privacy Enforcement Case Examples (UDTP)
