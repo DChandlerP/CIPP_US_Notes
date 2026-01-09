@@ -899,7 +899,26 @@ Regulations govern the financial sector, including credit, banking, and insuranc
         *   **Threshold:** Affecting **500 or more** consumers.
         *   **Timeline:** Notification must occur as soon as possible, and no later than **30 days** after discovery.
 
-* **Consumer Financial Protection Bureau (CFPB):** Created by the Dodd–Frank Act (2008). Enforces against **Unfair, Deceptive, or Abusive Acts and Practices (UDAAPs)** in the financial sector.
+* **Consumer Financial Protection Bureau (CFPB):** Created by **Title X** of the **Dodd–Frank Act (2010)** to be the central regulator for consumer financial protection.
+    *   **Consolidation of Authority:** Assumed rule-making and enforcement power from **7 other federal agencies** (including the FTC, Federal Reserve, and OCC).
+    *   **Rule-Making Transition:**
+        *   **Regulation P:** The CFPB now administers the GLBA Privacy Rule.
+        *   **Regulation V:** The CFPB now administers broad portions of the FCRA.
+    *   **Jurisdiction (Supervision & Exam):**
+        *   **Banks:** Direct supervision of insured depository institutions with **assets > $10 Billion**.
+        *   **Non-Banks:** Supervises mortgage brokers, payday lenders, private student lenders, and "larger participants" in consumer markets.
+    *   **UDAAP Standard:** Broad authority to prevent "Unfair, Deceptive, or **Abusive** Acts and Practices."
+        *   **"Abusive" Defined:** An act/practice is abusive if it:
+            1.  **Materially interferes** with the ability of a consumer to understand a term or condition; OR
+            2.  Takes **unreasonable advantage** of a consumer's:
+                *   Lack of understanding of the risks/costs.
+                *   Inability to protect their interests.
+                *   Reasonable reliance on the covered person.
+    *   **Enforcement Tools:**
+        *   **Civil Investigative Demands (CIDs):** A powerful administrative subpoena power allowing the CFPB to demand documents, written reports, and testimony **before** commencing a legal proceeding.
+    *   **Recent Enforcement Trends (2023–2024):**
+        *   **"Junk Fees":** Aggressive action against illegal surprise fees (e.g., overdrafts, unexpected service charges).
+        *   **Algorithmic Fairness:** Focus on preventing discrimination in automated models used for credit decisions, tenant screening, and home valuations.
 
 ***
 
