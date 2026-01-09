@@ -891,9 +891,24 @@ Regulations govern the financial sector, including credit, banking, and insuranc
             *   **Legal/Compliance:** Compliance with laws, subpoenas, or fraud prevention.
     *   **Safeguards Rule (Revised 2021/2023):** Requires a written **Comprehensive Information Security Program**.
         *   **Qualified Individual:** Must designate a **single** qualified individual (employee or external affiliate) to oversee and enforce the security program.
+        *   **Written Risk Assessment:** Must periodically evaluate internal/external threats and the **adequacy** of existing safeguards to control those risks.
+        *   **Mandatory Testing & Monitoring:** Information systems must be monitored/tested using one of two methods:
+            1.  **Continuous Monitoring:** Real-time system scanning.
+            2.  **Periodic Testing:** Annual **Penetration Testing** AND Bi-annual (every 6 months) **Vulnerability Assessments**.
         *   **Technical Controls:**
             *   **Encryption:** Mandatory for all NPI held **at rest** and **in transit** over external networks.
             *   **MFA:** Multi-Factor Authentication is required for **any individual** accessing customer information systems.
+        *   **Service Provider Management:** Institutions must select providers capable of maintaining appropriate safeguards and require them to do so by **contract**.
+        *   **Incident Response Plan (IRP):** Establish a **written** plan designed to promptly respond to security events. It must address:
+            *   Goals of the plan.
+            *   Internal response processes.
+            *   Definition of roles/responsibilities.
+            *   External/Internal communications.
+            *   Remediation of weaknesses.
+        *   **Annual Board Reporting:** The Qualified Individual must report in writing, at least **annually**, to the Board of Directors (or equivalent) on the status of compliance and material matters.
+    *   **Pretexting Provisions (GLBA Section 521):**
+        *   **Prohibition:** Makes it illegal to obtain or attempt to obtain customer information of a financial institution by **false pretenses** (social engineering).
+        *   **Penalties:** Violations can result in criminal penalties (fines and imprisonment).
     *   **2024 FTC Breach Notification:**
         *   **Rule:** Non-banking financial institutions must notify the **FTC** of a data breach.
         *   **Threshold:** Affecting **500 or more** consumers.
