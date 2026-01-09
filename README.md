@@ -949,6 +949,26 @@ Regulations govern the financial sector, including credit, banking, and insuranc
         *   **Entity-Level:** The financial institution *itself* is not exempt; if it collects data outside of the CalFIPA scope (e.g., website visitor data), that data is subject to CCPA.
     *   **Penalties:** Statutory damages of **$2,500** per violation, up to a **$500,000** cap for a pattern of violations.
 
+*   **Online Banking and Government Access:**
+    *   **Dodd-Frank Section 1033 ("Open Banking"):**
+        *   **Rule (2024/2025):** Grants consumers the right to access their financial data in a machine-readable format and share it with third parties.
+        *   **Shift to APIs:** Mandates a transition away from **screen scraping** (risky sharing of login credentials) toward secure, standardized **APIs** for data sharing.
+    *   **Right to Financial Privacy Act (RFPA) of 1978:**
+        *   **Restricts Federal Access:** Prohibits federal government authorities from accessing bank records without a warrant, subpoena, or specific exception.
+        *   **Requirements:** To access records, the government must generally provide:
+            1.  A formal written request or **subpoena**.
+            2.  **Prior notice** to the customer.
+            3.  An opportunity for the customer to challenge the request in court.
+    *   **Bank Secrecy Act (BSA) & Anti-Money Laundering (AML):**
+        *   **Suspicious Activity Reports (SARs):** Financial institutions must file a SAR for any transaction (>$5,000) that typically involves potential money laundering or violations of law.
+        *   **Strict Confidentiality:** The institution is **prohibited** from notifying the customer (or any third party) that a SAR has been filed. This creates a tension with typical transparency principles.
+    *   **Know Your Customer (KYC):**
+        *   **USA PATRIOT Act:** Section 326 requires financial institutions to implement a **Customer Identification Program (CIP)**.
+        *   **Impact:** They must verify the identity of any person opening an account (Name, DOB, Address, SSN). This is a mandatory exception to privacy norms (anonymity is not an option in banking).
+    *   **Mobile Banking Risks:**
+        *   **SMS/Text Banking:** Often lacks end-to-end encryption; vulnerable to "SIM swapping" attacks where hackers hijack the victim's phone number to intercept 2FA codes.
+        *   **Geolocation:** Apps often collect precise location data for "fraud detection" (verifying the user is in a known location), but this creates a rich database of user movements that carries significant privacy risks if breached or sold.
+
 ***
 
 ## Educational Privacy
