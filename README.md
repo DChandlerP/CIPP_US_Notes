@@ -417,8 +417,15 @@ The HBNR fills a key regulatory gap by protecting health information that is not
 ### 5. Consumer Medical Technology (MedTech)
 The rapid growth of health-related consumer technology has created a unique regulatory landscape involving the FDA, FTC, and sectoral laws.
 * **FDA/FDCA Scope:** Under the Food, Drug, and Cosmetic Act (FDCA), a **'device'** is defined as an instrument, apparatus, or similar article intended for use in the **diagnosis or treatment** of disease.
-* **21st Century Cures Act Exclusion:** This Act explicitly excludes **general wellness/lifestyle software** (e.g., meditation apps, sleep trackers) from the definition of a 'device' if they are considered **'low risk'** to patient safety.
-* **Cybersecurity Plan Requirement:** For **'cyber devices'** (those capable of connecting to the internet), the FDCA requires manufacturers to submit a plan to monitor, identify, and address **post-market vulnerabilities**.
+* **21st Century Cures Act Exclusion:** The Act excludes software functions from the 'device' definition if they are **'low risk'** to patient safety. The FDA categorizes 'General Wellness' products into two exclusions:
+    1.  **General Health:** Products that maintain or encourage a general state of health or healthy activity (e.g., a **breathing/relaxation app**, sleep trackers, or weight management tools).
+    2.  **Disease Association:** Products that associate a healthy lifestyle with helping to reduce the risk or impact of a chronic disease, provided they do not offer specific treatment advice.
+* **Cybersecurity Requirements:**
+    *   **Post-Market Plans:** For **'cyber devices'** (internet-connected), manufacturers must submit a plan to monitor and address post-market vulnerabilities.
+    *   **Sept. 2023 Guidance:** The FDA issued final guidance emphasizing that cybersecurity is a critical part of a device's "safety and effectiveness" reviews.
+* **State-Level Regulatory Framework:**
+    *   **Consumer Fraud:** State Attorneys General use **"Little FTC Acts"** to prosecute health apps for misleading privacy practices or false claims.
+    *   **Genetic Data:** Several states (e.g., CA, VA, UT) have enacted laws specifically governing the security and consent requirements for **Direct-to-Consumer (DTC) Genetic Testing** companies.
 * **FTC Section 5 Oversight:** Even when HIPAA does not apply, **FTC Section 5** governs MedTech companies. The FTC has specifically prioritized enforcement (notably in 2022) against companies that exploit or improperly share sensitive health and location data.
 * **Notice Importance:** Providing **accurate and transparent notice** is paramount in the MedTech sector, as consumers frequently mistake non-HIPAA health applications for services provided by regulated healthcare providers.
 
@@ -826,9 +833,24 @@ Federal laws provide special protections for personal medical information.
 ## Financial Privacy
 Regulations govern the financial sector, including credit, banking, and insurance.
 
-* **Fair Credit Reporting Act (FCRA) (1970):** Regulates **Consumer Reporting Agencies (CRAs)**.
-    * **Purpose:** Ensures the accuracy, fairness, and privacy of **consumer reports** used in decisions about credit, insurance, or employment.
-    * **Rights:** Gives consumers the right to **access their report/score**, be informed of unfavorable decisions, and **dispute inaccurate information**. Sharing is limited to **permissible purposes**.
+* **Fair Credit Reporting Act (FCRA) (1970):** The first major federal data privacy law, regulating the collection and use of consumer credit information.
+    * **Regulated Entities:**
+        *   **Consumer Reporting Agencies (CRAs):** Entities that assemble/evaluate consumer credit info (e.g., Equifax, Experian, TransUnion).
+        *   **Users:** Entities that purchase/use reports for decision-making (e.g., banks, employers, landlords).
+        *   **Furnishers:** Entities that provide data to CRAs (e.g., lenders, credit card issuers).
+        *   **Red Flags Rule Entities:** Financial institutions and creditors required to implement identity theft prevention programs.
+    *   **Definition of 'Consumer Report':** A communication by a CRA bearing on a consumer's: (1) Creditworthiness, standing, or capacity; (2) Character or general reputation; or (3) Mode of living; which is used for a **permissible purpose** (e.g., credit, insurance, employment).
+    *   **Investigative Consumer Reports:** A subset of consumer reports where information on character/reputation is obtained through **personal interviews** with neighbors, friends, or associates.
+        *   **Notice:** The User must notify the consumer in writing within **3 days** of requesting such a report.
+    *   **Obsolescence Rules:** CRAs are prohibited from reporting negative information after a certain period:
+        *   **Negative Info/Liens/Lawsuits:** 7 years.
+        *   **Bankruptcies:** 10 years.
+        *   *Exception:* No time limit for high-value transactions (credit/insurance >$150k, employment >$75k).
+    *   **Case Law: *TransUnion LLC v. Ramirez* (2021):** Supreme Court ruled that plaintiffs must demonstrate **"actual concrete harm"** to have Article III standing to sue in federal court. A mere statutory violation or "risk of harm" without material injury is insufficient for damages.
+    *   **Enforcement:**
+        *   **Penalties:** The **2025 maximum civil penalty** for knowing violations is **$4,983** per violation.
+        *   **State Attorneys General:** Have the authority to bring civil actions on behalf of state residents.
+        *   **Private Right of Action:** Consumers can sue for **willful** (statutory + punitive damages) or **negligent** (actual damages) noncompliance.
 * **Fair and Accurate Credit Transactions Act (FACTA) (2003):** Updated FCRA to combat identity theft.
     * **Provisions:** Guaranteed the right to **free annual credit reports** and allowed consumers to place **fraud alerts** on their reports.
 * **Gramm–Leach–Bliley Act (GLBA) (1999):** Regulates **financial institutions**.
