@@ -934,6 +934,20 @@ Regulations govern the financial sector, including credit, banking, and insuranc
     *   **Recent Enforcement Trends (2023–2024):**
         *   **"Junk Fees":** Aggressive action against illegal surprise fees (e.g., overdrafts, unexpected service charges).
         *   **Algorithmic Fairness:** Focus on preventing discrimination in automated models used for credit decisions, tenant screening, and home valuations.
+*   **California Financial Information Privacy Act (CalFIPA / SB 1):** Provides stricter privacy protections for California residents than federal law.
+    *   **Scope:** Applies to financial institutions doing business in California; **"Consumer"** is defined specifically as a **California resident**.
+    *   **CalFIPA vs. GLBA:**
+        *   **Non-Affiliated Third Parties:** Requires written **Opt-In** consent (GLBA only requires Opt-Out).
+        *   **Affiliates:** Requires notice and an opportunity to **Opt-Out** of data sharing (GLBA generally allows affiliate sharing without opt-out, subject to FCRA limits).
+    *   **Notice Requirement:** Institutions must use a specific form titled **"Important Privacy Choices for Consumers"**.
+        *   **Formatting:** The title must be in at least **16-point bold type**, and the body in at least 14-point type.
+    *   **Preemption & The *Gould* Decision:**
+        *   **Conflict:** The FCRA generally preempts state laws regarding affiliate information sharing.
+        *   **Ruling:** In *American Bankers Association v. Gould*, the 9th Circuit ruled that the FCRA preempts CalFIPA's affiliate sharing rules **only** regarding information that meets the definition of a "consumer report" (creditworthiness). Sharing of non-credit data (e.g., transaction history) among affiliates can still be regulated by CalFIPA.
+    *   **Relationship with CCPA/CPRA:**
+        *   **Data-Level Exemption:** Personal information covered by CalFIPA is **exempt** from the CCPA/CPRA.
+        *   **Entity-Level:** The financial institution *itself* is not exempt; if it collects data outside of the CalFIPA scope (e.g., website visitor data), that data is subject to CCPA.
+    *   **Penalties:** Statutory damages of **$2,500** per violation, up to a **$500,000** cap for a pattern of violations.
 
 ***
 
