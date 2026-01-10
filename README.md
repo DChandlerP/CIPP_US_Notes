@@ -974,9 +974,38 @@ Regulations govern the financial sector, including credit, banking, and insuranc
 ## Educational Privacy
 The education sector is regulated to protect student academic records.
 
-* **Family Educational Rights and Privacy Act (FERPA) (1974):** Protects the privacy of **student educational records**.
-    * **Scope:** Applies to almost all educational institutions receiving **federal funding** from the U.S. Department of Education.
-    * **Requirements:** Prohibits schools from sharing educational records without the consent of the student (over 18 or in higher education) or parent/guardian (for minors), except for specific exceptions (e.g., to "school officials" with a **legitimate educational interest**). Grants the right to inspect and seek correction of records.
+* **Family Educational Rights and Privacy Act (FERPA) (1974):** The primary federal law protecting the privacy of **student educational records**.
+    *   **Authority & Preemption:**
+        *   **Spending Clause:** Enacted under Congress's power to condition the receipt of federal funds. It applies to **any** educational agency or institution receiving funding from the U.S. Department of Education (public K-12 and most higher ed).
+        *   **Preemption:** FERPA does **not** preempt stricter state laws.
+    *   **Key Definitions:**
+        *   **"Student":** Any individual who is or has been **"in attendance"**. It explicitly **excludes applicants** who were denied admission.
+        *   **"Education Record":** Any record directly related to a student and **"maintained"** by the educational agency.
+    *   **Exceptions (Records NOT Covered):**
+        1.  **Sole Possession Records:** Private notes (memory aids) kept by a teacher and not shared with anyone.
+        2.  **Law Enforcement Unit Records:** Created by a school's internal police unit for law enforcement purposes.
+        3.  **Employment Records:** Records of school employees (unless employment is contingent on student status, like a TA).
+        4.  **Medical/Treatment Records:** For students 18+ (or in college); these are excluded from FERPA but are generally not covered by HIPAA either (see below).
+        5.  **Alumni Records:** Records created after the student has graduated.
+        6.  **Peer-Graded Papers:** In ***Owasso v. Falvo* (2002)**, the Supreme Court ruled that peer-graded papers are **not** education records because they are not "maintained" by the school until the teacher collects and records the grade.
+    *   **Student Data Subject Rights:**
+        *   **Access:** Schools must provide access to records within **45 days** of a request.
+        *   **Correction:** Right to request correction of inaccurate/misleading information.
+            *   *Process:* Request Amendment -> If denied, Right to **Hearing** -> If denied, Right to place a **Written Explanation** in the file.
+    *   **Consent Exceptions (Disclosure w/o Consent):**
+        *   **Directory Information:** Information not generally considered harmful if disclosed (Name, address, phone, email, honors, dates of attendance).
+            *   *Condition:* School must provide public notice and an opportunity to **opt-out**.
+            *   *Restriction:* **Social Security Numbers (SSNs)** and Citizenship Status are **never** directory information.
+        *   **School Officials:** With a "legitimate educational interest."
+        *   **Health and Safety Emergency:** Disclosure permitted to appropriate parties (parents, police) if identifying a specific threat is necessary to protect the health/safety of students or others.
+        *   **Military Recruitment:** Under the **ESEA** (not FERPA directly, but related), high schools receiving federal funds **must** provide access to students' names, addresses, and phone numbers to military recruiters upon request (unless parents opt-out).
+    *   **Interaction with Other Laws:**
+        *   **FERPA vs. HIPAA:** Health records maintained by a school (e.g., school nurse records, immunization forms) are **Education Records** subject to FERPA, **NOT** HIPAA PHI.
+        *   **IDEA:** The *Individuals with Disabilities Education Act* provides additional privacy protections for Special Education records (IEPs).
+    *   **Enforcement:**
+        *   **Agency:** Family Policy Compliance Office (FPCO) within the Dept. of Education.
+        *   **Process:** Complaints must be filed within **180 days**.
+        *   **No Private Right of Action:** Students **cannot sue** the school directly for FERPA violations (*Gonzaga University v. Doe*). The remedy is the withholding of federal funds.
 
 ***
 
