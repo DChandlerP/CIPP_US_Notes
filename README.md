@@ -1007,6 +1007,30 @@ The education sector is regulated to protect student academic records.
         *   **Process:** Complaints must be filed within **180 days**.
         *   **No Private Right of Action:** Students **cannot sue** the school directly for FERPA violations (*Gonzaga University v. Doe*). The remedy is the withholding of federal funds.
 
+*   **Protection of Pupil Rights Amendment (PPRA) (1978):**
+    *   **Scope:** Applies to elementary and secondary schools receiving federal funding. Notably, it **does NOT apply to post-secondary (higher) education**.
+    *   **Protected Information (The "8 Categories"):** Schools must obtain consent/provide opt-out before asking students about:
+        1.  Political affiliations.
+        2.  Mental/psychological problems.
+        3.  Sex behavior/attitudes.
+        4.  Illegal/antisocial/self-incriminating behavior.
+        5.  Critical appraisals of close family members.
+        6.  Privileged relationships (lawyers, doctors, ministers).
+        7.  Religious practices/affiliations.
+        8.  Income (unless affecting eligibility for a program).
+    *   **Survey Consent Rules:**
+        *   **Dept. of Ed Funded Surveys:** Requires **Prior Written Consent (Opt-In)** from parents for surveys asking about the 8 categories.
+        *   **Other Federally Funded Surveys:** Requires **Notice** and an opportunity to **Opt-Out**.
+    *   **Marketing & Inspection Rights:**
+        *   **Instructional Materials:** Parents have the right to **inspect** all instructional materials (textbooks, software) used in the curriculum.
+        *   **Commercial Use:** Schools must adopt policies regarding the collection/sale of student info for marketing. Parents must be given the right to **Opt-Out** of such collection.
+    *   **Notice & Rights Transfer:**
+        *   **Timeline:** Schools must provide **direct annual notice** to parents of these policies at the start of the year.
+        *   **Transfer:** Rights transfer from the parent to the student when the student turns **18** or becomes an **emancipated minor**.
+    *   **Enforcement:**
+        *   **Process:** Complaints filed with the **Student Privacy Policy Office (SPPO)** within **180 days**.
+        *   **Liability:** Like FERPA, there is **no private right of action**; the penalty is the potential loss of federal funding.
+
 ***
 
 ## Telecommunications and Marketing Privacy
