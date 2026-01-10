@@ -1055,8 +1055,37 @@ The education sector is regulated to protect student academic records.
 ## Telecommunications and Marketing Privacy
 Laws in this sector regulate how businesses can use personal data for marketing.
 
-* **Telephone Consumer Protection Act (TCPA) (1991) & Telemarketing Sales Rule (TSR):** Regulate unsolicited telemarketing calls and text messages.
-    * **Key Provision:** Established the **National Do-Not-Call (DNC) Registry**. Telemarketers must update their DNC list every 31 days and cannot call numbers on it, with exceptions for things like political calls, charities, and the **Established Business Relationship (EBR)** exemption.
+*   **Telephone Consumer Protection Act (TCPA) (1991) & Telemarketing Sales Rule (TSR):**
+    *   **Regulatory Authority:** TCPA is enforced by the **FCC**; TSR is enforced by the **FTC**.
+    *   **2024 TSR Updates:**
+        *   **Record-Keeping:** Extends the requirement for telemarketers to retain call records (recordings, scripts, call logs) from 2 years to **5 years**.
+        *   **B2B Calls:** Applies strict prohibitions on **misrepresentation** to business-to-business (B2B) calls, which were previously largely exempt.
+    *   **Auto-Dialers (ATDS) & *Facebook v. Duguid* (2021):**
+        *   **Ruling:** The Supreme Court narrowed the definition of an Automatic Telephone Dialing System (ATDS). To qualify, the equipment must use a **random or sequential number generator**. This excludes equipment that simply dials from a stored list of numbers.
+    *   **Call Abandonment Rules:**
+        *   **Rate:** Telemarketers must not abandon more than **3%** of answered calls per campaign over a 30-day period.
+        *   **Connection:** Live agents must connect within **2 seconds** of the consumer’s greeting.
+        *   **Safe Harbor:** If no agent is free, a **prerecorded message** must play (identifying the seller and phone number) to avoid a "dead air" violation.
+    *   **Required Disclosures:**
+        *   **Prompt Oral Disclosures:** Providing the **Identity of the Seller**, the **Purpose of the call** (sales), and the **Nature of the goods/services**.
+        *   **Upselling:** Treated as a separate transaction requiring new disclosures.
+    *   **Payment Authorization:**
+        *   **Express Verifiable Authorization:** Required for payments *other* than credit/debit cards (e.g., remotely created checks). Must be obtained via **audio recording** or written confirmation.
+    *   **Do-Not-Call (DNC) Rules:**
+        *   **National Registry:** Sellers must access the registry every **31 days** and scrub their lists.
+        *   **Established Business Relationship (EBR) Exception:**
+            *   **Transaction:** Lows calls for **18 months** after a purchase/transaction.
+            *   **Inquiry:** Allows calls for **3 months** after a consumer inquiry/application.
+        *   **DNC Safe Harbor:** A company is not liable for an accidental call if it can prove it meets all **6 requirements**:
+            1.  Written procedures.
+            2.  Employee training.
+            3.  Maintained an internal "do not call" list.
+            4.  Accessing the National Registry.
+            5.  Monitoring compliance.
+            6.  The call was an error.
+    *   **Enforcement:**
+        *   **Private Right of Action (TCPA):** Consumers can sue directly for **$500 per violation**, or **treble damages ($1,500)** for willful violations.
+        *   **Strict Liability:** The TCPA is generally a strict liability statute (intent doesn't matter unless seeking treble damages).
 * **Controlling the Assault of Non-solicited Pornography and Marketing (CAN-SPAM) Act (2003):** Regulates all **commercial electronic messages** (including email and social media messages).
     * **Requirements:** Senders must be honest (accurate header, physical address), clearly identify the message as an advertisement, and provide a simple, free **opt-out** mechanism, honoring requests within 10 business days.
 * **Video Privacy Protection Act (VPPA) (1988):** Protects a consumer’s video rental/purchase history. Disclosure requires written consent (including electronic consent). Its privacy protections are now being applied to **streaming media services**.
