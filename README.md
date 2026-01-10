@@ -1086,6 +1086,23 @@ Laws in this sector regulate how businesses can use personal data for marketing.
     *   **Enforcement:**
         *   **Private Right of Action (TCPA):** Consumers can sue directly for **$500 per violation**, or **treble damages ($1,500)** for willful violations.
         *   **Strict Liability:** The TCPA is generally a strict liability statute (intent doesn't matter unless seeking treble damages).
+*   **Junk Fax Protection Act (JFPA) (2005):** An amendment to the **TCPA** specifically regulating unsolicited fax advertisements.
+    *   **Scope & Exemptions:**
+        *   **Market Surveys:** In *Encyclopedia Brown Productions v. HBO*, the Second Circuit ruled that market research surveys **do not** constitute "unsolicited advertisements" if there is no pretext to sell products.
+        *   **Online Fax Services:** The FCC has clarified that faxes sent to an **online fax service** (received as email) are treated as **commercial email** (under CAN-SPAM), effectively exempting them from the stricter JFPA rules because they don't consume the recipient's ink/paper.
+    *   **Established Business Relationship (EBR):**
+        *   **Exemption:** Senders generally cannot send unsolicited faxes *unless* they have an EBR with the recipient.
+        *   **Obtaining Numbers:** Unlike the TCPA (calls), for faxes you must also prove the number was obtained via:
+            1.  **Voluntary Communication:** Directly from the recipient within the context of the EBR; OR
+            2.  **Public Distribution:** From a directory/site where the recipient voluntarily published it for public distribution (e.g., website contact page).
+    *   **Opt-Out Notice Requirements:** Every commercial fax must contain a notice that:
+        1.  Appears on the **first page**.
+        2.  States the recipient is entitled to opt-out.
+        3.  Explains the sender must comply with a request within **30 days**.
+        4.  Provides a **cost-free, 24/7 mechanism** (phone/website) to opt-out.
+    *   **Enforcement:**
+        *   **Private Right of Action:** Like the TCPA, allows individuals to sue for **$500 per fax** (trebled for willful violations).
+        *   **State AGs:** State Attorneys General can bring suits but must provide **prior written notice** to the FCC (federal preemption consideration).
 * **Controlling the Assault of Non-solicited Pornography and Marketing (CAN-SPAM) Act (2003):** Regulates all **commercial electronic messages** (including email and social media messages).
     * **Requirements:** Senders must be honest (accurate header, physical address), clearly identify the message as an advertisement, and provide a simple, free **opt-out** mechanism, honoring requests within 10 business days.
 * **Video Privacy Protection Act (VPPA) (1988):** Protects a consumer’s video rental/purchase history. Disclosure requires written consent (including electronic consent). Its privacy protections are now being applied to **streaming media services**.
