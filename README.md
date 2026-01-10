@@ -1031,6 +1031,25 @@ The education sector is regulated to protect student academic records.
         *   **Process:** Complaints filed with the **Student Privacy Policy Office (SPPO)** within **180 days**.
         *   **Liability:** Like FERPA, there is **no private right of action**; the penalty is the potential loss of federal funding.
 
+*   **Education Technology (EdTech):** The rapid adoption of remote learning tools has heightened privacy scrutiny.
+    *   **EdTech as "School Officials" (FERPA Exception):**
+        *   **Mechanism:** Schools can share student data with third-party vendors (EdTech) *without* parental consent if the vendor meets the **"School Official"** exception.
+        *   **Requirements:** The vendor must perform a service the school would otherwise do itself, be under the **direct control** of the school regarding data use, and use the data **only** for the authorized purpose (no re-use).
+    *   **FTC COPPA Policy Statement (2022):** Focused on EdTech during remote learning, emphasizing four key compliance areas:
+        1.  **Prohibitions:** Bans on mandatory data collection (if not needed for the educational purpose) and using data for commercial advertising.
+        2.  **Data Security:** Must implement strong security to protect children's data.
+        3.  **Data Retention:** Data should only be kept as long as necessary for the educational intent.
+        4.  **Limits on EdTech:** EdTech providers cannot use the "School Official" exception to bypass COPPA's parental consent requirement for *commercial* uses (like building user profiles).
+    *   **K-12 School Service Provider Pledge:**
+        *   **Nature:** A legally enforceable voluntary code of conduct (violation is a Section 5 UDAP).
+        *   **Core Promises:** Prohibits **selling** student personal information and using it for **behavioral targeting** of advertisements.
+    *   **Google Apps for Education Case (2014):**
+        *   **Precedent:** Google admitted to scanning student emails in its "Apps for Education" suite for advertising purposes.
+        *   **Outcome:** Google stopped the practice after a lawsuit, setting a precedent that **scanning student communications for ad targeting** violates privacy expectations and potentially FERPA/COPPA.
+    *   **Intersection with Other Laws:**
+        *   **GLBA:** Universities participating in federal student financial aid programs are considered "financial institutions" under GLBA for that specific data (requiring Safeguards Rule compliance).
+        *   **State Laws (SOPIPA):** The **Student Online Personal Information Protection Act (SOPIPA)** (California) served as a model for many states, explicitly banning EdTech vendors from selling student data or using it for targeted advertising.
+
 ***
 
 ## Telecommunications and Marketing Privacy
