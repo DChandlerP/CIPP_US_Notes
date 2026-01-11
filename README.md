@@ -1103,8 +1103,30 @@ Laws in this sector regulate how businesses can use personal data for marketing.
     *   **Enforcement:**
         *   **Private Right of Action:** Like the TCPA, allows individuals to sue for **$500 per fax** (trebled for willful violations).
         *   **State AGs:** State Attorneys General can bring suits but must provide **prior written notice** to the FCC (federal preemption consideration).
-* **Controlling the Assault of Non-solicited Pornography and Marketing (CAN-SPAM) Act (2003):** Regulates all **commercial electronic messages** (including email and social media messages).
-    * **Requirements:** Senders must be honest (accurate header, physical address), clearly identify the message as an advertisement, and provide a simple, free **opt-out** mechanism, honoring requests within 10 business days.
+*   **Controlling the Assault of Non-solicited Pornography and Marketing (CAN-SPAM) Act (2003):** Regulates all **commercial electronic messages** (including email and social media messages).
+    *   **Scope & Primary Purpose:**
+        *   **Commercial vs. Transactional:**
+            *   *Commercial:* Primary purpose is advertisement/promotion. Strict rules apply (opt-out, identification).
+            *   *Transactional/Relationship:* Primary purpose is facilitating an existing transaction (e.g., shipping notification, warranty, statements). Uses a **"Transactional"** exemption where only header accuracy rules apply (no opt-out required).
+        *   **Mixed Content (Three-Part Test):** If a message contains both commercial and transactional content, the "primary purpose" is commercial if:
+            1.  A recipient would reasonably interpret the **subject line** as advertising; OR
+            2.  A recipient would reasonably interpret the **body** of the message as advertising (viewed as a whole); generally, transactional content must appear at the **beginning** to avoid this.
+    *   **Expanded Requirements:**
+        *   **Honesty:** Header info and Subject line must be accurate and not misleading.
+        *   **No Opt-Out Fees:** Senders cannot charge a fee or require more than an email address/one page visit to opt-out.
+        *   **10-Day Window:** Senders must process and honor opt-out requests within **10 business days**.
+        *   **"SEXUALLY-EXPLICIT" Label:** Must be included in the subject line for adult content (initially "ADV:ADLT" was proposed, but now explicit warnings are standard).
+    *   **Wireless Rules (Mobile Service Commercial Messages - MSCM):**
+        *   **FCC Authority:** The FCC regulates messages sent to mobile domains (e.g., text-to-email).
+        *   **Express Prior Authorization:** Senders must obtain **oral or written** consent before sending commercial messages to wireless devices.
+        *   **Wireless Domain Registry:** The FCC maintains a list of domain names associated with wireless messaging; senders are responsible for checking this to ensure they don't treat mobile messages as standard email.
+    *   **Enforcement:**
+        *   **FTC:** Primary enforcer; penalties adjusted for inflation (approx. **$53,088 per violation**).
+        *   **State Attorneys General:** Can sue for up to **$250 per violation** (capped at **$2 million**).
+        *   **Private Right of Action:**
+            *   **ISPs:** Internet Service Providers can sue for adverse effects on their networks.
+            *   **Consumers:** Have **NO** private right of action.
+        *   **Preemption:** CAN-SPAM preempts most state anti-spam laws, **except** those that specifically prohibit falsity or deception in headers/subject lines.
 * **Video Privacy Protection Act (VPPA) (1988):** Protects a consumer’s video rental/purchase history. Disclosure requires written consent (including electronic consent). Its privacy protections are now being applied to **streaming media services**.
 * **Driver’s Privacy Protection Act (DPPA) (1994):** Prevents states from indiscriminately releasing personal information from **DMV driver’s licensing databases** (e.g., name, address, photo), allowing sharing only for specific permissible purposes.
 * **Customer Proprietary Network Information (CPNI):** Rules under the **Telecommunications Act** governing metadata about subscriber phone calls. Carriers must implement safeguards and obtain consent before sharing CPNI outside of limited, allowed uses.
