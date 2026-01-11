@@ -1129,7 +1129,25 @@ Laws in this sector regulate how businesses can use personal data for marketing.
         *   **Preemption:** CAN-SPAM preempts most state anti-spam laws, **except** those that specifically prohibit falsity or deception in headers/subject lines.
 * **Video Privacy Protection Act (VPPA) (1988):** Protects a consumer’s video rental/purchase history. Disclosure requires written consent (including electronic consent). Its privacy protections are now being applied to **streaming media services**.
 * **Driver’s Privacy Protection Act (DPPA) (1994):** Prevents states from indiscriminately releasing personal information from **DMV driver’s licensing databases** (e.g., name, address, photo), allowing sharing only for specific permissible purposes.
-* **Customer Proprietary Network Information (CPNI):** Rules under the **Telecommunications Act** governing metadata about subscriber phone calls. Carriers must implement safeguards and obtain consent before sharing CPNI outside of limited, allowed uses.
+*   **Customer Proprietary Network Information (CPNI) (Telecommunications Act of 1996):** Regulates the privacy of telecommunication subscribers.
+    *   **Scope & Definitions:**
+        *   **Covered Entities:** Telecommunications carriers and interconnected **VoIP** providers. (Does *not* typically safeguard data held by OTT apps like WhatsApp or device manufacturers).
+        *   **Definition:** CPNI is **metadata** about the technical configuration, type, destination, location, and amount of use of a telecommunications service.
+        *   **Exclusion:** Distinct from **"Subscriber List Information"** (Name, Address, Phone Number), which is public and not protected as CPNI.
+    *   **Use and Disclosure:**
+        *   **Rule:** Carriers generally need customer approval to use/share CPNI for marketing.
+            *   **Opt-In:** Required for sharing CPNI with **third-party Joint Venture partners** or independent contractors for marketing.
+            *   **Opt-Out:** Permitted for affiliates marketing different communication services.
+        *   **Exceptions (No Consent Needed):** Billing and collection; Fraud prevention; Customer service; Protecting carrier rights/property; Emergency services (911).
+    *   **Safeguards & Certification:**
+        *   **Compliance:** Carriers must file an **annual officer certification** with the FCC stating compliance with CPNI rules.
+        *   **Training & Records:** Must train employees and retain records of sales/marketing approvals for **1 year**.
+    *   **Breach Notification:**
+        *   **Timeline:** Carriers must notify Law Enforcement (USSS/FBI) within **7 business days** of discovery.
+        *   **Customer Notice:** Cannot notify customers until **after** the law enforcement notification period has passed (to avoid compromising investigations).
+    *   **Enforcement & Preemption:**
+        *   **Choice of Action:** A person may file a complaint with the FCC **OR** bring a private lawsuit in district court (but not both).
+        *   **Preemption:** The Act does **not** generally preempt stricter state privacy laws.
 
 ### Webtracking Technologies
 * **Web Cookies (HTTP Cookies):** Small text files placed on a device's hard drive by a web server to "save state" (e.g., login status, language preferences).
