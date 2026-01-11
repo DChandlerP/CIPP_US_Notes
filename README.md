@@ -1155,7 +1155,29 @@ Laws in this sector regulate how businesses can use personal data for marketing.
     *   **Enforcement:**
         *   **Private Right of Action:** Provides a **non-exclusive** private right of action (individuals do not have to choose between this and an FCC complaint).
         *   **Damages:** Statutory damages of **$100 per day** of violation or **$1,000**, whichever is higher.
-* **Driver’s Privacy Protection Act (DPPA) (1994):** Prevents states from indiscriminately releasing personal information from **DMV driver’s licensing databases** (e.g., name, address, photo), allowing sharing only for specific permissible purposes.
+*   **Driver’s Privacy Protection Act (DPPA) (1994):**
+    *   **Origin & Constitutionality:**
+        *   **Context:** Enacted following the 1989 murder of actress **Rebecca Schaeffer**, whose stalker obtained her address from the DMV.
+        *   **Supreme Court Ruling:** In ***Reno v. Condon*** (2000), the Court upheld the DPPA as a valid exercise of Congress's power to regulate **interstate commerce**, rejecting the argument that it violated the 10th Amendment (states' rights).
+    *   **Scope & Definitions:**
+        *   **Personal Information (PI):** Data that identifies an individual (Name, Address, Phone Number, SSN, License Number).
+        *   **Highly Restricted Personal Information:** A sensitive subset (Photograph/Image, SSN, Medical/Disability info). Disclosure of this requires express consent unless for very specific government/legal uses.
+    *   **Key Exclusions:**
+        *   The DPPA does **NOT** protect information regarding **vehicular accidents**, **driving violations**, or **driver's license status** (e.g., active/suspended).
+    *   **Permissible Uses (Exceptions):** DMVs may generally disclose PI **only** for specific purposes, including:
+        1.  **Government/Law Enforcement:** For carrying out agency functions.
+        2.  **Motor Vehicle Safety:** Matters relating to vehicle theft, emissions, and product alterations/recalls.
+        3.  **Business Verification:** To verify the accuracy of personal information submitted by the individual to a business (and correct it if wrong).
+        4.  **Legal Proceedings:** In connection with any court or arbitral proceeding.
+        5.  **Insurance:** For claims investigation and anti-fraud activities.
+        6.  **Research:** For statistical/research reports (provided no contact is made with individuals).
+        7.  **Private Investigators:** For any permissible use listed.
+        8.  **Toll Facilities:** For the operation of toll transportation.
+        9.  **Marketing:** Only if the individual has provided **express consent (opt-in)**.
+    *   **Enforcement:**
+        *   **Civil Action (Private Right of Action):** Individuals can sue for actual damages, but not less than **$2,500 in liquidated damages**, plus punitive damages and attorney's fees.
+        *   **Regulatory (Attorney General):** The U.S. Attorney General can fine a State DMV up to **$5,000 per day** for substantial noncompliance.
+        *   **Criminal:** Criminal fines apply to individuals who knowingly obtain or disclose information in violation of the Act.
 *   **Customer Proprietary Network Information (CPNI) (Telecommunications Act of 1996):** Regulates the privacy of telecommunication subscribers.
     *   **Scope & Definitions:**
         *   **Covered Entities:** Telecommunications carriers and interconnected **VoIP** providers. (Does *not* typically safeguard data held by OTT apps like WhatsApp or device manufacturers).
