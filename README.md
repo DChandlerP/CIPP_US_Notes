@@ -1127,7 +1127,34 @@ Laws in this sector regulate how businesses can use personal data for marketing.
             *   **ISPs:** Internet Service Providers can sue for adverse effects on their networks.
             *   **Consumers:** Have **NO** private right of action.
         *   **Preemption:** CAN-SPAM preempts most state anti-spam laws, **except** those that specifically prohibit falsity or deception in headers/subject lines.
-* **Video Privacy Protection Act (VPPA) (1988):** Protects a consumer’s video rental/purchase history. Disclosure requires written consent (including electronic consent). Its privacy protections are now being applied to **streaming media services**.
+*   **Video Privacy Protection Act (VPPA) (1988):**
+    *   **Background:** Enacted after a newspaper published the video rental history of Supreme Court nominee **Robert Bork**.
+    *   **Scope:** Applies to "video tape service providers." Courts have expanded this to include **streaming media services** and mobile apps that share viewing history.
+    *   **Consent:**
+        *   **Standard:** Generally requires **informed, written consent** (at the time of disclosure) to share PII.
+        *   **2012 Amendment:** Allows for a **one-time consent** (e.g., for social media sharing) that remains valid for up to **two years**.
+    *   **Exceptions (Disclosure Permitted):**
+        1.  To the consumer themselves.
+        2.  Law enforcement (via **warrant**, grand jury subpoena, or court order).
+        3.  Civil court order (with right of prior notice).
+        4.  To specific persons for **debt collection**, order fulfillment, or limited marketing (names/addresses only, with opt-out).
+    *   **Data Destruction:** PII must be destroyed as soon as practicable, but no later than **one year** from the date usage is no longer necessary.
+    *   **Enforcement:**
+        *   **Private Right of Action:** Available for unlawful **disclosure** (but generally *not* for failure to destroy data).
+        *   **Damages:** Statutory damages of **$2,500** (plus punitive damages/attorneys' fees).
+        *   **Limitations:** Two-year statute of limitations.
+*   **Cable Communications Policy Act of 1984:**
+    *   **Scope:** Applies to "cable operators" providing "cable services" (one-way transmissions). Explicitly **excludes** broadband ISPs.
+    *   **Privacy Notices:** Must be "clear and conspicuous," provided at the start of service and **annually** thereafter.
+    *   **Collection & Disclosure:**
+        *   **Consent:** Requires **prior written or electronic consent** for collecting or disclosing PII.
+        *   **Disclosure Exceptions:** (1) Necessary for business activity; (2) Court order (with notice); (3) Name/Address (with opt-out); (4) Criminal law enforcement.
+    *   **Subscriber Rights:**
+        *   **Access/Correction:** Right to access and correct PII.
+        *   **Data Destruction:** Requirement to destroy data when it is no longer necessary for the purpose.
+    *   **Enforcement:**
+        *   **Private Right of Action:** Provides a **non-exclusive** private right of action (individuals do not have to choose between this and an FCC complaint).
+        *   **Damages:** Statutory damages of **$100 per day** of violation or **$1,000**, whichever is higher.
 * **Driver’s Privacy Protection Act (DPPA) (1994):** Prevents states from indiscriminately releasing personal information from **DMV driver’s licensing databases** (e.g., name, address, photo), allowing sharing only for specific permissible purposes.
 *   **Customer Proprietary Network Information (CPNI) (Telecommunications Act of 1996):** Regulates the privacy of telecommunication subscribers.
     *   **Scope & Definitions:**
