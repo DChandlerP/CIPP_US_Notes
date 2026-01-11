@@ -1322,6 +1322,29 @@ The IAPP defines LBS as services that utilize location information to deliver ap
 * **Physical Protections:** RFID signals can be blocked using specialized **blocking sleeves**.
 * **User Control:** Users can toggle Wi-Fi and Bluetooth off, though emergency features may still transmit signals even when a device is powered down.
 
+### Web Scraping (Section 5.9)
+Extremely relevant in 2026, web scraping sits at the intersection of privacy, property rights, and AI training.
+
+*   **Definition & FIPs:**
+    *   **Activity:** Automated extraction of large volumes of data from public websites without the explicit permission of the data controller.
+    *   **Privacy Tension:** Violates core **Fair Information Practices (FIPs)**, specifically:
+        *   **Purpose Limitation:** Data posted for one reason (e.g., social networking) is scraped for another (e.g., facial recognition training).
+        *   **Transparency:** Users are unaware their data is being harvested.
+        *   **Data Minimization:** Scrapers often collect "everything" rather than what is needed.
+*   **Legal Landscape (CFAA & *Van Buren*):**
+    *   **Computer Fraud and Abuse Act (CFAA):** Historically used by companies to sue scrapers for "unauthorized access."
+    *   ***Van Buren v. United States* (2021):** The Supreme Court narrowed the CFAA, ruling that accessing information one is **authorized** to see (like public web pages) is **not** a crime, even if the purpose (scraping) violates the Terms of Service.
+        *   *Result:* Scraping public data is generally **not** a CFAA violation (though it may be a civil breach of contract).
+*   **Selective Enforcement (*hiQ v. LinkedIn*):**
+    *   **Finding:** Courts ruled that LinkedIn could *not* use the CFAA to block a competitor (hiQ) from scraping public profiles, suggesting that selective enforcement of anti-scraping bans could be **unfair competition**.
+*   **State Law Variations:**
+    *   **CCPA/CPRA:** Amended the definition of "publicly available" information to include data from **widely distributed media** and government records (if used for the purpose it was made public). This generally **exempts** public social media posts from CCPA deletion requests, although interpretations vary by state.
+*   **Controller Responsibilities:**
+    *   **Privacy by Design:** Controllers are expected to implement technical safeguards (CAPTCHAs, rate limiting) to prevent unauthorized scraping.
+    *   **Enforcement:** The DPC fined Facebook **€265 million** for failing to prevent a massive scraping incident, establishing that allowing data to be easily scraped is a failure of **security measures**.
+*   **AI Training Context (2026):**
+    *   **Litigation:** Whether scraping copyrighted or personal data to train Large Language Models (LLMs) constitutes **"Fair Use"** is the central legal battle of the decade.
+
 # Government and Court Access to Private Sector Information Notes
 
 ## 🏛️ Constitutional Foundation
