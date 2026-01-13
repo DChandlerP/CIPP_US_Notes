@@ -319,7 +319,7 @@ The FTC is the primary federal privacy regulator, enforcing consumer protection 
     * **Section 9:** Broad subpoena power for investigations.
 * **Formal Proceedings:**
     * **ALJ Hearing:** Complaints are heard by an Administrative Law Judge (ALJ). The ALJ can issue injunctions but cannot impose civil penalties.
-    * **Appeals:** ALJ decisions can be appealed to the five FTC Commissioners, and then to a federal circuit court.
+    * **Appeals:** ALJ decisions are appealed to the five FTC Commissioners. Final adverse determinations from the Commission are appealed to a **federal Circuit Court of Appeal** (never a federal District Court).
 * **Penalties and Remedies:**
     * **Civil Penalties:** While the ALJ/Commission cannot impose them directly, the FTC can seek them in federal court. As of July 2025, penalties can be up to $53,088 per violation.
     * **Section 13(b):** Allows the FTC to go directly to federal court for injunctions. Note: The Supreme Court (*AMG Capital*) ruled that this section cannot be used for "equitable monetary relief."
@@ -837,6 +837,7 @@ Regulations govern the financial sector, including credit, banking, and insuranc
     * **Regulated Entities:**
         *   **Consumer Reporting Agencies (CRAs):** Entities that assemble/evaluate consumer credit info (e.g., Equifax, Experian, TransUnion).
         *   **Users:** Entities that purchase/use reports for decision-making (e.g., banks, employers, landlords).
+            *   *Adverse Action Duty:* Any user that takes an adverse action based on a consumer report must provide the consumer with notice. This applies to all permissible purposes (credit, insurance, etc.), not just employment.
         *   **Furnishers:** Entities that provide data to CRAs (e.g., lenders, credit card issuers).
         *   **Red Flags Rule Entities:** Financial institutions and creditors required to implement identity theft prevention programs.
     *   **Definition of 'Consumer Report':** A communication by a CRA bearing on a consumer's: (1) Creditworthiness, standing, or capacity; (2) Character or general reputation; or (3) Mode of living; which is used for a **permissible purpose** (e.g., credit, insurance, employment).
@@ -1041,7 +1042,7 @@ The education sector is regulated to protect student academic records.
         3.  **Data Retention:** Data should only be kept as long as necessary for the educational intent.
         4.  **Limits on EdTech:** EdTech providers cannot use the "School Official" exception to bypass COPPA's parental consent requirement for *commercial* uses (like building user profiles).
     *   **K-12 School Service Provider Pledge:**
-        *   **Nature:** A legally enforceable voluntary code of conduct (violation is a Section 5 UDAP).
+        *   **Nature:** A legally enforceable voluntary code of conduct created by the **Future of Privacy Forum (FPF)** and the **Software & Information Industry Association (SIIA)** (violation is a Section 5 UDAP).
         *   **Core Promises:** Prohibits **selling** student personal information and using it for **behavioral targeting** of advertisements.
     *   **Google Apps for Education Case (2014):**
         *   **Precedent:** Google admitted to scanning student emails in its "Apps for Education" suite for advertising purposes.
@@ -1118,8 +1119,8 @@ Laws in this sector regulate how businesses can use personal data for marketing.
         *   **"SEXUALLY-EXPLICIT" Label:** Must be included in the subject line for adult content (initially "ADV:ADLT" was proposed, but now explicit warnings are standard).
     *   **Wireless Rules (Mobile Service Commercial Messages - MSCM):**
         *   **FCC Authority:** The FCC regulates messages sent to mobile domains (e.g., text-to-email).
-        *   **Express Prior Authorization:** Senders must obtain **oral or written** consent before sending commercial messages to wireless devices.
-        *   **Wireless Domain Registry:** The FCC maintains a list of domain names associated with wireless messaging; senders are responsible for checking this to ensure they don't treat mobile messages as standard email.
+        *   **Strict Opt-In Requirement:** Unlike standard commercial email (opt-out), MSCMs require **express prior authorization** (oral or written consent) before sending.
+        *   **Wireless Domain Registry:** Senders must check the FCC's list of wireless domains to ensure they don't treat mobile messages as standard email.
     *   **Enforcement:**
         *   **FTC:** Primary enforcer; penalties adjusted for inflation (approx. **$53,088 per violation**).
         *   **State Attorneys General:** Can sue for up to **$250 per violation** (capped at **$2 million**).
@@ -1159,6 +1160,7 @@ Laws in this sector regulate how businesses can use personal data for marketing.
     *   **Origin & Constitutionality:**
         *   **Context:** Enacted following the 1989 murder of actress **Rebecca Schaeffer**, whose stalker obtained her address from the DMV.
         *   **Supreme Court Ruling:** In ***Reno v. Condon*** (2000), the Court upheld the DPPA as a valid exercise of Congress's power to regulate **interstate commerce**, rejecting the argument that it violated the 10th Amendment (states' rights).
+            *   *Exam Tip:* DPPA is a **Commerce Clause** regulation (interstate commerce). This is a key distinction from laws like **FERPA**, which are based on the **Spending Clause** (conditioning federal funds).
     *   **Scope & Definitions:**
         *   **Personal Information (PI):** Data that identifies an individual (Name, Address, Phone Number, SSN, License Number).
         *   **Highly Restricted Personal Information:** A sensitive subset (Photograph/Image, SSN, Medical/Disability info). Disclosure of this requires express consent unless for very specific government/legal uses.
@@ -1470,6 +1472,7 @@ Background checks by third parties are usually considered **Consumer Reports** u
 * **Adverse Action Procedures:** Before taking "adverse action" (e.g., denying a job, promotion, or terminating employment) based on a report: 
     * **Pre-Adverse Action:** The employer must first provide the individual with a copy of the report and a written summary of their rights under the FCRA. 
     * **Final Adverse Action:** If the employer proceeds with the decision, they must then send a formal adverse action notice.
+    *   *Note:* See Financial Privacy section for general FCRA adverse action duties.
 
 ### C. Other Screening Methods
 * **Polygraphs:** The **Employee Polygraph Protection Act (EPPA)** bans most private employers from using lie detectors for pre-employment screening.
