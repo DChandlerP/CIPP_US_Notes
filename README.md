@@ -1350,9 +1350,37 @@ Extremely relevant in 2026, web scraping sits at the intersection of privacy, pr
 # Government and Court Access to Private Sector Information Notes
 
 ## 🏛️ Constitutional Foundation
-* **Fourth Amendment:** Protects U.S. citizens from **"unreasonable searches and seizures"** by federal agencies without a legal **warrant**. It covers "persons, houses, papers, and effects."
-* ***Katz v. United States* (1967):** Established that the Fourth Amendment protects an individual's "reasonable expectation of privacy," even in public places. This is crucial for electronic communications.
-* ***Third-Party Doctrine:*** Established by ***United States v. Miller* (1976)**. Once a person voluntarily turns information over to a third party (e.g., banks, service providers) for transactions, that information is no longer considered the individual's property and is generally **not protected** by the Fourth Amendment.
+
+### The Fourth Amendment
+Protects U.S. citizens from **"unreasonable searches and seizures"** by the government. It safeguards "persons, houses, papers, and effects."
+
+*   **Evolution of the Standard:**
+    *   **Physical Trespass Doctrine (1928):** In ***Olmstead v. U.S.***, the Supreme Court originally ruled that wiretapping was *not* a search because there was no physical entry into the home.
+    *   **"Reasonable Expectation of Privacy" (1967):** In ***Katz v. United States***, the Court overturned *Olmstead*, establishing that the Fourth Amendment "protects people, not places."
+        *   **The Katz Test:** A search occurs if: (1) The individual has a **subjective expectation** of privacy; and (2) That expectation is one that society accepts as **objectively reasonable**.
+
+### Key Digital Privacy Cases
+Recent jurisprudence has adapted the Fourth Amendment to modern technology.
+
+*   ***United States v. Jones* (2012):**
+    *   **Issue:** Police attached a GPS tracker to a suspect's car without a valid warrant.
+    *   **Holding:** Violating a person's physical property (the car) to gather information is a search. It revived the "physical trespass" theory alongside *Katz*.
+*   ***Riley v. California* (2014):**
+    *   **Issue:** Police searched the contents of a smartphone during an arrest ("search incident to arrest").
+    *   **Holding:** A **warrant is required** to search a cell phone. Providing the "digital contents of a life" deserves higher protection than physical objects found in a pocket.
+*   ***Carpenter v. United States* (2018):**
+    *   **Issue:** Police obtained months of historical **Cell Site Location Information (CSLI)** without a warrant.
+    *   **Holding:** Accessing deep, historical location records requires a **warrant**, recognizing that CSLI provides an intimate window into a person's life (associations, religion, politics).
+
+### The Exclusionary Rule
+*   **Definition:** Evidence obtained in violation of the Fourth Amendment (i.e., without a warrant or exception) is **inadmissible** in criminal court.
+*   **"Fruit of the Poisonous Tree":** This doctrine extends the ban to **secondary evidence** derived from the initial illegal search. If a warrantless wiretap leads to finding physical contraband, the contraband is also excluded.
+
+### The Third-Party Doctrine
+*   **The Rule:** Established by ***United States v. Miller* (1976)** and ***Smith v. Maryland* (1979)**.
+    *   **Principle:** An individual has **no reasonable expectation of privacy** in information they voluntarily turn over to a third party (e.g., bank records, dialed phone numbers).
+    *   **Impact:** The government traditionally only needed a **subpoena** (lower standard), not a warrant, to access business records.
+*   **Modern Exception (*Carpenter*):** The *Carpenter* ruling created a significant crack in this doctrine. It held that because cell phones are essential for modern life, sharing location data with a cell tower is **not truly "voluntary,"** and the data is too invasive to lose constitutional protection.
 
 ---
 
@@ -1409,17 +1437,83 @@ Extremely relevant in 2026, web scraping sits at the intersection of privacy, pr
 
 ### Access to Communications
 
-* **Electronic Communications Privacy Act (ECPA) of 1986:** Primary legislation regulating government eavesdropping.
+### Electronic Communications Privacy Act (ECPA) of 1986
+Primary legislation regulating government eavesdropping, divided into three titles.
 
-| ECPA Title | Common Name | Scope | Privacy Standard |
-| :--- | :--- | :--- | :--- |
-| **Title I** | **Wiretap Act** | Prohibits spying on **real-time** oral, wire, or electronic communication without **consent** (one-party consent federally) or a warrant. | High protection, requiring a warrant for content. |
-| **Title II** | **Stored Communications Act (SCA)** | Extends Fourth Amendment-like protection to **digital communications stored** on third-party servers (e.g., email). Requires a **search warrant** for government access. | Lower protection than real-time, due to third-party doctrine, but enhanced by the SCA. |
-| **Title III** | **Pen Registers/Trap-and-Trace** | Regulates technologies that track communications **metadata** (e.g., phone numbers, date/time) but **not content**. | Lower protection; generally requires only a court order. |
+*   **Title I: The Wiretap Act**
+    *   **Scope:** Prohibits the unauthorized interception of "real-time" communications.
+    *   **Technical Definitions:**
+        *   **Wire Communication:** Must involve the human voice (aural transfer) and travel through wire/cable facilities (e.g., phone call).
+        *   **Oral Communication:** "In-person" conversations where there is a reasonable expectation of privacy (e.g., bugging a room).
+        *   **Electronic Communication:** Non-voice data, signs, or signals (e.g., email, text logs).
+    *   **The 4 Hurdles (Requirements for a Court Order):** Obtaining a wiretap requires a "super-warrant" with four strict criteria:
+        1.  **Predicate Crime:** Can only be issued for specific serious crimes (e.g., racketeering, drug trafficking).
+        2.  **Particularity:** Must describe the specific location, device, and type of communication to be intercepted.
+        3.  **Necessity:** Law enforcement must show that normal investigative procedures have failed or are too dangerous.
+        4.  **Minimization:** Must minimize the interception of non-relevant conversations (e.g., stopping recording when the target talks to their spouse about dinner).
+    *   **Consent Rules:**
+        *   **Federal Rule:** **One-Party Consent** (interception is legal if one party to the call consents).
+        *   **State Variation:** Many states (e.g., CA, MA) require **Dual-Consent** (all parties must consent).
+    *   **Exception:** **Ordinary Course of Business** exception allows employers/service providers to monitor communications for quality assurance or service maintenance.
+    *   **Enforcement:**
+        *   **Civil Remedies:** Victims can sue for the *greater* of: (1) Actual damages; (2) **$100 per day** of violation; or (3) **$10,000**.
+        *   **Punitive Damages:** Available for willful violations.
+        *   **Statute of Limitations:** **2 years**.
+        *   **Suing the U.S. Government:** Damages are actual damages or **$10,000** (whichever is greater). Punitive damages and attorney's fees are **NOT** available against the government.
+
+*   **Title II: Stored Communications Act (SCA)**
+    *   **Scope & Definitions:**
+        *   **Electronic Communication Service (ECS):** A service that provides users the ability to send or receive wire or electronic communications (e.g., Gmail, Telephone, ISP).
+        *   **Remote Computing Service (RCS):** A service that provides computer processing or storage services to the public (e.g., Cloud storage, AWS).
+    *   **Government Access Standards:**
+        *   **ECS Content (<= 180 Days):** Government requires a **Search Warrant** to access ECS messages stored for 180 days or less.
+        *   **ECS Content (> 180 Days) & RCS Content:** Technically accessible via **Administrative Subpoena** (with prior notice) or a 2703(d) Court Order.
+            *   *Note:* The 6th Circuit (*Warshak*) ruled that a warrant is constitutionally required for **all** email content, making the 180-day rule largely unenforceable.
+        *   **Non-Content Records (Metadata):** Accessible via a **Court Order (2703(d))** if the government offers **"specific and articulable facts"** that the info is relevant and material.
+        *   **Basic Subscriber Information (BSI):** Name, address, logs, etc., accessible via a simple **Subpoena**.
+    *   **Voluntary Disclosure Rules:**
+        *   **Content:** Providers are generally **prohibited** from voluntarily disclosing content to the government or third parties.
+        *   **Non-Content:** Providers may generally disclose non-content records (metadata) to non-government entities without restriction.
+    *   **Exceptions (Disclosure Permitted):**
+        *   **Provider Exception:** To protect the rights or property of the provider (e.g., investigating a hack).
+        *   **Emergency:** If the provider believes there is an immediate danger of death or serious physical injury.
+    *   **Enforcement:**
+        *   **Civil Action:** Violations result in actual damages, but with a **statutory minimum of $1,000**.
+        *   **Statute of Limitations:** **2 years**.
+
+*   **Title III: Pen Registers and Trap-and-Trace Devices**
+    *   **Scope & Definitions:**
+        *   **Pen Register:** A device/process that records **outgoing** dialing, routing, addressing, or signaling information (e.g., the phone number dialed).
+        *   **Trap and Trace Device:** A device/process that captures the **incoming** electronic or other impulses that identify the originating number/source of a communication.
+        *   **Crucial Distinction:** These devices capture **metadata only** (the "envelope"); they are strictly prohibited from collecting the **content** of the communication.
+    *   **Legal Standard ("Relevant to an Investigation"):**
+        *   **Certification:** The government does **not** need to show probable cause (Warrant) or specific facts (2703(d)). Instead, they must merely **certify** to a judge that the information likely to be obtained is **"relevant to an ongoing criminal investigation."**
+        *   **Judicial Role:** If the certification is present, the judge **must** issue the order (they have no discretion to deny it based on merits).
+    *   **Time Limits:**
+        *   **Order Duration:** Orders are valid for a maximum of **60 days**.
+        *   **Extensions:** Can be extended for additional 60-day periods.
+    *   **Emergency Provision:**
+        *   Law Enforcement can install a pen/trap device **without a prior court order** if there is an immediate danger of death, serious injury, or threat to national security.
+        *   **Requirement:** An order must be sought within **48 hours** after installation.
+    *   **Provider Obligations:**
+        *   **Cooperation:** ISPs/Telecom providers must provide all information, facilities, and technical assistance necessary to complete the trace unobtrusively.
+        *   **Gag Order:** Providers are typically ordered **not to disclose** the existence of the pen/trap to the subscriber.
+        *   **Immunity:** Providers who cooperate in accordance with a court order are **immune from civil liability**.
 
 * **CLOUD Act (2018):** Amends the SCA to compel U.S.-based companies to provide data stored on servers, regardless of the data’s **physical, overseas location**.
-* **Communications Assistance for Law Enforcement Act (CALEA):** Requires telecommunications carriers and manufacturers to design their devices and services to **enable authorized government surveillance** capabilities (wiretapping) to be **"baked-in"** features.
-    * **Limitation:** CALEA **does not compel** companies to assist the government with **decrypting** encrypted communications.
+*   **Communications Assistance for Law Enforcement Act (CALEA) (1994):** (a.k.a. the **"Digital Telephony Bill"**)
+    *   **Scope:** Applies to **"Telecommunications Carriers."**
+        *   **FCC Expansion:** While the act originally excluded "Information Services" (like the early internet), the FCC ruled in 2005 that CALEA applies to **Broadband Internet Access (ISPs)** and **VoIP providers** because they function as replacements for traditional telephone service.
+    *   **Design Mandates:** Carriers must design their systems with **"baked-in" surveillance capabilities** that allow law enforcement (with a court order) to:
+        1.  Intercept communications unobtrusively.
+        2.  Isolate call content and metadata independently.
+        3.  **Human Intervention:** Activation of the surveillance capability must generally be controlled by a human employee of the carrier (not remotely by the police).
+    *   **Encryption Duty:**
+        *   Carriers are required to decrypt communications **only if** they possess the encryption key (i.e., they provided the encryption).
+        *   They are **not** responsible for decrypting messages if the user employs their own third-party encryption.
+    *   **Enforcement:**
+        *   **Civil Penalty:** Fines up to **$10,000 per day** for non-compliance.
+        *   **Court Order Test:** A court can order a carrier to adopt a specific surveillance solution only if: (1) No other manufacturer's equipment is available; and (2) The specific solution is **"reasonably achievable"** (considering cost and impact).
 
 ---
 
@@ -1429,26 +1523,63 @@ Extremely relevant in 2026, web scraping sits at the intersection of privacy, pr
 
 ### Foreign Intelligence Surveillance Act (FISA) of 1978
 
-* **Purpose:** Provides a legal framework for the government to track **foreign targets** and agents spying on the U.S. while setting due process and oversight.
-* **FISC:** Established the **Foreign Intelligence Surveillance Court**, a secret court that issues warrants for surveillance under FISA.
-* **Targets:** Surveillance is easier if the target is **not a "United States person"** (U.S. citizens, legal aliens, U.S. corporations, etc.).
-* **Minimization Principle:** Requires the U.S. Attorney General to implement procedures to ensure that intelligence gathered and retained **pertains only to the intended investigation** and avoids collecting incidental information on U.S. persons.
+*   **Purpose:** Provides a legal framework for the government to track **foreign targets** and agents spying on the U.S. while setting due process and oversight.
+*   **The Foreign Intelligence Surveillance Court (FISC):**
+    *   **Structure:** Composed of **11 federal district court judges** appointed by the Chief Justice.
+    *   **Terms:** Judges serve staggered, non-renewable **7-year terms**. (At least 3 must reside near D.C.).
+    *   **Amicus Curiae:** The **USA FREEDOM Act** (2015) introduced a panel of "friends of the court" (privacy advocates/experts) to advise the FISC on novel legal interpretations, adding an adversarial element to the secret proceedings.
+*   **Legal Standards:**
+    *   **Target:** Must be a "foreign power" or "agent of a foreign power." Surveillance is easier if the target is **not a "United States person"**.
+    *   **"Significant Purpose":** The **USA PATRIOT Act** lowered the threshold. The government no longer needs to show that foreign intelligence is the *primary* purpose, only a **"significant purpose"** of the surveillance.
+*   **Key Provisions & Amendments:**
+    *   **Section 217 (Computer Trespassers):** Allows interception of communications from a "computer trespasser" (hacker) if the **owner of the computer consents** and the interception is relevant to the investigation (no warrant needed).
+    *   **Section 702 (FISA Amendments Act of 2008):**
+        *   **Scope:** Authorized mass surveillance of **non-U.S. persons located abroad**.
+        *   **Collection Methods:**
+            *   *Downstream (PRISM):* Collecting stored data (emails/photos) directly from U.S. service providers (Google, Facebook).
+            *   *Upstream:* Intercepting data "in transit" as it flows through the internet backbone cables.
+        *   **Status:** Renewed in 2024 (Reforming Intelligence and Securing America Act) through **2026**.
+    *   **USA FREEDOM Act (2015):** Ended the bulk collection of phone metadata (Section 215) by requiring "specific selection terms" and introduced transparency reports.
+*   **Penalties for Misuse:**
+    *   **Criminal:** Fines up to **$10,000** and/or imprisonment for up to **5 years**.
+    *   **Civil:** Actual damages, punitive damages, and a statutory range of **$100 per day** or **$1,000** (whichever is greater).
 
-| Key Amendments/Related Acts | Impact on Surveillance Power |
-| :--- | :--- |
-| **USA-PATRIOT Act (2001)** | **Expanded power**, lowering FISA's surveillance threshold from "primary purpose" to **"significant purpose."** |
-| **FISA Amendments Act Section 702 (2008)** | Allows the government to obtain **broad certifications** (not warrants) from FISC to conduct surveillance on **non-U.S. persons located abroad**. This has led to the **mass collection** of communications data. |
-| **Section 206: Roving Wiretaps** (Patriot Act) | Authorized surveillance of **any device** associated with an individual, rather than specific devices/numbers. (Expired March 2020) |
-| **Section 215: Business Records Provision** (Patriot Act) | Allowed the government to order businesses to share records of any **"tangible things"** relevant to foreign intelligence, bypassing other laws (used for bulk phone record collection). (Expired March 2020) |
-| **USA FREEDOM Act (2015)** | **Curtailed power** by requiring requests to list **"selection terms"** (specific criteria like phone numbers) to end the bulk data collection programs revealed by Edward Snowden. Also reformed **National Security Letters (NSLs)**. |
+*   **National Security Letters (NSLs):**
+    *   **Definition:** A type of **administrative subpoena** (issued directly by the FBI without judicial oversight) used to compel the production of records in national security investigations.
+    *   **Statutory Basis (Authorized by 4 Laws):**
+        1.  **Right to Financial Privacy Act (RFPA):** For financial records.
+        2.  **Electronic Communications Privacy Act (ECPA):** For telephone and email transactional records.
+        3.  **Fair Credit Reporting Act (FCRA):** For consumer credit agency records (identity/financial institutions).
+        4.  **National Security Act:** For financial/travel records of government employees (to detect leaks).
+    *   **The Standard (USA PATRIOT Act Section 505):**
+        *   **Lowered Threshold:** The Patriot Act removed the requirement for "specific and articulable facts." Now, the FBI need only certify that the information is **"relevant"** to an authorized investigation to protect against international terrorism or spying.
+    *   **Gag Orders & Reforms:**
+        *   **Secrecy:** NSLs typically prohibit the recipient from disclosing that they have received one.
+        *   **2006 Reform:** Allowed recipients to petition a court to **modify or quash** the order/gag order. Secrecy is only required if disclosure would result in danger to life, flight from prosecution, or destruction of evidence.
+    *   **Judicial Review:** Recipients have the explicit right to challenge an NSL in federal district court.
 
-*   **National Security Letters (NSLs):** A type of **administrative subpoena** used to compel the production of business records (stored email, phone data). Often includes a **gag order** prohibiting the recipient from disclosing the request.
+*   **Section 215 Orders ("Any Tangible Thing"):**
+    *   **Scope:** Allows the FISC (Foreign Intelligence Surveillance Court) to issue an order compelling the production of **"any tangible thing"** (including books, records, papers, documents, and other items) relevant to a foreign intelligence, international terrorism, or clandestine intelligence investigation.
+    *   **Use Case:** This widespread authority was the legal basis for the NSA's bulk collection of telephone metadata (later constrained by the USA FREEDOM Act).
 
 ### Cybersecurity Information Sharing Act (CISA) of 2015
 
-* **Purpose:** Encourages **voluntary sharing** of **cyber-threat indicators** between private companies and the federal government by **removing legal barriers**.
-* **Safe Harbor:** Provides private companies protection from certain liabilities (like those under the ECPA or antitrust laws) when sharing information **in accordance with CISA's protocols**.
-* **Privacy:** Companies are required to **remove PII** before sharing unless that information is directly related to the cyber threat itself.
+*   **Purpose:** Incentivizes the **voluntary sharing** of threat intelligence between private entities and the federal government (via DHS) and among private entities by removing legal barriers.
+*   **Key Definitions:**
+    *   **Cyberthreat Indicator:** Information necessary to describe or identify malicious reconnaissance, intrusion methods, or exploitation techniques.
+    *   **Defensive Measure:** Actions taken on an information system to protect rights/property and mitigate known threats.
+*   **Privacy Protections (De-identification):**
+    *   Entities must possess the **"technical capability"** to scrub data.
+    *   **Requirement:** Must remove any personal information (PII) of specific individuals not relevant to the threat *before* sharing.
+*   **Liability Protection (Immunity):**
+    *   **Scope:** Provides broad immunity from civil/criminal liability for **monitoring** systems and **sharing** indicators in accordance with CISA protocols.
+    *   **Immunity Nuance (Exclusion):** Immunity does **NOT** extend to the implementation of **defensive measures** (e.g., "hacking back" or actions that harm another network).
+*   **Legal Privileges:**
+    *   **Privilege Preservation:** Sharing does *not* waive attorney-client privilege or trade secret protections.
+    *   **FOIA Exemption:** Information shared with the government is **exempt** from Freedom of Information Act disclosures.
+*   **Government Usage Limits:**
+    *   The government can use shared data for cybersecurity, terrorism, or serious violent felonies.
+    *   **Restriction:** Data **cannot** be used for regulatory enforcement actions (e.g., antitrust, consumer protection) unrelated to cybersecurity.
 
 ---
 
@@ -1456,17 +1587,55 @@ Extremely relevant in 2026, web scraping sits at the intersection of privacy, pr
 
 ### Compelled Disclosure of Media Information
 
-* ***Zurcher v. Stanford Daily* (1978):** Supreme Court ruled that the Constitution **does not protect journalists** from duly authorized search warrants.
-* **Privacy Protection Act (PPA) of 1980:** Prohibits law enforcement from using a **search warrant** to seize journalistic **"work product materials"** and **"documentary materials."**
-    * To compel disclosure, law enforcement must generally use a **subpoena duces tecum**, which provides the journalist with **advance notice** and the opportunity to challenge the order in court.
-    * PPA provides a **private right of action** against agencies that violate the law.
+*   **Background Case Law:**
+    *   ***Branzburg v. Hayes* (1972):** The Supreme Court ruled that the First Amendment does **not** create a general "reporter's privilege" to refuse to testify before a grand jury.
+    *   ***Zurcher v. Stanford Daily* (1978):** The Court ruled that the Fourth Amendment does **not** protect newsrooms from valid search warrants, even if the journalists are not suspects.
+    *   **Legislative Response:** Congress passed the **Privacy Protection Act (PPA) of 1980** to directly overrule *Zurcher* and establish statutory protections.
 
-### Electronic Discovery (eDiscovery)
+*   **Privacy Protection Act (PPA) of 1980:**
+    *   **The Core Rule:** Law enforcement is generally **prohibited** from using a search warrant to seize materials intended for public dissemination. Instead, they must use a **subpoena** (which allows the journalist to challenge the request in court).
+    *   **Protected Categories:**
+        *   **Work Product:** Materials created by the journalist (e.g., notes, drafts, mental impressions) in anticipation of communication to the public. (Higher protection).
+        *   **Documentary Material:** Materials upon which information is formally recorded (e.g., photos, audio tapes, films) obtained from others.
+    *   **Exceptions (When a Warrant IS Allowed):**
+        1.  **Probable Cause of Criminality:** If the journalist themselves is suspected of committing a crime (other than just possessing the materials).
+        2.  **Imminent Danger:** To prevent death or serious bodily injury.
+        3.  **Risk of Destruction:** If giving notice via subpoena would likely result in the destruction of evidence (documents only).
+    *   **Enforcement:**
+        *   **Private Right of Action:** Victims can sue the government unit.
+        *   **Damages:** Minimum liquidated damages of **$1,000**, actual damages, and **reasonable attorney's fees**.
+        *   *Note:* The PPA's exclusionary rule is limited; evidence seized in violation of the PPA is **not** automatically excluded from trial (unlike the 4th Amendment exclusionary rule).
 
-* The process of identifying, collecting, and producing electronic records for legal proceedings.
-* **Key Stages (often managed by legal counsel):**
-    1.  **Identification:** Determining which records are subject to discovery, often assisted by IT staff.
-    2.  **Preservation:** Placing relevant records under a **legal hold** to prevent alteration or destruction.
+### Discovery and E-Discovery (FRCP)
+Civil discovery is the pre-trial phase where parties exchange information. It is governed by the **Federal Rules of Civil Procedure (FRCP)**.
+
+*   **Legal Scope (FRCP Rule 26):**
+    *   **The Standard:** Parties may obtain discovery regarding any nonprivileged matter that is **relevant** to any party's claim or defense and **proportional** to the needs of the case.
+    *   **Proportionality Factors:** Importance of issues, amount in controversy, access to information, and whether the burden outweighs the benefit.
+*   **The 5 Primary Discovery Devices:**
+    1.  **Requests for Production (RFP):** Demands to inspect/copy documents, ESI (Electronically Stored Information), or tangible things.
+    2.  **Depositions:** Sworn out-of-court oral testimony.
+    3.  **Interrogatories:** Written questions answered in writing under oath.
+    4.  **Requests for Admission:** Written requests to admit the truth of facts (to narrow issues for trial).
+    5.  **Subpoenas:** Orders compelling third parties (non-litigants) to testify or produce documents.
+*   **E-Discovery Governance:**
+    *   **The Sedona Conference:** An influential think-tank whose publications (e.g., *The Sedona Principles*) guide courts on handling **Electronically Stored Information (ESI)**.
+    *   **Information Governance:** The holistic approach to managing information assets, balancing value against risk (privacy, security) and cost (e-discovery). Good governance reduces the "data debris" that complicates discovery.
+*   **International Conflicts:**
+    *   **The Conflict:** U.S. discovery is broad; EU/foreign privacy laws (like GDPR) are restrictive. This creates a "Rock and a Hard Place" scenario for multinationals.
+    *   ***Societe Nationale v. U.S. District Court* (1987):** The Supreme Court established a **5-factor balancing test** to determine if U.S. discovery overrides foreign blocking statutes:
+        1.  Importance of the documents to the litigation.
+        2.  Specificity of the request.
+        3.  Origin of the information (U.S. vs. Abroad).
+        4.  Availability of alternative means.
+        5.  Weighing U.S. interests vs. Foreign national interests.
+*   **Privacy in Court Filings:**
+    *   **Protective Orders:** Courts can issue orders to protect trade secrets or sensitive information (e.g., "Attorney's Eyes Only" designations).
+    *   **FRCP Rule 5.2 (Redaction):** Mandates the redaction of sensitive data in court filings:
+        *   **SSN/Tax ID:** Last 4 digits only.
+        *   **Birth Date:** Year only.
+        *   **Minors:** Initials only.
+        *   **Financial Account Numbers:** Last 4 digits only.
     3.  **Collection:** Gathering the preserved records and securely transferring them to legal counsel.
     4.  **Processing:** Converting data to reviewable formats.
     5.  **Review:** Attorneys examine the records to **redact or remove** information that is irrelevant, protected by privilege, or protected by statute.
