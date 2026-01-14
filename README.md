@@ -1360,10 +1360,52 @@ Extremely relevant in 2026, web scraping sits at the intersection of privacy, pr
 
 ### Access to Financial Data
 
-| Legislation | Purpose | Key Requirements | Privacy Impact |
-| :--- | :--- | :--- | :--- |
-| **Right to Financial Privacy Act (RFPA) of 1978** | Regulates how federal authorities access customer records from financial institutions (FIs) following the *Miller* ruling. | Requires the government to notify the customer and provide a chance to **object** within 10 days (14 days if mailed). Disclosure must be authorized by: **Customer Authorization**, **Administrative/Judicial Subpoena**, **Search Warrant** (90-day notification delay), or **Formal Written Request**. | Provides some due process rights, but not Fourth Amendment protection. |
-| **Bank Secrecy Act (BSA) of 1970** (a.k.a. Currency and Foreign Transactions Reporting Act) | Established to combat **money laundering** and terrorist financing by creating a financial paper trail. | FIs must have an **Anti-Money Laundering (AML) program** and a **Customer Identification Program (CIP)**. Requires FIs to file: **Currency Transaction Reports (CTRs)** (transactions over \$10,000/day) and **Suspicious Activity Reports (SARs)**. | **Reduces privacy**; FIs are **prohibited from notifying customers** when filing an SAR (making SARs an exception to the RFPA). |
+### Access to Financial Data
+
+*   **Right to Financial Privacy Act (RFPA) of 1978:**
+    *   **Scope:** Regulates federal government access to financial records.
+        *   **"Customer":** Defined as individuals or partnerships of **5 or fewer** people.
+        *   **Exclusion:** Explicitly **excludes corporations** and larger partnerships.
+    *   **Permissible Access Methods (5 Exceptions):**
+        1.  **Customer Authorization:** Voluntary consent (valid for **3 months**; revocable at any time).
+        2.  **Administrative Subpoena:** Issued by a federal agency. Customer has **10 days** (if served in person) or **14 days** (if mailed) to move to quash.
+        3.  **Judicial Subpoena:** Issued by a court. Same 10/14-day quash window apply.
+        4.  **Search Warrant:** Issued by a judge/magistrate. Notice to the consumer can be delayed up to **90 days** *after* access (unlike subpoenas where notice is prior).
+        5.  **Formal Written Request:** Used by agencies without subpoena power.
+    *   **Institutional Duties:**
+        *   **Certification:** The financial institution must receive a **written certification** of compliance from the government agency before releasing records.
+        *   **Reimbursement:** Institutions generally have a right to be reimbursed by the government for costs of assembling/copying records.
+    *   **Enforcement:**
+        *   **Private Right of Action:** Available against government agencies or financial institutions.
+        *   **Damages:** Actual damages, punitive damages (for willful violations), and a **statutory minimum of $100**.
+        *   **Statute of Limitations:** **3 years**.
+
+*   **Bank Secrecy Act (BSA) of 1970:** (a.k.a. Currency and Foreign Transactions Reporting Act)
+    *   **Scope & Authority:**
+        *   **Regulator:** The **Financial Crimes Enforcement Network (FinCEN)** (part of the U.S. Treasury) has authority over the BSA.
+        *   **Covered Entities:** Applies to **26 different types** of entities, including banks, securities brokers, telegraph companies, **casinos**, and card clubs.
+    *   **Reporting Requirements:**
+        *   **Currency Transaction Reports (CTRs):** Must be filed for currency transactions of **> $10,000** (deposits, withdrawals, exchanges).
+        *   **Transportation of Monetary Instruments:** Must report transportation of currency/instruments **> $10,000** into or out of the U.S.
+        *   **Purchase of Monetary Instruments:** Must maintain logs of purchases of bank checks, drafts, cashier's checks, money orders, or traveler's checks for **$3,000 – $10,000** (inclusive).
+        *   **Suspicious Activity Reports (SARs):** Must be filed in 4 situations:
+            1.  Suspected criminal violation involving an insider (any amount).
+            2.  Suspected criminal violation > $5,000 (suspect identified).
+            3.  Suspected criminal violation > $25,000 (suspect unidentified).
+            4.  Suspicious activity > $5,000 (potential money laundering/evasion).
+            *   **Strict Prohibition:** The financial institution is **strictly prohibited** from notifying the customer that an SAR has been filed (an exception to RFPA notice).
+    *   **Record Retention:** Records generally must be kept for **5 years**.
+    *   **Enforcement:**
+        *   **Civil Penalties:** Fines up to **$25,000** (or the amount of the instrument, capped at $100,000).
+        *   **Statute of Limitations:** **6 years**.
+    *   **USA PATRIOT Act Impact (2001):** Strengthened the BSA by requiring:
+        1.  **Information Sharing:** Facilitated sharing between government and financial institutions.
+        2.  **"Know Your Customer" (KYC):** Mandatory **Customer Identification Programs (CIP)** to verify identity (Name, DoB, Address, ID number).
+        3.  **AML Program Pillars:** Every institution must have an AML program with 4 pillars:
+            *   Internal policies and controls.
+            *   Designated compliance officer.
+            *   Ongoing employee training.
+            *   Independent audit function.
 
 ### Access to Communications
 
