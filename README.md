@@ -1521,6 +1521,10 @@ Primary legislation regulating government eavesdropping, divided into three titl
 
 * In national security, the stakes are higher, often leading lawmakers to grant the government **more power** than for regular law enforcement.
 
+*   ***United States v. U.S. District Court* (1972) ("The Keith Case"):**
+    *   **Holding:** The Fourth Amendment's **warrant requirement** applies to government surveillance of **domestic** threats to national security (i.e., the President cannot authorize warrantless wiretaps of domestic groups).
+    *   **Significance:** Rejected the idea of unlimited executive power for domestic security and served as the direct precursor/impetus for the enactment of **FISA** in 1978.
+
 ### Foreign Intelligence Surveillance Act (FISA) of 1978
 
 *   **Purpose:** Provides a legal framework for the government to track **foreign targets** and agents spying on the U.S. while setting due process and oversight.
@@ -1584,6 +1588,8 @@ Primary legislation regulating government eavesdropping, divided into three titl
 ---
 
 ## 🧑‍⚖️ Civil Litigation and Privacy
+
+*   **Right of Public Access:** Derived from the **First Amendment**, this right ensures that the public and the press have access to government proceedings, most notably **criminal trials** (established in ***Richmond Newspapers, Inc. v. Virginia*** (1980)). This creates a tension between public transparency and individual privacy in court records.
 
 ### Compelled Disclosure of Media Information
 
