@@ -794,6 +794,7 @@ Federal laws provide special protections for personal medical information.
 
 * **Health Insurance Portability and Accountability Act (HIPAA):** Sets standards for the privacy and security of **Protected Health Information (PHI)** and **electronic PHI (ePHI)**.
     * **Scope:** Applies to **Covered Entities** (health plans, clearinghouses, providers) and their **Business Associates** (third parties with access to PHI, bound by **Business Associate Agreements** or BAAs).
+    * **"Employment Record" Exclusion:** HIPAA explicitly **excludes** employment records held by a covered entity in its role as an employer. (e.g., A hospital's HR file on its own nurses is *not* PHI under HIPAA, though it may be protected by ADA/state laws).
     * **Privacy Rule:** Governs the **use and disclosure** of PHI, requiring the **minimum necessary** amount of PHI be shared.
         * **Patient Rights:** Includes the right to access the **Designated Record Set** (medical, billing, and enrollment records). Requests must be fulfilled within **30 days**.
         * **Valid Authorizations:** To be valid, a written authorization must include six elements: (1) description of info, (2) identity of the granter, (3) identity of the recipient, (4) purpose of use, (5) expiration date/event, and (6) signature and date.
@@ -1817,21 +1818,34 @@ Regulates interception of wire, oral, and electronic communications.
 *   **Intrusion on Seclusion:** Liability arises if an employer intentionally intrudes into a private area (e.g., bathroom, locker room) in a way that would be **highly offensive** to a reasonable person. **Surveillance** in these private areas is a key risk.
 *   **Publicity Given to Private Life:** Liability for publicly disclosing highly sensitive private facts (e.g., medical details) that are not of legitimate public concern.
 
+### F. Health and Leave Privacy (Confidentiality)
+*   **FMLA Confidentiality:**
+    *   **Rule:** The Department of Labor (DOL) requires that health information obtained for **Family and Medical Leave Act (FMLA)** purposes be kept in a **separate file** from the general personnel file and treated as confidential (similar to ADA).
+    *   **Enforcement:** The FMLA provides a **private right of action** for violations. Courts are distinctively split on whether this extends to confidentiality breaches (some say actual harm is needed).
+*   **Workers' Compensation:** While laws vary strictly by state, they almost universally require **confidentiality** for employee records related to workplace injuries/claims.
+    *   **Interaction with HIPAA:** Workers' Compensation insurers and administrative agencies are generally *not* HIPAA covered entities, but providers treating the injured worker *are*. HIPAA allows providers to disclose PHI to employers/insurers *without authorization* to the extent necessary to comply with Workers' Comp laws.
+
 ## V. Privacy After Employment
 ### A. Termination Procedures
 * **Transition Management:** Securely ending the relationship.
 * **Access Control:** Immediate revocation of physical (keys, badges) and digital (email, network) access.
-* **Property Return:** Retrieving laptops and ensuring no company data remains on personal devices.
+* **Administrative Procedures (Data & IP):**
+    *   **Personal Devices:** Since physical return of data on personal devices is impossible, employers should request/require written confirmation of data deletion.
+    *   **Ongoing Obligations:** Employers should formally remind departing employees of their **continuing confidentiality obligations** regarding trade secrets and intellectual property.
 
 ### B. Records Retention
-* Employers must follow retention schedules for personnel files (performance reviews, disciplinary records, medical info) to comply with laws and prepare for potential litigation (eDiscovery).
+*   **General Rule:** Employers must follow retention schedules for personnel files (performance reviews, disciplinary records, medical info) to comply with laws and prepare for potential litigation (eDiscovery).
+*   **FACTA Disposal Rule:**
+    *   **Applicability:** Applies to background checks or credit reports kept in a former employee's file.
+    *   **Requirement:** Employers must take **"reasonable measures"** to protect against unauthorized access to or use of the information in connection with its disposal (e.g., burning, pulverizing, or shredding papers; destroying or erasing electronic files).
 
 ### C. References
 * No federal requirement to provide references.
-* **Service Letter Acts:** Some states require employers to provide basic employment verification (dates, title).
+* **Service Letter Acts (e.g., Kansas):**
+    *   **Kansas Requirement:** Upon written request from a former employee, employers **must** provide a letter stating the individual's (1) length of employment, (2) job classification, and (3) rate of pay.
 * **Defamation Risk:** Employers face liability for **defamation** (libel/slander) if they make false, damaging statements about a former employee.
-    *   **Consequence:** Many employers have a policy of providing only "neutral references" (dates of employment, job title) to avoid this risk.
     *   **Qualified Privilege:** Some states provide employers a "qualified privilege" to give honest references without liability, provided there is no malice.
+    *   **Pro-Tip for Exam:** Many employers adopt a **"Neutral Reference" Policy** (confirming only dates of employment and job title) as the standard middle ground to mitigate defamation liability while satisfying verification requests.
 
 # State Privacy Laws
 
