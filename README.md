@@ -1650,61 +1650,140 @@ Civil discovery is the pre-trial phase where parties exchange information. It is
 ## I. Introduction to Workplace Privacy
 Workplace privacy in the U.S. is not governed by a single comprehensive law but by a "patchwork" of federal and state statutes, tort law, and contracts. The primary drivers of federal workplace privacy legislation are **antidiscrimination** and **labor rights**, rather than privacy for privacy's sake.
 
+*   **Foundational Legal Sources:**
+    *   **Constitutional Law (The "State Action" Requirement):** The Fourth Amendment protects against unreasonable searches, but it requires **"State Action."** Therefore, it protects **government employees** but generally **does not apply** to the private sector.
+    *   **Contract Law:** Employment agreements and **Collective Bargaining Agreements (CBAs)** can create or waive privacy expectations.
+    *   **Tort Law:** Common law civil wrongs (e.g., intrusion on seclusion, defamation) provide remedies for privacy invasions where statutes don't exist.
+    *   **Statutory Law:** Specific federal and state laws (e.g., ADA, FCRA, EPPA) create targeted privacy rights.
+
 ### A. Key Regulatory Agencies
-* **Federal Trade Commission (FTC):** Regulates background screening via the Fair Credit Reporting Act (FCRA).
+* **Federal Trade Commission (FTC):** Regulates background screening via the Fair Credit Reporting Act (FCRA). Under the FCRA, a **consumer report** includes info on an individual's character or general reputation when used to determine eligibility for **"employment purposes."**
 * **Consumer Financial Protection Bureau (CFPB):** Shares FCRA enforcement with the FTC; targets background check companies for inaccuracies.
-* **Department of Labor (DOL):** Enforces fair labor standards and laws like FMLA, OSHA, and EPPA.
+* **Department of Labor (DOL):** Enforces fair labor standards under the **Fair Labor Standards Act (FLSA)** and protects benefits privacy under the **Employee Retirement Income Security Act (ERISA)**. Also administers FMLA and EPPA.
 * **Equal Employment Opportunity Commission (EEOC):** Enforces antidiscrimination laws (ADA, ADEA, Title VII, GINA).
+    *   **Structure:** Led by **five members** appointed by the President for **five-year terms** (no more than three from the same political party).
+    *   **Litigation:** A **General Counsel** (appointed for a 4-year term) oversees litigation.
 * **National Labor Relations Board (NLRB):** Protects workers' rights to organize and bargain collectively; regulates employer surveillance that might intimidate union activities.
-* **Occupational Safety and Health Administration (OSHA):** Ensures workplace safety; protects confidentiality of employee complaints and medical records related to workplace safety.
-* **Securities and Exchange Commission (SEC):** Requires public companies to disclose human capital metrics relevant to investors.
+    *   **Case Examples:**
+        *   ***Colgate-Palmolive Co.:*** Ruled that covert video surveillance is a mandatory subject of collective bargaining.
+        *   ***Purple Communications, Inc.:*** Restricted an employer's right to monitor/ban union-related emails sent on company systems during non-work hours.
+* **Occupational Safety and Health Administration (OSHA):** Established by the **Occupational Safety and Health Act of 1970**. Ensures workplace safety and protects the confidentiality of employee complaints and medical records related to workplace safety.
+* **Securities and Exchange Commission (SEC):** Under the authority of the **Securities Exchange Act of 1934**, the SEC requires public companies to disclose **top-level executive salaries** and human capital metrics relevant to investors.
+
+### B. The Nature of the Employment Relationship
+*   **"At-Will" Doctrine:** The default rule in the U.S. is that employment is "at-will," meaning employers can hire, fire, or change terms (including privacy-invasive policies) for any reason (unless illegal) or no reason. This grants employers broad authority to structure the workplace.
+*   **Modifying the Relationship:**
+    *   **Employment Contracts:** Can define specific privacy rights or limits on monitoring.
+    *   **Collective Bargaining Agreements (CBAs):** Union contracts often restrict monitoring or require "just cause" for discipline based on surveillance.
 
 ## II. U.S. Antidiscrimination Laws
 Federal laws restrict the collection and use of personal data to prevent bias.
 
-* **Civil Rights Act of 1964 (Title VII):** Prohibits discrimination based on race, color, religion, national origin, or sex (including pregnancy/childbirth).
-* **Americans with Disabilities Act (ADA):**
-    * Prohibits discrimination based on disability if the person is qualified and can perform essential functions with **reasonable accommodation**.
-    * **Medical Exams:** Pre-employment medical exams are banned before a conditional job offer. Medical info must be kept in separate, confidential files.
-    * **Undue Hardship:** Employers are not required to provide accommodations that cause significant difficulty/expense.
-* **Genetic Information Nondiscrimination Act (GINA):**
-    * **Framework:** Functions by amending existing statutes, including **ERISA** and **HIPAA**. Genetic information is explicitly classified as **PHI** under HIPAA.
-    * **Employment Protections:** Prohibits using genetic info (including family medical history) for hiring, firing, or promotion. Generally prohibits collecting genetic info (exceptions for accidental acquisition, FMLA, wellness programs).
-    * **Health Insurer Restrictions:** Health plans cannot use genetic info for **underwriting** purposes or discriminate based on a **predisposition** to disease.
-    * **Genetic Testing:** Insurers are prohibited from requesting or requiring individuals to undergo genetic tests, except for limited, voluntary research purposes.
-    * **Exam Note:** For CIPP/US purposes, GINA is primary classified under **Workplace Privacy**.
+### A. Key Statutes
+*   **Civil Rights Act of 1964 (Title VII):** Prohibits discrimination in hiring, promotion, and termination based on **race, color, religion, national origin, or sex**.
+    *   **Disparate Treatment:** Intentional discrimination against an individual based on a protected trait.
+    *   **Disparate Impact:** A policy that is facially neutral (unintentional) but falls more harshly on a protected group (e.g., a physical strength test that disproportionately excludes women).
+*   **Age Discrimination in Employment Act (ADEA):** Prohibits discrimination against applicants and employees who are **40 years of age or older**.
+*   **Pregnancy Discrimination Act (PDA):** Amends Title VII to prohibit discrimination based on **pregnancy, childbirth, or related medical conditions**.
+*   **Equal Pay Act of 1963:** Prohibits **wage disparity** based on sex for equal work performed under similar conditions.
+*   **Bankruptcy Act:** Prohibits employers from firing or discriminating against an employee solely because they have filed for **bankruptcy**.
+*   **Americans with Disabilities Act (ADA):**
+    *   Prohibits discrimination based on disability if the person is qualified and can perform essential functions with **reasonable accommodation**.
+    *   **Medical Exams:** Pre-employment medical exams are banned before a conditional job offer. Medical info must be kept in separate, confidential files.
+    *   **Undue Hardship:** Employers are not required to provide accommodations that cause significant difficulty/expense.
+*   **Genetic Information Nondiscrimination Act (GINA):**
+    *   **Framework:** Functions by amending existing statutes, including **ERISA** and **HIPAA**. Genetic information is explicitly classified as **PHI** under HIPAA.
+    *   **Employment Protections:** Prohibits using genetic info (including family medical history) for hiring, firing, or promotion. Generally prohibits collecting genetic info (exceptions for accidental acquisition, FMLA, wellness programs).
+    *   **Health Insurer Restrictions:** Health plans cannot use genetic info for **underwriting** purposes or discriminate based on a **predisposition** to disease.
+    *   **Genetic Testing:** Insurers are prohibited from requesting or requiring individuals to undergo genetic tests, except for limited, voluntary research purposes.
+    *   **Exam Note:** For CIPP/US purposes, GINA is primary classified under **Workplace Privacy**.
+
+### B. EEOC Enforcement Procedures
+*   **Charge Filing:** An individual usually cannot sue immediately; they must first file a charge with the EEOC.
+*   **Timeline:** The employer receives notice of the charge within **10 days**.
+*   **"Reasonable Cause":** The EEOC investigates to determine if there is reasonable cause to believe discrimination occurred.
+*   **Administrative Exhaustion:** A private lawsuit can only be filed **after** the EEOC process is exhausted and the agency issues a **"Right to Sue" letter**.
 
 ## III. Privacy Before Employment (Screening)
-### A. Automated Employment Decision Tools
-* Use of AI/algorithms in hiring creates risks of unintentional bias (e.g., facial analysis penalizing certain groups).
-* **Regulation:** Some jurisdictions (e.g., NYC) require bias audits and notices to candidates before using AI in hiring.
+### A. Automated Employment Decision Tools (AEDT)
+Use of AI/algorithms in hiring creates risks of unintentional bias (e.g., facial analysis penalizing certain groups).
+
+1.  **Regional AEDT Regulations:**
+    *   **Illinois (Artificial Intelligence Video Interview Act):** Employers must notify applicants that AI analysis is used, explain how it works, and report demographic data to the state (for race/ethnicity).
+    *   **Maryland:** Prohibits the use of **facial recognition** during pre-employment interviews unless the applicant signs a specific **waiver**.
+    *   **New York City (Local Law 144):** Employers cannot use AEDT for hiring/promotion unless the tool has undergone an **annual bias audit** and the results are publicly summarized. Also requires **10-day advance notice** to candidates.
+
+2.  **Federal Oversight & EEOC Guidance (ADA & AI):**
+    *   **Vendor Liability:** Employers are responsible for their use of AI tools, even if the tools are designed/administered by a third-party vendor.
+    *   **3 Types of ADA Violations:**
+        1.  **Reasonable Accommodation:** Failing to provide an alternative way to be assessed if the AI tool requires abilities the candidate lacks due to disability.
+        2.  **"Screening Out":** Tools that unintentionally filter out qualified individuals with disabilities.
+        3.  **Medical Inquiries:** Tools that inadvertently ask questions likely to elicit information about a disability (illegal pre-offer).
+
+3.  **Case Example:** ***iTutorGroup, Inc.*** (2022)
+    *   **Facts:** The company's hiring software automatically rejected female applicants over 55 and male applicants over 60.
+    *   **Outcome:** The EEOC settled for $365,000, enforcing the **ADEA** and highlighting that "checking the box" on software settings can lead to direct liability for algorithmic age discrimination.
+
+*   **National Child Protection Act (1993):**
+    *   **Purpose:** Allows state officials to access the FBI’s **National Crime Information Center (NCIC)** database.
+    *   **Scope:** Used to screen potential employees/volunteers who will work with children, the elderly, or individuals with disabilities.
 
 ### B. Background Screening & The FCRA
 Background checks by third parties are usually considered **Consumer Reports** under the FCRA.
-* **Employer Obligations:**
-    1.  Provide written notice to the applicant.
-    2.  Obtain written authorization.
-    3.  Certify compliance to the background check provider (CRA).
-    4.  **Investigative Consumer Reports:** If interviewing neighbors/associates about character, specific notice of the "investigative" nature is required.
-* **Adverse Action Procedures:** Before taking "adverse action" (e.g., denying a job, promotion, or terminating employment) based on a report: 
-    * **Pre-Adverse Action:** The employer must first provide the individual with a copy of the report and a written summary of their rights under the FCRA. 
-    * **Final Adverse Action:** If the employer proceeds with the decision, they must then send a formal adverse action notice.
+* **Employer Obligations (The "Certification" Rule):** Before a CRA provides a report, the employer must certify:
+    1.  **Written Notification/Permission:** That they have notified the consumer and obtained written permission.
+    2.  **Compliance with Adverse Action:** That they will comply with the statutory adverse action notice requirements if they deny employment.
+    3.  **Non-Discrimination:** That the information will **not** be used in violation of any applicable federal or state equal employment opportunity law.
+*   **Investigative Consumer Reports:** If interviewing neighbors/associates about character, specific notice of the "investigative" nature is required.
+*   **Adverse Action Procedures:** Before taking "adverse action" (e.g., denying a job, promotion, or terminating employment) based on a report:
+    *   **Pre-Adverse Action:** The employer must first provide the individual with a copy of the report and a written summary of their rights under the FCRA.
+    *   **Final Adverse Action:** If the employer proceeds with the decision, they must then send a formal adverse action notice.
     *   *Note:* See Financial Privacy section for general FCRA adverse action duties.
+
+1.  **State-Specific Screening Laws:**
+    *   **California (ICRAA):** The **Investigative Consumer Reporting Agencies Act** imposes stricter rules than the FCRA (e.g., stricter disclosure, right to receive a copy of the report). CA and many other states limit the use of **credit information** for employment decisions.
+    *   **Other Restrictive States:** Colorado, Connecticut, Hawaii, Illinois, Maryland, Nevada, Oregon, Vermont, and Washington (plus major cities) have adopted similar laws restricting credit checks or criminal history inquiries.
 
 ### C. Other Screening Methods
 * **Polygraphs:** The **Employee Polygraph Protection Act (EPPA)** bans most private employers from using lie detectors for pre-employment screening.
-    * *Exceptions:* Government, security firms, pharmaceutical distributors, or specific theft investigations.
+    *   **4 Exempt Categories:**
+        1.  Government (federal, state, local).
+        2.  National defense/security contractors.
+        3.  Security services (armored car, alarm, guard) protecting vital facilities.
+        4.  Pharmaceutical manufacturers/distributors of controlled substances.
+    *   **"Ongoing Investigation" Exception:** Private employers *can* use polygraphs if:
+        *   There is a specific economic loss (theft).
+        *   The employee had access to the property.
+        *   There is **"reasonable suspicion."**
+        *   The employer provides a **signed statement** detailing the incident and suspicion.
+    *   **Limitation:** A test result **cannot** be the sole basis for an adverse employment action.
 * **Drug/Alcohol Testing:** Regulated by a mix of state laws and federal requirements (e.g., DOT). The **Drug-Free Workplace Act** encourages, but doesn't always mandate, testing.
 * **Social Media:** Employers often check profiles but risk seeing protected class info (race, religion). Best practice is using a third party to redact protected info.
+    *   **Emerging Statutory Trend:** A growing number of states have passed laws **prohibiting employers** from requesting or requiring employees/applicants to disclose their **usernames or passwords** for private social media accounts.
+
+### D. "Ban the Box" and The Fair Chance Act
+*   **Concept:** Removal of the checkbox asking about criminal history from initial job applications to prevent automatic disqualification.
+*   **Federal Law:** The **Fair Chance to Compete on Jobs Act (Fair Chance Act) of 2019**.
+    *   **Restriction:** Prohibits federal agencies and defense contractors from requesting criminal background information **prior to extending a conditional job offer**.
+    *   **Implementation:** Final rulemakings were published in September 2023.
 
 ## IV. Privacy During Employment (Monitoring)
-Employees generally have **no expectation of privacy** using company equipment.
+Employees generally have **no expectation of privacy** using company equipment. To be legally defensible, a formal monitoring policy should include **6 Key Components**:
+1.  **Purpose:** Why the monitoring is occurring (e.g., safety, quality control).
+2.  **Scope:** Specific conduct/activities being tracked.
+3.  **Methods:** How the monitoring is conducted (e.g., video, keystroke logging).
+4.  **Records:** Types of records maintained.
+5.  **Use:** How those records are utilized and who accesses them.
+6.  **Disclosure:** To whom records are disclosed.
 
 ### A. Monitoring Technologies
 * **Computer/Phone Usage:** Employers own the equipment and can monitor use.
 * **Location Tracking:** GPS monitoring of company vehicles/phones is generally permitted, though some states require notice.
 * **Biometrics:** Collecting fingerprints/face scans for timekeeping is common. States like IL, TX, and WA have specific laws requiring notice/consent/retention policies.
 * **Wellness Programs:** Employers can offer incentives for health programs. Collection of health data must be voluntary and not penalized if opted out (EEOC rules).
+*   **Consumerization of IT (COIT) & BYOD:**
+    *   **Trend:** Employees using personal devices for work ("Bring Your Own Device") blurs privacy lines.
+    *   **Data Loss Prevention (DLP):** Strategies to prevent data breaches (like remote wipe or keystroke logging) must strictly balance security against the employee's **higher expectation of privacy** on personal devices compared to company-owned ones.
 
 ### B. Electronic Communications Privacy Act (ECPA)
 Regulates interception of wire, oral, and electronic communications.
@@ -1712,11 +1791,31 @@ Regulates interception of wire, oral, and electronic communications.
     * *Limitation:* Monitoring must stop if the communication is determined to be personal.
 * **Consent:** Monitoring is legal if one party consents (federal law). Some states require all-party consent.
 * **Stored Communications Act (SCA):** accessing stored emails (on company servers) is generally easier than intercepting real-time calls, as company ownership usually negates privacy expectations.
+*   **State-Specific Notice Laws:**
+    *   **Delaware:** Requires both **prior written notice** and **daily electronic notice** (e.g., a login banner) for email/internet monitoring.
+    *   **Connecticut:** Requires **prior written notice** informing employees of the types of monitoring that may occur.
 
-### C. Investigation of Misconduct
-* **Fairness:** Investigations must be evenhanded to avoid discrimination claims.
-* **FACTA Amendment:** The Fair and Accurate Credit Transactions Act amended the FCRA so that **misconduct investigation reports** by third parties are **not** treated as standard consumer reports.
-    * *Result:* Employers do *not* need to get prior consent to investigate an employee for suspected misconduct, nor do they need to provide the full report (only a summary if adverse action is taken).
+### C. Physical and Location-Based Monitoring
+*   **Postal Mail:** In the U.S., a business can generally **open all mail** delivered to its address/office, even if it is marked "Personal" or "Private."
+*   **Location Tracking (GPS):**
+    *   **Vehicle Tracking:** Generally permissible (especially for company-owned fleets) to track the **vehicle**.
+    *   **Person Tracking:** Tracking the **individual person** directly (e.g., via a badge or phone app outside of work hours) is widely prohibited without consent (California model).
+
+### D. Investigation of Misconduct
+*   **Fairness:** Investigations must be evenhanded to avoid discrimination claims.
+    *   **Regulatory Note (EEOC "Reasonable Care"):** Even if an employer has a perfect written policy, they can still be held liable if the specific official assigned to the case fails to conduct an effective investigation of a harassment complaint.
+*   **FACTA Amendment:** The Fair and Accurate Credit Transactions Act amended the FCRA so that **misconduct investigation reports** by third parties are **not** treated as standard consumer reports (overturning the *Vail* letter).
+    *   **3 Statutory Conditions for Exclusion:**
+        1.  **Scope:** Communication must relate to suspected misconduct, compliance with laws, or compliance with employer policies.
+        2.  **No Credit Info:** The investigation cannot involve providing information on the employee's **credit worthiness** or credit standing.
+        3.  **Limited Sharing:** The report cannot be shared with anyone except the employer/management, government agencies, or self-regulatory bodies (e.g., FINRA).
+    *   **Impact on Consent & Disclosure:**
+        *   **No Prior Consent:** Employers do *not* need to notify the employee or get permission before starting the investigation.
+        *   **Post-Action Summary:** If the employer takes adverse action based on the report, they are **required** to provide the employee with a **summary** of the nature and substance of the communication (though not the full report/sources).
+
+### E. Workplace Torts (Common Law)
+*   **Intrusion on Seclusion:** Liability arises if an employer intentionally intrudes into a private area (e.g., bathroom, locker room) in a way that would be **highly offensive** to a reasonable person. **Surveillance** in these private areas is a key risk.
+*   **Publicity Given to Private Life:** Liability for publicly disclosing highly sensitive private facts (e.g., medical details) that are not of legitimate public concern.
 
 ## V. Privacy After Employment
 ### A. Termination Procedures
@@ -1730,7 +1829,9 @@ Regulates interception of wire, oral, and electronic communications.
 ### C. References
 * No federal requirement to provide references.
 * **Service Letter Acts:** Some states require employers to provide basic employment verification (dates, title).
-* **Defamation Risk:** Many employers limit references to basic facts (dates/title) to avoid lawsuits from former employees regarding negative comments.
+* **Defamation Risk:** Employers face liability for **defamation** (libel/slander) if they make false, damaging statements about a former employee.
+    *   **Consequence:** Many employers have a policy of providing only "neutral references" (dates of employment, job title) to avoid this risk.
+    *   **Qualified Privilege:** Some states provide employers a "qualified privilege" to give honest references without liability, provided there is no malice.
 
 # State Privacy Laws
 
