@@ -1777,6 +1777,13 @@ Employees generally have **no expectation of privacy** using company equipment. 
 5.  **Use:** How those records are utilized and who accesses them.
 6.  **Disclosure:** To whom records are disclosed.
 
+*   **Case Study: *City of Ontario v. Quon* (2010):**
+    *   **Holding:** The Supreme Court ruled that a police department's search of an officer's pager text messages was reasonable.
+    *   **Public Sector Fourth Amendment Application:**
+        1.  **Assumed Privacy:** The Court *assumed* (without deciding) that the employee had a reasonable expectation of privacy in the messages.
+        2.  **"Legitimate Work-Related Purpose":** Established that a search is reasonable if it is motivated by a legitimate work-related purpose (e.g., auditing usage limits) and is not excessive in scope.
+        3.  **No "Least Intrusive Means":** Explicitly **rejected** the argument that the employer must use the "least intrusive means" possible to conduct the search.
+
 ### A. Monitoring Technologies
 * **Computer/Phone Usage:** Employers own the equipment and can monitor use.
 * **Location Tracking:** GPS monitoring of company vehicles/phones is generally permitted, though some states require notice.
