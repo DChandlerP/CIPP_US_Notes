@@ -1950,15 +1950,24 @@ Every state has enacted a data breach notification law. While they share a commo
     *   *Personal Information (PI):* Typically Name + SSN, Driver’s License, or Financial info. Newer definitions include biometrics, medical info, and username/password combinations.
     *   *Covered Entities:* Most laws apply to any business.
         *   **Georgia Exception:** Uniquely, Georgia's law applies only to **information brokers** and **government agencies**, not to standard commercial entities.
+    *   **Notification Timeline Definitions (Pennsylvania SB 696):**
+        *   **Discovery:** The suspicion that a breach has occurred.
+        *   **Determination:** The verification of reasonable certainty that a breach occurred.
+        *   *Rule:* In PA, the notification timeline only begins upon **determination**.
 *   **Notification Requirements:**
     *   **Whom to Notify:** Affected residents, state regulators (AGs), and credit reporting agencies (usually if >500-1000 affected).
         *   **The "Texas Provision":** Texas historically requires organizations to notify residents of *any* state that lacks its own data breach law covering the specific event.
+        *   **Unique State AG Notification Requirements:**
+            *   **Illinois (Public vs. Private):** Under HB 1260, HIPAA-regulated entities must notify the AG within **5 days** of notifying HHS. This requirement uniquely does **not** apply to other private entities in the state.
+            *   **South Dakota (Accountability Model):** Entities are exempt from consumer notification if an investigation determines "no likely harm," but they **must still notify the State AG** of this determination.
     *   **Strict Jurisdictional Timelines:**
         *   Most States: "Without unreasonable delay" or 30-60 days.
         *   **Puerto Rico:** Specific strictness—notice must be provided to the **PR Department of Consumer Affairs** within **10 days**, and the Department must make it public within **24 hours**.
     *   **Prohibited Notice Content (Massachusetts):**
         *   While most states generally require a description of the incident, **Massachusetts** strictly **prohibits** including a description of the nature of the breach or the number of affected residents in the specific notice sent to consumers (to prevent further social engineering/targeting risks).
-    *   *Encryption:* Historically, encrypted data was exempt. Newer laws require notification if encryption keys are also compromised.
+    *   *Encryption:* Historically, encrypted data was exempt. Newer laws amended this safe harbor:
+        *   **Tennessee (SB 2005 / SB 547):** Was the first state to remove the absolute safe harbor; now requires notice if the **encryption key** was also compromised.
+        *   **Illinois (HB 1260):** Adopted a similar provision triggering notice if the key is **reasonably believed** to have been compromised.
 
 ### State Cybersecurity Safe Harbors
 *   **Concept:** A "third category" of state security law (beyond "reasonable" or "prescriptive" standards) that uses incentives to encourage better security.
@@ -1982,6 +1991,11 @@ Several states have enacted GDPR-style comprehensive laws:
         *   **Right to Delete:** Limited to data provided *directly* by the consumer.
         *   **No Profiling Opt-Out:** The right to opt-out does NOT apply to profiling.
         *   **No Right to Correct:** The only comprehensive law lacking a right to correct inaccurate data.
+    *   **2024 Amendments (S.B. 127):**
+        *   **Utah Cyber Center:** Created within the Dept. of Government Operations to coordinate state response.
+        *   **New Thresholds:**
+            *   **AG & Cyber Center:** Must be notified if breach involves **500+** individuals and is used for fraud/ID theft.
+            *   **CRAs:** Must be notified if **1,000+** individuals are affected.
 * **Florida (FDBR):** Targeted at "Big Tech" with a high revenue threshold ($1B+).
     *   **Record-Keeping Mandates:** While most states require keeping records of deletion requests, **California** and **Minnesota** uniquely require controllers to maintain detailed records of **all processing activities**, modeled after the GDPR.
 * **Consent Requirements (Secondary Use & Sensitive Data):**
@@ -2049,9 +2063,11 @@ A business is subject to the law if it meets **one or more** of these criteria (
 * **Washington My Health My Data Act:** Protects non-HIPAA health data; restricts geofencing near healthcare facilities; includes a private right of action.
 * **Illinois Genetic Information Privacy Act (GIPA):** Prohibits genetic discrimination in employment and insurance; has a private right of action.
 * **Nevada Consumer Health Data Privacy Law:** Similar to Washington's law, protecting health data not covered by HIPAA.
+    *   **Geofencing Restrictions (New York):** Specifically prohibits geofencing around healthcare facilities for advertising or profiling, defining the restricted radius as at least **1,850 feet** (approx. 1/3 of a mile).
 
 #### Online Privacy & Children
 * **Delaware (DOPPA):** Requires privacy policies for websites/apps; restricts marketing of adult products to children.
+    *   **E-Book Protections:** Uniquely regulates the disclosure of information related to the viewing of **e-books**, requiring non-government entities to obtain a court order showing a "**compelling interest**" before disclosure.
 * **California Age-Appropriate Design Code:** Requires high privacy defaults and Data Protection Impact Assessments (DPIAs) for services likely accessed by children.
 * **New York SAFE For Kids Act:**
     *   **Addictive Feeds:** Prohibits providing "addictive feeds" (personalized algorithms) to minors without **verifiable parental consent**.
@@ -2060,12 +2076,21 @@ A business is subject to the law if it meets **one or more** of these criteria (
 
 #### Biometric Information
 * **Illinois (BIPA):** Strict consent requirements for collecting biometrics; includes a private right of action (resulting in major settlements).
+    *   **2024 Amendments (Critical Update):** Liability is now limited to **one BIPA violation per person**, overturning prior court interpretations that accrued a separate claim for every single scan/transmission.
+    *   **Written Release:** The definition now explicitly includes **electronic signatures**.
 * **Washington & Texas (CUBI):** Regulate biometric capture and sale but enforced only by AGs.
 * **New York City:** Requires commercial businesses to post signs if tracking biometrics; private right of action.
+* **Specific Facial Recognition Prohibitions:**
+    *   **Maryland:** Prohibits use in the **hiring process** without applicant consent.
+    *   **New York:** Prohibits use in **schools**.
+    *   **Vermont / Maine / Virginia:** Various prohibitions on deployment by **law enforcement** or government agencies.
 
 #### AI & Automated Decision-Making
 * **Colorado SB 24-205:** Regulates "high-risk" AI systems making consequential decisions (hiring, lending).
 * **NYC Local Law 144:** Requires bias audits for AI tools used in hiring/employment.
+* **NAIC AIS Governance Guidelines (2023):**
+    *   **Requirement:** Reminds insurers that AI use does **not** exempt them from existing unfair trade practice laws.
+    *   **Framework:** Calls for a **written AI governance framework** covering the entire AI lifecycle (proposal to retirement).
 
 #### Financial & Data Brokers
 * **California Financial Information Privacy Act (CFIPA):** Stricter than federal GLBA; requires opt-in for sharing with unaffiliated third parties.
