@@ -267,7 +267,20 @@ Privacy regulation in the U.S. follows a **sectoral model**, meaning different a
         2. **Public Hearing:** If probable cause is found, the matter proceeds to a public hearing under the **California Administrative Procedures Act**.
 * **State Departments of Insurance:**
     * Insurance is regulated at the **state level** (not federal).
-    * **NAIC:** The National Association of Insurance Commissioners sets standards (e.g., Insurance Data Security Model Law).
+    *   **NAIC:** The National Association of Insurance Commissioners sets standards (e.g., Insurance Data Security Model Law).
+* **Massachusetts Minimum Security Standards (201 CMR 17.00):**
+    *   **Overview:** Considered the "gold standard" for state-level data security regulations.
+    *   **Scope:** Applies to **any person** (regardless of location) that owns or licenses personal information of a **Massachusetts resident**.
+    *   **WISP Mandate:** Requires the implementation of a **Written Information Security Program (WISP)** that notably includes:
+        1.  Designating a specific employee to be **accountable** for the program.
+        2.  Identifying and assessing risks (internal/external).
+        3.  Developing policies for data storage, access, and transportation (e.g., encryption on laptops).
+        4.  Imposing disciplinary measures for policy violations.
+        5.  Limiting access for terminated employees.
+        6.  Overseeing **service providers** (by contract).
+        7.  Restricting physical access to records.
+        8.  Regular monitoring and reviewing of the program (at least **annually**).
+        9.  Documenting responsive actions taken after any incident.
 
 ### Self-Regulatory Organizations (SROs)
 Industry bodies that create and enforce their own privacy standards.
@@ -478,6 +491,7 @@ These programs allow industries to develop and enforce their own privacy and/or 
 
 * **Payment Card Industry Data Security Standard (PCI DSS):** A highly successful self-regulatory program focusing on security and data retention for the credit card processing industry. Merchants must comply via contractual agreements with banks.
     * It contains 12 high-level security requirements (e.g., firewalls, encryption, strong passwords).
+    * **State Codification:** While primarily a private contract standard, states like **Washington** and **Minnesota** have codified PCI-DSS into statute. This grants financial institutions a statutory **cause of action** to sue merchants for reimbursement if a breach occurs due to the merchant's failure to maintain PCI-DSS standards (reasonable care).
 * **Network Advertising Initiative (NAI):** A self-regulatory framework for digital advertising, publishing a code of conduct covering notice, opt-out, and data security. The NAI conducts compliance reviews and can refer noncompliant companies to the FTC.
 * **Trust Marks:** Symbols (e.g., the **TRUSTe** seal) displayed on a company’s website to show that an independent third party has certified the company meets specific privacy standards.
 * **Safe Harbors:** Agreements like the **Privacy Shield** (and its successor, the DPF) that offer firms exemption from prosecution under certain laws if they demonstrate compliance with specified regulatory requirements, particularly for international data transfers.
@@ -1920,6 +1934,13 @@ Every state has enacted a data breach notification law. While they share a commo
     * *When:* Timelines vary (e.g., "without unreasonable delay," 30 days, 45 days).
     * *Encryption:* Historically, encrypted data was exempt. Newer laws require notification if encryption keys are also compromised.
 
+### State Cybersecurity Safe Harbors
+*   **Concept:** A "third category" of state security law (beyond "reasonable" or "prescriptive" standards) that uses incentives to encourage better security.
+*   **The Incentive:** States like **Ohio, Utah, Connecticut, and Iowa** provide an **affirmative defense** against tort lawsuits (e.g., negligence claims after a breach) if the company can prove its security program reasonably conforms to a recognized industry framework (e.g., **NIST**, **CIS Controls**, **ISO 27001**, **HIPAA**, or **GLBA**).
+*   **Variations:**
+    *   **Connecticut:** The safe harbor specifically protects against **punitive damages** (not actual damages).
+    *   **Iowa:** Requires the cybersecurity program's cost to be appropriate to the risk, but compliance effectively presumes the company was not negligent.
+
 ### Comprehensive State Privacy Laws
 Several states have enacted GDPR-style comprehensive laws:
 * **California (CCPA & CPRA):** The most extensive U.S. law. Includes a private right of action for security breaches, established the California Privacy Protection Agency (CPPA), and protects "sensitive personal information."
@@ -1968,6 +1989,16 @@ A business is subject to the law if it meets **one or more** of these criteria (
 
 ### Subject-Specific Privacy Laws
 
+#### Social Security Number (SSN) Laws
+*   **California (Civil Code 1798.85):** Prohibits companies from:
+    1.  Publicly posting or displaying SSNs.
+    2.  Printing SSNs on access cards (IDs).
+    3.  Requiring SSNs for website log-ins (unless accompanied by a password).
+    4.  Mailing documents with the SSN visible through the window.
+    5.  Sending SSNs over the internet **without encryption**.
+    6.  Selling SSNs.
+*   **Colorado:** Specifically prohibits **public entities** from issuing a license, permit, or pass that contains the holder's SSN.
+
 #### Health & Genetic Information
 * **Washington My Health My Data Act:** Protects non-HIPAA health data; restricts geofencing near healthcare facilities; includes a private right of action.
 * **Illinois Genetic Information Privacy Act (GIPA):** Prohibits genetic discrimination in employment and insurance; has a private right of action.
@@ -1991,6 +2022,14 @@ A business is subject to the law if it meets **one or more** of these criteria (
 * **California Financial Information Privacy Act (CFIPA):** Stricter than federal GLBA; requires opt-in for sharing with unaffiliated third parties.
 * **NYDFS Cybersecurity Regulation:** Mandates rigorous security programs for financial institutions in NY (CISO, encryption, MFA).
 * **California Delete Act:** Creates a centralized mechanism for consumers to request data deletion from all registered data brokers.
+* **Vermont Data Broker Law (2018):**
+    *   **Significance:** The **first** state law specifically regulating data brokers.
+    *   **Requirements:** Brokers must:
+        1.  **Register annually** with the Secretary of State.
+        2.  Disclose their data collection practices, specifically regarding **minors**.
+        3.  Disclose opt-out procedures.
+        4.  Maintain a **comprehensive information security program**.
+        5.  Eliminate fees for credit freezes (pre-dating the federal requirement).
 
 ### Marketing Laws
 * **UDAP:** State "Unfair and Deceptive Acts or Practices" laws fill gaps in FTC enforcement.
