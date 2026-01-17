@@ -2289,3 +2289,44 @@ Corporate transactions introduce significant privacy risks that must be managed 
 *   **Risks:**
     *   **Data Left Behind:** Failing to completely scrub sensitive data from sold assets (servers/laptops) creates ongoing liability for the seller.
     *   **Ongoing Compliance:** If the seller retains a copy of the data (e.g., for transition services), they remain a controller/processor with continued legal obligations.
+
+---
+
+# 5. Master Comparison Tables
+
+These tables provide a consolidated view of federal and state privacy frameworks to assist with differentiation and exam preparation.
+
+### Table 1: The Federal Privacy Sectoral Matrix
+
+| Feature | **HIPAA** | **GLBA** | **FCRA** | **COPPA** | **FERPA** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Primary Regulator** | HHS (OCR) | CFPB & FTC | CFPB & FTC | FTC | Dept. of Education |
+| **Scope / Applicability** | **Covered Entities:** (Healthcare Providers, Plans, Clearinghouses) & Business Associates. | **Financial Institutions:** Entities "significantly engaged" in financial activities. | **CRAs:** Entities assembling consumer credit info for 3rd parties. | Commercial websites/apps directed to children <13 or with actual knowledge. | Educational agencies/institutions receiving federal funds. |
+| **Enforcement Mechanisms** | **Government Only** (No PRA).<br>*(State AGs can also enforce).* | **Government Only** (No PRA). | **Private Right of Action** (PRA) & Government. | **Government Only** (No PRA).<br>*(State AGs can also enforce).* | **Government Only** (No PRA). Funding termination is the ultimate penalty. |
+| **Consent Model** | **Opt-In** for Marketing/Sale.<br>**No Consent** required for TPO (Treatment, Payment, Operations). | **Opt-Out** for sharing NPI with non-affiliated 3rd parties.<br>**No Opt-Out** for affiliates or joint marketing. | **Opt-Out** for affiliate sharing (marketing).<br>**Opt-In** for medical info in reports. | **Verifiable Parental Consent** (Opt-In) required before *collection*. | **Opt-In** (Written Consent) required to disclose records (with exceptions like directory info). |
+| **Key Data Protected** | **PHI:** Individually identifiable health information. | **NPI:** Non-public personal information (financial). | **Consumer Reports:** Credit, character, reputation, lifestyle data. | PII collected from children under 13. | **Education Records:** Records directly related to a student. |
+
+### Table 2: Comprehensive State Law Comparison
+
+| Feature | **California (CCPA/CPRA)** | **Virginia (VCDPA)** | **Colorado (CPA)** | **Utah (UCPA)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sensitive Data Definition** | Broad: SSN, Geo, Race, Health, Genetics, *plus* Union Membership & contents of mail/email/text. | Standard: Race, Religion, Diagnosis, Genetic/Biometric, Precise Geo, Children. | Similar to VA + "Sex Life" & "Sexual Orientation". | Similar to VA/CO. |
+| **Consent for Sensitive Data** | **Opt-Out** ("Limit Use & Disclosure" link). | **Opt-In** (Affirmative Consent). | **Opt-In** (Affirmative Consent). | **Notice + Opt-Out** (Uniquely less strict). |
+| **Right to Correct** | **Yes** | **Yes** | **Yes** | **No** (Unique outlier). |
+| **Right to Opt-Out of Profiling** | **Yes** (Automated Decision Making). | **Yes** (Profiling with legal/significant effects). | **Yes** (Profiling with legal/significant effects). | **No** (Opt-out does not extend to profiling). |
+| **Enforcement / Cure Period** | **CPPA California AG**<br>Cure: Discretionary (30-day "right to cure" expired Jan 1, 2023). | **Attorney General**<br>Cure: 30 days. | **Attorney General** & District Attorneys<br>Cure: 60 days (**Ended** Jan 1, 2025). | **Attorney General**<br>Cure: 30 days. |
+
+### Table 3: The Opt-In vs. Opt-Out "Cheat Sheet"
+
+| Activity / Context | Required Consent Model |
+| :--- | :--- |
+| **HIPAA:** Using PHI for Marketing purposes. | **Opt-In** (Authorization required). |
+| **GLBA:** Sharing NPI with *non-affiliated* third parties. | **Opt-Out** (Consumer must be given chance to say "No"). |
+| **COPPA:** Collecting personal info from a child <13. | **Opt-In** (Verifiable Parental Consent). |
+| **CCPA:** Sale of data for adults (16+). | **Opt-Out** ("Do Not Sell" link). |
+| **CCPA:** Sale of data for minors (13–16). | **Opt-In** (Active consent required). |
+| **CCPA:** Sale of data for minors (<13). | **Opt-In** (Parental consent required). |
+| **CAN-SPAM:** Sending commercial email. | **Opt-Out** (Unsubscribe mechanism required). |
+| **TCPA:** Sending auto-dialed texts/promos to mobile. | **Opt-In** (Prior Express Written Consent). |
+| **VCDPA/CPA:** Processing "Sensitive Data". | **Opt-In** (Affirmative Consent). |
+| **Utah (UCPA):** Processing "Sensitive Data". | **Opt-Out** (Notice + Opportunity to Opt-out). |
