@@ -1,14 +1,15 @@
-### Remixed Assessment Questions:
+
+
 
 **1. Which legal liability category is exclusively enforced by government bodies and prevents private individuals from filing a lawsuit?**
 * A. Negligence
 * B. Civil liability
 * C. Invasion of privacy
-* **D. Criminal liability**
+* D. Criminal liability
 
 **2. Under the FCRA, what specific action converts a standard consumer report into an "investigative consumer report" during a background check?**
 * A. Including a search of criminal history records.
-* **B. Interviewing neighbors or associates to gather information on the applicant’s character.**
+* B. Interviewing neighbors or associates to gather information on the applicant’s character.
 * C. Verifying the applicant's past bankruptcy filings.
 * D. Including information regarding the applicant's credit and mortgage payment history.
 
@@ -16,30 +17,28 @@
 * A. Yes, because the DNC registry does not allow for exceptions based on customer history.
 * B. Yes, because the ISP is required to scrub their list against the National DNC registry every 31 days.
 * C. No, because the ISP cannot know she registered her number if she did it recently.
-* **D. No, because the "Existing Business Relationship" (EBR) exemption allows them to call current customers.**
+* D. No, because the "Existing Business Relationship" (EBR) exemption allows them to call current customers.
 
 **4. Two employees frequently meet in the breakroom to discuss unionizing. Management suddenly installs a security camera pointed directly at their table. What is the primary legal concern here?**
 * A. The camera installation violates the Americans with Disabilities Act (ADA) by potentially recording medical issues.
-* **B. The National Labor Relations Board (NLRB) may consider this surveillance an illegal attempt to intimidate workers exercising their rights to organize.**
+* B. The National Labor Relations Board (NLRB) may consider this surveillance an illegal attempt to intimidate workers exercising their rights to organize.
 * C. The employees did not sign a waiver consenting to be filmed during their lunch break.
 * D. The company failed to put up a sign notifying employees that they were being recorded.
 
 **5. A marketing firm uses a professional athlete’s photograph in an ad campaign without getting permission or paying them. Which specific privacy tort would the athlete cite in a lawsuit?**
 * A. Public disclosure of private facts
 * B. False light
-* **C. Appropriation**
+* C. Appropriation
 * D. Intrusion upon seclusion
-
-### Remixed Assessment Questions 6–11
 
 **6. When designing a corporate privacy training program, which of the following approaches is generally considered ineffective or incorrect?**
 * A. Including specific modules on regulatory requirements relevant to the industry.
 * B. Utilizing computer-based training (CBT) modules for scalability.
-* **C. Providing the exact same training content to every employee regardless of their specific job function.**
+* C. Providing the exact same training content to every employee regardless of their specific job function.
 * D. Teaching employees about their specific role in mitigating privacy risks.
 
 **7. Which acronym represents the broadest category of data capable of distinguishing or tracing an individual's identity?**
-* **A. PII**
+* A. PII
 * B. PHI
 * C. PCI
 * D. PFI
@@ -47,80 +46,78 @@
 **8. When creating a data inventory for a privacy program, which of the following records would typically be excluded because it does not contain personal information?**
 * A. Payroll and benefits records.
 * B. Resumes submitted by job applicants.
-* **C. Internal manufacturing work orders and machine logs.**
+* C. Internal manufacturing work orders and machine logs.
 * D. Credit card transaction histories.
 
 **9. Which federal statute was primarily enacted to force financial institutions to assist the government in detecting and preventing money laundering?**
 * A. Electronic Communications Privacy Act (ECPA)
 * B. Right to Financial Privacy Act (RFPA)
-* **C. Bank Secrecy Act (BSA)**
+* C. Bank Secrecy Act (BSA)
 * D. Stored Communications Act (SCA)
 
 **10. What is the legal term for a settlement document in which a company agrees to stop alleged illegal practices and implement compliance measures without admitting to a violation of the law?**
 * A. Theory of liability
-* **B. Consent decree**
+* B. Consent decree
 * C. Retainer agreement
 * D. Criminal conviction
 
 **11. Which Article of the U.S. Constitution specifically establishes the judicial branch and defines its power?**
 * A. Article I
 * B. Article II
-* **C. Article III**
+* C. Article III
 * D. Article IV
-
-### Remixed Assessment Questions 11–20
 
 **11. Which section of the U.S. Constitution creates the Supreme Court and outlines the authority of the federal judiciary?**
 * A. Article I
 * B. Article II
-* **C. Article III**
+* C. Article III
 * D. Article IV
 
 **12. Which federal regulation mandates that entities properly destroy consumer information derived from credit reports to prevent unauthorized access?**
 * A. Sarbanes-Oxley Act (SOX)
 * B. Gramm-Leach-Bliley Act (GLBA)
-* **C. Fair and Accurate Credit Transactions Act (FACTA)**
+* C. Fair and Accurate Credit Transactions Act (FACTA)
 * D. Family Educational Rights and Privacy Act (FERPA)
 
 **13. Which mechanism allows the President (Executive Branch) to limit the power of the Legislative Branch?**
 * A. Judicial Review
 * B. Confirmation of appointees
-* **C. Veto power**
+* C. Veto power
 * D. Power to declare war
 
 **14. What is the primary intersection between privacy protections and employment antidiscrimination statutes?**
 * A. Antidiscrimination laws ban data collection entirely.
 * B. Privacy laws prevent diversity hiring initiatives.
-* **C. Inappropriate access to personal data can facilitate illegal discriminatory hiring or firing decisions.**
+* C. Inappropriate access to personal data can facilitate illegal discriminatory hiring or firing decisions.
 * D. Employer surveillance is mandated by the EEOC to prove fairness.
 
 **15. State data breach notification laws typically require reporting to all of the following groups EXCEPT:**
 * A. The affected individuals
 * B. State Attorneys General/Regulators
 * C. Major Credit Reporting Agencies (CRAs)
-* **D. Immediate family members of the affected subjects**
+* D. Immediate family members of the affected subjects
 
 **16. Which corporate officer is designated to oversee the development, implementation, and maintenance of an organization's privacy policies?**
 * A. Chief Information Officer (CIO)
 * B. Chief Financial Officer (CFO)
-* **C. Chief Privacy Officer (CPO)**
+* C. Chief Privacy Officer (CPO)
 * D. Chief Executive Officer (CEO)
 
 **17. An individual submits their personal health history to a medical research institute. In the context of privacy terminology, what is this individual considered?**
 * A. Data Controller
 * B. Data Processor
-* **C. Data Subject**
+* C. Data Subject
 * D. Data Steward
 
 **18. Under the Employee Polygraph Protection Act (EPPA), which of the following positions would generally be PROTECTED from mandatory polygraph testing (meaning the employer cannot force them to take one)?**
 * A. An employee of the Federal Bureau of Investigation (FBI)
 * B. A pharmaceutical warehouse manager with access to controlled substances
 * C. An armored car guard
-* **D. A kindergarten teacher at a private school**
+* D. A kindergarten teacher at a private school
 
 **19. Which privacy seal provider settled with the FTC regarding allegations that it failed to properly recertify the companies displaying its privacy seal?**
 * A. VeriSign
-* **B. TRUSTe**
+* B. TRUSTe
 * C. McAfee
 * D. The Better Business Bureau
 
@@ -128,9 +125,9 @@
 * A. Retina scans
 * B. Voiceprints
 * C. Fingerprints
-* **D. Digital photographs**
+* D. Digital photographs
 
-Here are the detailed rationales for each of the 20 assessment questions.
+## Answers
 
 **1. Which legal liability category is exclusively enforced by government bodies and prevents private individuals from filing a lawsuit?**
 * **Answer: D. Criminal liability**
