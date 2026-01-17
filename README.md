@@ -281,6 +281,11 @@ Privacy regulation in the U.S. follows a **sectoral model**, meaning different a
         7.  Restricting physical access to records.
         8.  Regular monitoring and reviewing of the program (at least **annually**).
         9.  Documenting responsive actions taken after any incident.
+* **California Data Security (AB-1950):**
+    *   **Significance:** The **first** state-wide data security law.
+    *   **Standard:** Requires businesses to maintain "reasonable security procedures and practices" appropriate to the nature of the information.
+    *   **Guidance:** The CA Attorney General has stated that the **CIS Critical Security Controls** represent the *minimum* level of reasonable security.
+    *   **Data Disposal:** Requires records to be disposed of by (1) **shredding**, (2) **erasing**, or (3) **modifying** the data to make it unreadable/undecipherable.
 
 ### Self-Regulatory Organizations (SROs)
 Industry bodies that create and enforce their own privacy standards.
@@ -1278,7 +1283,12 @@ A complex ecosystem regulated primarily by self-regulation and FTC enforcement.
 
 #### State-Level Regulation
 *   **California "Do-Not-Track" (DNT) Law (CalOPPA Amendment):** Does not *mandate* honoring DNT signals, but requires websites to **disclose** how they respond to them.
-*   **Age-Appropriate Design Code Act (AADC):** (California) Prohibits profiling children for targeted advertising and restricts the use of **"dark patterns"** to encourage kids to provide personal info.
+*   **Age-Appropriate Design Code Act (AADC):** (California) Prohibits profiling children for targeted advertising and restricts the use of **"dark patterns"**.
+    *   **Enforcement:**
+        *   **Notice Period:** The CA Attorney General must provide a **90-day** notice period to a business to allow for compliance before filing a lawsuit.
+        *   **Penalties:**
+            *   **Negligent Violations:** Up to **$2,500** per affected child.
+            *   **Intentional Violations:** Up to **$7,500** per affected child.
 
 #### Self-Regulation (DAA & NAI)
 The industry relies heavily on self-regulatory frameworks to avoid stricter federal legislation.
@@ -1929,6 +1939,9 @@ Every state has enacted a data breach notification law. While they share a commo
 *   **Historical Context:**
     *   **First:** **California** (SB 1386) was the first state to enact a breach law in **2003**.
     *   **Last:** **Alabama** and **South Dakota** were the last states to enact laws in **2018**, completing the 50-state map.
+    *   **California SB-1386 Specifics:**
+        *   **Encryption Key Exception:** Notification is triggered even for encrypted data if the **encryption key** was also acquired by the unauthorized party.
+        *   **Substitute Notice:** Permitted if the cost of providing notice exceeds **$250,000** OR the number of affected individuals is greater than **500,000**.
 *   **Federal Gap-Fillers:** In the absence of a single comprehensive federal breach law, agencies fill the gaps:
     *   **FTC Health Breach Notification Rule (HBNR):** Covers non-HIPAA health data.
     *   **SEC Disclosure:** Publicly traded companies must disclose **"material"** cybersecurity incidents within **4 days** of determination.
@@ -1963,6 +1976,11 @@ Several states have enacted GDPR-style comprehensive laws:
 * **Colorado (CPA):** Similar rights to Virginia; recognizes "sensitive data" requiring consent.
 * **Connecticut (CTDPA) & Utah (UCPA):** Follow similar models regarding data subject rights and controller obligations.
 * **Florida (FDBR):** Targeted at "Big Tech" with a high revenue threshold ($1B+).
+    *   **Record-Keeping Mandates:** While most states require keeping records of deletion requests, **California** and **Minnesota** uniquely require controllers to maintain detailed records of **all processing activities**, modeled after the GDPR.
+* **Consent Requirements (Secondary Use & Sensitive Data):**
+    *   **Maryland:** Uniquely strict; generally **prohibits** the processing of sensitive data (no consent exception) with only narrow exceptions.
+    *   **Secondary Use:** Most states require **Opt-In** consent for processing data for a secondary purpose (different from the original collection purpose).
+        *   *Exceptions:* **California, Iowa, Rhode Island, and Utah** do not have an explicit statutory requirement for secondary use opt-in.
 * **Oregon, Texas, & Montana:** Recent additions largely following the model of defining controller obligations, consumer rights, and AG enforcement.
 
 ### Comparison of Key State Privacy Laws
@@ -2000,6 +2018,13 @@ A business is subject to the law if it meets **one or more** of these criteria (
         *   Controls/processes personal data of **100,000+** consumers
         *   Derives **>50%** of gross revenue from the sale of personal data AND controls/processes data of **25,000+** consumers
 
+*   **Exceptions & Outliers:**
+    *   **Florida:** Only applies if Global Gross Annual Revenue exceeds **$1 Billion** (targeting Big Tech).
+    *   **Texas & Nebraska:** Unique in having **NO revenue or volume thresholds** for applicability (broad scope).
+    *   **Lower Thresholds:**
+        *   **Montana:** 50,000 consumers (or 25,000 + 25% revenue from sale).
+        *   **Delaware:** 35,000 consumers (or 10,000 + 20% revenue from sale).
+
 ### Subject-Specific Privacy Laws
 
 #### Social Security Number (SSN) Laws
@@ -2020,6 +2045,9 @@ A business is subject to the law if it meets **one or more** of these criteria (
 #### Online Privacy & Children
 * **Delaware (DOPPA):** Requires privacy policies for websites/apps; restricts marketing of adult products to children.
 * **California Age-Appropriate Design Code:** Requires high privacy defaults and Data Protection Impact Assessments (DPIAs) for services likely accessed by children.
+* **New York SAFE For Kids Act:**
+    *   **Addictive Feeds:** Prohibits providing "addictive feeds" (personalized algorithms) to minors without **verifiable parental consent**.
+    *   **Nighttime Ban:** restricts platform notifications to minors between **12 AM and 6 AM ET**.
 * **CalECPA:** Requires warrants for law enforcement to access electronic communications (emails, location data).
 
 #### Biometric Information
@@ -2035,6 +2063,8 @@ A business is subject to the law if it meets **one or more** of these criteria (
 * **California Financial Information Privacy Act (CFIPA):** Stricter than federal GLBA; requires opt-in for sharing with unaffiliated third parties.
 * **NYDFS Cybersecurity Regulation:** Mandates rigorous security programs for financial institutions in NY (CISO, encryption, MFA).
 * **California Delete Act:** Creates a centralized mechanism for consumers to request data deletion from all registered data brokers.
+    *   **Audit Requirement:** Beginning in **2028**, data brokers must undergo an **independent audit** every **three years**.
+    *   **Penalties:** Failure to comply with a deletion request results in a penalty of **$200 per day** per request.
 * **Vermont Data Broker Law (2018):**
     *   **Significance:** The **first** state law specifically regulating data brokers.
     *   **Requirements:** Brokers must:
