@@ -186,6 +186,8 @@ A court's authority to render legal judgments has two elements:
 * **Subject Matter Jurisdiction:** A court's authority to hear specific types of disputes.
         * **General vs. Limited:** State courts have *general jurisdiction* (can hear almost anything), while federal courts have *limited jurisdiction* (only specific types of cases, like those involving federal laws or diversity of citizenship).
         * **Exclusive Jurisdiction:** When *only* a specific court can hear a case (e.g., bankruptcy or copyright cases *must* be heard in federal court).
+        * **Removal Jurisdiction:** Under **28 U.S.C. § 1441(a)**, a defendant can "remove" a case filed in state court to federal court if the federal court would have had original jurisdiction.
+            * *Note:* Under **CAN-SPAM**, State AG enforcement actions *must* specifically be filed in federal court (a unique requirement).
 
 ### Legal Definitions
 * **Person:** A legal entity that can sue, be sued, own property, and sign contracts. Includes **human beings** (citizens, residents) and **legal organizations** (corporations).
@@ -255,8 +257,14 @@ Privacy regulation in the U.S. follows a **sectoral model**, meaning different a
   - **Coordination:** States often coordinate via the *National Association of Attorneys General (NAAG)* to facilitate information exchange and multi-state actions.
 - **UDAP Specifics:**
     - Every state has a UDAP statute.
-    - **Private Right of Action (PRA):** Every state provides a PRA under their UDAP statute *except for Iowa*.
+    - **Broader Scope:** Many state UDAP laws expand on Section 5 of the FTC Act by also prohibiting **"unconscionable"** trade practices.
+    - **Private Right of Action (PRA):** Every state provides a PRA under their UDAP statute *except for Iowa*. This serves as a critical **gap-filler** for the lack of a federal PRA under the FTC Act.
 * **California Privacy Protection Agency (CPPA):** The first dedicated state-level privacy agency in the U.S. (created by CPRA).
+    * **Board Independence & Restrictions:** The 5-member board cannot delegate its authority for **rulemaking** or **enforcement resolutions**.
+        * *Post-Employment Bans:* Members face a **1-year ban** on working for companies subject to potential enforcement and a **2-year ban** on representing any entity before the board.
+    * **Enforcement Lifecycle:**
+        1. **Probable Cause Hearing:** The first step is a private hearing requiring at least **30 days' notice**.
+        2. **Public Hearing:** If probable cause is found, the matter proceeds to a public hearing under the **California Administrative Procedures Act**.
 * **State Departments of Insurance:**
     * Insurance is regulated at the **state level** (not federal).
     * **NAIC:** The National Association of Insurance Commissioners sets standards (e.g., Insurance Data Security Model Law).
