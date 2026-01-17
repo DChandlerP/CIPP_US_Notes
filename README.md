@@ -143,6 +143,7 @@ Laws in the United States come from a variety of sources:
         * **4th Amendment:** Protection against unreasonable searches and seizures.
         * **5th Amendment:** Protection against self-incrimination.
         * **14th Amendment:** Due process and liberty clauses.
+        * **Penumbra Theory:** A group of rights derived by implication from other explicitly protected rights. In *Griswold v. Connecticut* (1965), the Supreme Court established this mechanism, holding that the "shadows" cast by the **1st, 3rd, 4th, 5th, and 9th Amendments** create "zones of privacy" that protect unenumerated rights, allowing for the recognition of privacy rights despite the word not appearing in the Constitution.
     * *State Constitutions:* Can provide **greater** privacy rights than the federal constitution (e.g., California), but cannot provide less (federal law sets the "floor").
 
 * **Legislation (Statutes):** Laws passed by Congress (federal) or state legislatures.
