@@ -1070,6 +1070,8 @@ Laws in this sector regulate how businesses can use personal data for marketing.
     *   **2024 TSR Updates:**
         *   **Record-Keeping:** Extends the requirement for telemarketers to retain call records (recordings, scripts, call logs) from 2 years to **5 years**.
         *   **B2B Calls:** Applies strict prohibitions on **misrepresentation** to business-to-business (B2B) calls, which were previously largely exempt.
+    *   **State Telemarketing Prerequisites:**
+        *   **Licensing & Bonds:** Over **half of U.S. states** require telemarketers to obtain a **license** or register and post a **surety bond** before calling into that state. This is a critical compliance check often missed by focusing solely on federal law.
     *   **Auto-Dialers (ATDS) & *Facebook v. Duguid* (2021):**
         *   **Ruling:** The Supreme Court narrowed the definition of an Automatic Telephone Dialing System (ATDS). To qualify, the equipment must use a **random or sequential number generator**. This excludes equipment that simply dials from a stored list of numbers.
     *   **Call Abandonment Rules:**
@@ -1079,10 +1081,15 @@ Laws in this sector regulate how businesses can use personal data for marketing.
     *   **Required Disclosures:**
         *   **Prompt Oral Disclosures:** Providing the **Identity of the Seller**, the **Purpose of the call** (sales), and the **Nature of the goods/services**.
         *   **Upselling:** Treated as a separate transaction requiring new disclosures.
+    *   **Call Time Restrictions:**
+        *   **Federal Rule:** Calls are permitted only between **8:00 a.m. and 9:00 p.m.** (local time of the recipient).
+        *   **Stricter State Laws:** States may impose stricter windows.
+            *   *Example:* **Alabama** prohibits telemarketing calls after **8:00 p.m.** and on **Sundays** or public holidays.
     *   **Payment Authorization:**
         *   **Express Verifiable Authorization:** Required for payments *other* than credit/debit cards (e.g., remotely created checks). Must be obtained via **audio recording** or written confirmation.
     *   **Do-Not-Call (DNC) Rules:**
         *   **National Registry:** Sellers must access the registry every **31 days** and scrub their lists.
+        *   **State Registries:** While the National Registry is primary, many states maintain their own **separate, state-wide Do-Not-Call registries** that telemarketers must also consult and honor.
         *   **Established Business Relationship (EBR) Exception:**
             *   **Transaction:** Lows calls for **18 months** after a purchase/transaction.
             *   **Inquiry:** Allows calls for **3 months** after a consumer inquiry/application.
@@ -1137,6 +1144,13 @@ Laws in this sector regulate how businesses can use personal data for marketing.
             *   **ISPs:** Internet Service Providers can sue for adverse effects on their networks.
             *   **Consumers:** Have **NO** private right of action.
         *   **Preemption:** CAN-SPAM preempts most state anti-spam laws, **except** those that specifically prohibit falsity or deception in headers/subject lines.
+*   **Anti-Robocall Principles (2019):**
+    *   **Initiative:** A set of **eight principles** agreed upon by the attorneys general of all 50 states and major telecom carriers (like AT&T, Verizon, T-Mobile) to combat illegal robocalls.
+    *   **Goal:** To protect phone users from illegal calls and make it easier for law enforcement to investigate scams.
+    *   **Key Provisions:**
+        *   Carriers will offer **free call blocking and labeling** tools.
+        *   Implement **STIR/SHAKEN** caller ID authentication to prevent "neighbor spoofing" (calls appearing to be from a local number).
+        *   Monitor network traffic for suspicious patterns (high-volume bursts).
 *   **Video Privacy Protection Act (VPPA) (1988):**
     *   **Background:** Enacted after a newspaper published the video rental history of Supreme Court nominee **Robert Bork**.
     *   **Scope:** Applies to "video tape service providers." Courts have expanded this to include **streaming media services** and mobile apps that share viewing history.
