@@ -861,6 +861,10 @@ Regulations govern the financial sector, including credit, banking, and insuranc
         *   **Penalties:** The **2025 maximum civil penalty** for knowing violations is **$4,983** per violation.
         *   **State Attorneys General:** Have the authority to bring civil actions on behalf of state residents.
         *   **Private Right of Action:** Consumers can sue for **willful** (statutory + punitive damages) or **negligent** (actual damages) noncompliance.
+    *   **State Law Preemption Exceptions:**
+        *   **General Rule:** FCRA generally preempts state audit laws.
+        *   **Credit Report Frequency:** The following 7 states are permitted to allow consumers to request free credit reports more frequently than the federal annual standard: **Colorado, Georgia, Maine, Maryland, Massachusetts, New Jersey, and Vermont**.
+        *   **Credit Score usage:** Laws in **California** and **Colorado** regarding the utilization of credit scores were specifically permitted to remain in effect.
 * **Fair and Accurate Credit Transactions Act (FACTA) (2003):** Updated FCRA to combat identity theft, enhance accuracy, and address specific industry concerns.
     *   **The "Vail Letter" Overturn:**
         *   **Standard:** FACTA overturned the FTC's 1999 "Vail Letter," which had classified third-party employee misconduct investigations as "consumer reports."
@@ -949,6 +953,7 @@ Regulations govern the financial sector, including credit, banking, and insuranc
     *   **CalFIPA vs. GLBA:**
         *   **Non-Affiliated Third Parties:** Requires written **Opt-In** consent (GLBA only requires Opt-Out).
         *   **Affiliates:** Requires notice and an opportunity to **Opt-Out** of data sharing (GLBA generally allows affiliate sharing without opt-out, subject to FCRA limits).
+            *   *Nuance:* This applies when sharing between affiliates that are **NOT in the same line of business** (insurance, banking, securities) and are regulated by a **different functional regulator**.
     *   **Notice Requirement:** Institutions must use a specific form titled **"Important Privacy Choices for Consumers"**.
         *   **Formatting:** The title must be in at least **16-point bold type**, and the body in at least 14-point type.
     *   **Preemption & The *Gould* Decision:**
@@ -958,6 +963,13 @@ Regulations govern the financial sector, including credit, banking, and insuranc
         *   **Data-Level Exemption:** Personal information covered by CalFIPA is **exempt** from the CCPA/CPRA.
         *   **Entity-Level:** The financial institution *itself* is not exempt; if it collects data outside of the CalFIPA scope (e.g., website visitor data), that data is subject to CCPA.
     *   **Penalties:** Statutory damages of **$2,500** per violation, up to a **$500,000** cap for a pattern of violations.
+*   **NYDFS Cybersecurity Regulation (23 NYCRR 500):**
+    *   **Overview:** Mandates rigorous security programs for financial institutions operating in New York.
+    *   **FTC Alignment:** The FTC's 2022 amendments to the **GLBA Safeguards Rule** were specifically designed to incorporate many of the stricter cybersecurity standards first implemented by the NYDFS (e.g., CISO requirement, MFA, encryption).
+    *   **NYDFS Cryptocurrency Regulations:**
+        *   **BitLicense:** It is unlawful to engage in "any virtual currency business activity" in New York without a **BitLicense**.
+        *   **Personal Use Exception:** A broad exception exists for merchants and consumers using crypto for personal/purchase purposes.
+        *   **The "Greenlist":** NYDFS maintains a "Greenlist" of pre-approved coins. Entities do not need a separate DFS-approved listing policy to list coins on this Greenlist.
 
 *   **Online Banking and Government Access:**
     *   **Dodd-Frank Section 1033 ("Open Banking"):**
