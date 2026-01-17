@@ -1925,14 +1925,27 @@ The United States lacks a comprehensive federal privacy regulation, resulting in
 * **Enforcement:** Mechanisms include cure periods (time to fix violations before penalties), civil penalties, and occasionally a **private right of action** (allowing individuals to sue).
 
 ### Data Breach Notification Laws
-Every state has enacted a data breach notification law. While they share a common structure, details vary significantly.
-* **Definitions:**
-    * *Breach:* Varies between "unauthorized access" vs. "unauthorized acquisition."
-    * *Personal Information (PI):* Typically Name + SSN, Driver’s License, or Financial info. Newer definitions include biometrics, medical info, and username/password combinations.
-* **Notification Requirements:**
-    * *Whom:* Affected residents, state regulators (AGs), and credit reporting agencies (based on thresholds).
-    * *When:* Timelines vary (e.g., "without unreasonable delay," 30 days, 45 days).
-    * *Encryption:* Historically, encrypted data was exempt. Newer laws require notification if encryption keys are also compromised.
+Every state has enacted a data breach notification law. While they share a common structure, specific details and procedural requirements vary significantly.
+*   **Historical Context:**
+    *   **First:** **California** (SB 1386) was the first state to enact a breach law in **2003**.
+    *   **Last:** **Alabama** and **South Dakota** were the last states to enact laws in **2018**, completing the 50-state map.
+*   **Federal Gap-Fillers:** In the absence of a single comprehensive federal breach law, agencies fill the gaps:
+    *   **FTC Health Breach Notification Rule (HBNR):** Covers non-HIPAA health data.
+    *   **SEC Disclosure:** Publicly traded companies must disclose **"material"** cybersecurity incidents within **4 days** of determination.
+*   **Definitions:**
+    *   *Breach:* Varies between "unauthorized access" vs. "unauthorized acquisition" (acquisition is a higher threshold and more favorable to business).
+    *   *Personal Information (PI):* Typically Name + SSN, Driver’s License, or Financial info. Newer definitions include biometrics, medical info, and username/password combinations.
+    *   *Covered Entities:* Most laws apply to any business.
+        *   **Georgia Exception:** Uniquely, Georgia's law applies only to **information brokers** and **government agencies**, not to standard commercial entities.
+*   **Notification Requirements:**
+    *   **Whom to Notify:** Affected residents, state regulators (AGs), and credit reporting agencies (usually if >500-1000 affected).
+        *   **The "Texas Provision":** Texas historically requires organizations to notify residents of *any* state that lacks its own data breach law covering the specific event.
+    *   **Strict Jurisdictional Timelines:**
+        *   Most States: "Without unreasonable delay" or 30-60 days.
+        *   **Puerto Rico:** Specific strictness—notice must be provided to the **PR Department of Consumer Affairs** within **10 days**, and the Department must make it public within **24 hours**.
+    *   **Prohibited Notice Content (Massachusetts):**
+        *   While most states generally require a description of the incident, **Massachusetts** strictly **prohibits** including a description of the nature of the breach or the number of affected residents in the specific notice sent to consumers (to prevent further social engineering/targeting risks).
+    *   *Encryption:* Historically, encrypted data was exempt. Newer laws require notification if encryption keys are also compromised.
 
 ### State Cybersecurity Safe Harbors
 *   **Concept:** A "third category" of state security law (beyond "reasonable" or "prescriptive" standards) that uses incentives to encourage better security.
