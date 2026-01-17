@@ -1974,7 +1974,14 @@ Several states have enacted GDPR-style comprehensive laws:
     * **Opt-out Requirements:** CCPA/CPRA (California) and VCDPA (Virginia) require systems to restrict data sharing with vendors if a consumer exercises their right to **opt-out of data selling or targeted advertising**.
 * **Virginia (VCDPA):** Grants consumer rights (access, correct, delete) and requires data protection assessments. Enforced solely by the AG.
 * **Colorado (CPA):** Similar rights to Virginia; recognizes "sensitive data" requiring consent.
-* **Connecticut (CTDPA) & Utah (UCPA):** Follow similar models regarding data subject rights and controller obligations.
+    *   **Functional Role Determination:** A fact-based determination. If a processor begins determining the "purposes and means" of processing, it legally becomes a controller for that activity.
+    *   **Appeals Process:** First state to require an internal appeals process for denied requests (decision mandated within **45 days**).
+* **Connecticut (CTDPA):** Follows the Virginia model but with stronger privacy protections and specific exemptions.
+* **Utah (UCPA):** More business-friendly with narrower consumer rights.
+    *   **Narrower Rights:**
+        *   **Right to Delete:** Limited to data provided *directly* by the consumer.
+        *   **No Profiling Opt-Out:** The right to opt-out does NOT apply to profiling.
+        *   **No Right to Correct:** The only comprehensive law lacking a right to correct inaccurate data.
 * **Florida (FDBR):** Targeted at "Big Tech" with a high revenue threshold ($1B+).
     *   **Record-Keeping Mandates:** While most states require keeping records of deletion requests, **California** and **Minnesota** uniquely require controllers to maintain detailed records of **all processing activities**, modeled after the GDPR.
 * **Consent Requirements (Secondary Use & Sensitive Data):**
@@ -1989,8 +1996,8 @@ Several states have enacted GDPR-style comprehensive laws:
 | :--- | :--- | :--- | :--- | :--- |
 | **California (CCPA/CPRA)** | Jan 1, 2023 | **Opt-Out** ("Limit Use") | Discretionary (Auto 30-day ended '23) | **Yes** (limited to breaches) |
 | **Virginia (VCDPA)** | Jan 1, 2023 | **Opt-In** (Consent) | 30 days | No |
-| **Colorado (CPA)** | July 1, 2023 | **Opt-In** (Consent) | 60 days (Sunsets 1/1/25) | No |
-| **Connecticut (CTDPA)** | July 1, 2023 | **Opt-In** (Consent) | 60 days (Sunsets 12/31/24) | No |
+| **Colorado (CPA)** | July 1, 2023 | **Opt-In** (Consent) | 60 days (**Ended** 1/1/25) | No |
+| **Connecticut (CTDPA)** | July 1, 2023 | **Opt-In** (Consent) | 60 days (**Ended** 1/1/25) | No |
 | **Utah (UCPA)** | Dec 31, 2023 | **Notice + Opt-Out** | 30 days | No |
 
 ### Quick Reference: Jurisdictional Thresholds
@@ -2012,6 +2019,7 @@ A business is subject to the law if it meets **one or more** of these criteria (
 *   **Connecticut (CTDPA):**
     *   Controls/processes personal data of **100,000+** consumers (excluding payment data)
     *   Controls/processes personal data of **25,000+** consumers AND derives **>25%** of gross revenue from the sale of personal data
+    *   **Payment Transaction Exemption:** Uniquely excludes from its scope any processing of personal data that is done **solely** to complete a payment transaction.
 
 *   **Utah (UCPA):**
     *   Must meet **BOTH**: Annual Revenue > **$25 Million** AND one of the following:
