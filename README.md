@@ -230,7 +230,30 @@ When determining if a law applies to a specific scenario, follow this hierarchy:
 * **2. Application (What):** Does the law protect the specific type of data involved? (e.g., FCRA applies to "Consumer Reports," but not to internal marketing lists).
 * **3. Preemption:** If it is a state law, has it been preempted (overridden) by a federal statute?
 * **4. Enforcement:** Who has the authority to enforce it (FTC, State AG, Private Right of Action) and what are the penalties?
-    
+
+### Consent Models
+Different privacy laws require different levels of user permission before data can be collected or shared.
+
+| Feature | Affirmative Consent (**Opt-In**) | Implied Consent (**Opt-Out**) |
+| :--- | :--- | :--- |
+| **Definition** | Data processing is **prohibited** unless the consumer explicitly says "Yes." | Data processing is **permitted** unless the consumer explicitly says "No." |
+| **Default State** | **Privacy-Protective:** The default is *no collection/sharing*. | **Business-Friendly:** The default is *collection/sharing is allowed*. |
+| **Action Required** | Consumer must take an **affirmative action** (e.g., checking a box, signing a form). Silence is **NOT** consent. | Consumer must take action to **stop** the processing (e.g., unchecking a box, clicking "Unsubscribe"). Silence **IS** consent. |
+| **Key Examples** | • **COPPA** (Data from kids <13)<br>• **HIPAA** (Use of PHI for marketing)<br>• **GDPR** (General processing)<br>• **FCRA** (Sharing medical info for credit)<br>• **Biometric Laws** (BIPA, CUBI)<br>• **State Laws** (Sensitive Data) | • **GLBA** (Sharing with non-affiliated 3rd parties)<br>• **CAN-SPAM** (Email marketing)<br>• **CCPA/CPRA** (Sale of data for adults)<br>• **FCRA** (Affiliate sharing for marketing)<br>• **State Laws** (Targeted Advertising) |
+
+> **Nuance:** Some laws act as hybrids. For example, **CPRA** is generally **Opt-Out** for data selling/sharing but switches to **Opt-In** for minors (13-16) and uses strict Opt-In for consumers under 13.
+
+### Enforcement Models: Who Can Sue?
+Understanding whether a law allows individuals to sue ("Private Right of Action") is critical for assessing liability risk.
+
+| Feature | Private Right of Action (PRA) | Government Enforcement Only (No PRA) |
+| :--- | :--- | :--- |
+| **Who Brings Suit?** | Individual consumers, employees, or class action attorneys. | Federal agencies (FTC, HHS, OCC) or State Attorneys General. |
+| **Damages/Remedies** | **Statutory Damages** (e.g., $500–$1,500 per violation), actual damages, and attorney's fees. | Civil penalties (fines paid to the gov), injunctions, consent decrees, disgorgement. |
+| **Litigation Risk** | **High:** Class actions can lead to massive aggregate liability (e.g., Facebook's $650M BIPA settlement). | **Moderate:** Depends on agency priorities (though fines can be large, they are less frequent than class actions). |
+| **Key Examples** | • **TCPA** (Robocalls)<br>• **FCRA** (Credit Reporting)<br>• **BIPA** (Biometrics - very strict)<br>• **VPPA** (Video Rentals)<br>• **Cable Comm. Policy Act** | • **FTC Act** (Section 5)<br>• **HIPAA** (Health)<br>• **GLBA** (Financial)<br>• **COPPA** (Children)<br>• **FERPA** (Education) |
+| **Special Rules & Caveats** | **CCPA/CPRA:** Limited PRA **only** for data breaches (security failures), NOT for general privacy violations.<br><br>**State UDAP:** Most have a PRA, except **Iowa** (AG enforcement only). | **"Standard of Care":** While HIPAA has no PRA, a plaintiff can sue for "Negligence" in state court and use HIPAA standards to prove the defendant failed to meet the necessary duty of care. |
+
 ---
 ## 4. Regulatory Authorities
 Privacy regulation in the U.S. follows a **sectoral model**, meaning different agencies regulate different industries.
