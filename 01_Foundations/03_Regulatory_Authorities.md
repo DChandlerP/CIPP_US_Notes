@@ -1,4 +1,5 @@
 [← Back to Main Menu](../README.md)
+| Feature | Opt-In Regime | Opt-Out Regime |
 | :--- | :--- | :--- |
 | **Definition** | Data processing is **prohibited** unless the consumer explicitly says "Yes." | Data processing is **permitted** unless the consumer explicitly says "No." |
 | **Default State** | **Privacy-Protective:** The default is *no collection/sharing*. | **Business-Friendly:** The default is *collection/sharing is allowed*. |
